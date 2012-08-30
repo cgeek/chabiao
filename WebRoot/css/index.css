@@ -1,0 +1,241 @@
+#bid {
+	HEIGHT: 110px; OVERFLOW: hidden
+}
+#biddingDiv {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 25px; PADDING-TOP: 8px
+}
+.service input {width:120px;height:15px;}
+.service1 {
+	PADDING-BOTTOM: 5px; PADDING-TOP:12px
+}
+.service1 TABLE {
+	WIDTH: 100%; TABLE-LAYOUT: fixed
+}
+.service2 {
+	PADDING-BOTTOM: 3px; LINE-HEIGHT: 15px; PADDING-TOP: 6px
+}
+#icmanage {
+	MARGIN-TOP: 4px
+}
+.service {
+	BORDER-BOTTOM: #edce84 1px solid; BORDER-LEFT: #edce84 1px solid; HEIGHT: 107px; BORDER-TOP: #edce84 1px solid; BORDER-RIGHT: #edce84 1px solid
+}
+#provider LI {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 6px
+}
+#provider IMG {
+	MARGIN-RIGHT: 10px
+}
+.h230 {
+	HEIGHT: 230px
+}
+.h190 {
+	HEIGHT: 190px
+}
+.link A {
+	MARGIN: 0px 10px; WHITE-SPACE: nowrap; FLOAT: left; COLOR: #333333
+}
+.link_p {
+	POSITION: relative; PADDING-LEFT: 50px; DISPLAY: inline-block; CLEAR: both
+}
+.link .link_s {
+	POSITION: absolute; COLOR: #333333; TOP: 0px; LEFT: 0px
+}
+.blog1 {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 13px
+}
+.blog2 {
+	MARGIN-TOP: 1px
+}
+.blog2 A {
+	LINE-HEIGHT: 25px; PADDING-RIGHT: 17px; BACKGROUND: url(/images/common/base.png) no-repeat right 7px; FLOAT: left; HEIGHT: 25px; OVERFLOW: hidden; MARGIN-RIGHT: -2px
+}
+.blog2 A {
+	LINE-HEIGHT: 28px
+}
+:unknown .blog2 A {
+	LINE-HEIGHT: 25px
+}
+.blog2 .pr0 {
+	PADDING-RIGHT: 0px; MARGIN-RIGHT: 0px
+}
+#ic_search_kw {
+	
+}
+.ec {
+	HEIGHT: 998px
+}
+.ec_last {
+	BORDER-BOTTOM-COLOR: #fff !important; BORDER-TOP-COLOR: #fff !important; BORDER-RIGHT-COLOR: #fff !important; BORDER-LEFT-COLOR: #fff !important
+}
+.ec TABLE {
+	LINE-HEIGHT: 17px; MARGIN-TOP: 6px
+}
+.ec P {
+	LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+.ec .index A {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WORD-WRAP: break-word; WORD-BREAK: break-all; PADDING-TOP: 1px
+}
+.ec .index A:hover {
+	BACKGROUND-COLOR: #cc0000; COLOR: #fff; TEXT-DECORATION: none
+}
+.w309 {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 6px; MARGIN: 0px 15px 0px 10px; WIDTH: 294px; PADDING-TOP: 7px
+}
+.ec .cap {
+	TOP: 32px; LEFT: 460px
+}
+.ec .sec {
+	TOP: 633px; LEFT: 460px
+}
+.ec .res {
+	TOP: 110px; LEFT: 460px
+}
+.ec .pro {
+	
+}
+.ec .pro A {
+	LINE-HEIGHT: 20px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 20px; COLOR: #666; OVERFLOW: hidden; MARGIN-RIGHT: 13px
+}
+.ec .pro A:hover {
+	COLOR: #cc0000
+}
+.ec .pro SPAN {
+	LINE-HEIGHT: 19px
+}
+:unknown .ec .pro SPAN {
+	LINE-HEIGHT: 16px
+}
+.topnews {
+	MARGIN-BOTTOM: 4px
+}
+.topnews IMG {
+	MARGIN-TOP: 0px
+}
+.rec {
+	MARGIN-TOP: 10px
+}
+.h189 {
+	HEIGHT: 189px
+}
+#bs {
+	HEIGHT: 202px; OVERFLOW: hidden
+}
+#bs UL {
+	WIDTH: 324px
+}
+#pro {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 18px; PADDING-LEFT: 14px; PADDING-RIGHT: 14px; MARGIN-BOTTOM: 16px; HEIGHT: 99px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#pro LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 90px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 20px; PADDING-TOP: 0px
+}
+#pro LI.pro_last {
+	MARGIN-RIGHT: 0px
+}
+#abroad {
+	HEIGHT: 170px; OVERFLOW: hidden
+}
+#abroad LI {
+	WIDTH: 304px
+}
+.tab_hot {
+	WIDTH: 193px
+}
+#tab_hot_up {
+	PADDING-BOTTOM: 0px; MARGIN: 8px 0px 0px 1px; PADDING-LEFT: 0px; WIDTH: 13px; PADDING-RIGHT: 0px; BACKGROUND: url(/images/common/base.png) no-repeat; FLOAT: right; HEIGHT: 13px; PADDING-TOP: 0px
+}
+#tab_hot_dw {
+	PADDING-BOTTOM: 0px; MARGIN: 8px 0px 0px 1px; PADDING-LEFT: 0px; WIDTH: 13px; PADDING-RIGHT: 0px; BACKGROUND: url(/images/common/base.png) no-repeat; FLOAT: right; HEIGHT: 13px; PADDING-TOP: 0px
+}
+#tab_hot_up {
+	BACKGROUND-POSITION: 0px -1470px
+}
+#tab_hot_up:hover {
+	BACKGROUND-POSITION: -33px -1470px
+}
+#tab_hot_dw {
+	BACKGROUND-POSITION: -17px -1470px
+}
+#tab_hot_dw:hover {
+	BACKGROUND-POSITION: -49px -1470px
+}
+.pic {
+	PADDING-BOTTOM: 15px; WIDTH: 304px; MARGIN-LEFT: 0px
+}
+.mr30 {
+	MARGIN-RIGHT: 30px
+}
+.mr0 {
+	MARGIN-RIGHT: 0px
+}
+.ml47 {
+	MARGIN-LEFT: 47px
+}
+.ml0 {
+	MARGIN-LEFT: 0px
+}
+.mlr15 {
+	MARGIN-LEFT: 15px; MARGIN-RIGHT: 15px
+}
+.activity {
+	BORDER-BOTTOM: #d2000e 2px solid; BORDER-LEFT: #d2000e 2px solid; BORDER-TOP: #d2000e 1px solid; BORDER-RIGHT: #d2000e 2px solid
+}
+.activity .bar {
+	BACKGROUND: url(/images/common/base.png) #d2000e no-repeat right -1100px
+}
+.activity .bar H2 {
+	COLOR: #fff
+}
+.activity .bar A {
+	COLOR: #fff
+}
+.activity .con {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 9px
+}
+#topic_focus {
+	MARGIN-BOTTOM: 8px; HEIGHT: 95px
+}
+#topic_focus IMG {
+	WIDTH: 278px; HEIGHT: 71px
+}
+#Customer {
+	Z-INDEX: 999; POSITION: fixed; WIDTH: 31px; BACKGROUND: url(http://hqmim.hqew.com/ico/?hqm=8869387&ty=1&r=81&s=3&g=88c61d9e35ff055d0fdc6b437ee04747); HEIGHT: 88px; OVERFLOW: hidden; TOP: 224px; CURSOR: pointer; RIGHT: 0px; _position: absolute
+}
+#popad_wrap {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #fff; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+#popad_wrap .bar {
+	WIDTH: 265px; BACKGROUND: url(/images/common/base.png) 0px -1716px; HEIGHT: 26px
+}
+#popad_wrap .bar P {
+	BACKGROUND: url(/images/common/base.png) no-repeat 0px -1690px; HEIGHT: 26px; MARGIN-LEFT: 10px
+}
+#popad_close {
+	MARGIN-TOP: 9px; WIDTH: 9px; BACKGROUND: url(/images/common/base.png) 0px -1742px; FLOAT: right; HEIGHT: 9px; OVERFLOW: hidden; CURSOR: pointer; MARGIN-RIGHT: 9px
+}
+#topNotice {
+	BACKGROUND: #fff9d9
+}
+#topNotice_close {
+	MARGIN-TOP: 10px; WIDTH: 12px; BACKGROUND: url(/images/common/base.png) -79px -169px; FLOAT: right; HEIGHT: 12px; OVERFLOW: hidden; CURSOR: pointer; MARGIN-RIGHT: 10px
+}
+#topNotice_content {
+	LINE-HEIGHT: 32px; BACKGROUND: #fff9d9; HEIGHT: 32px; COLOR: #ff6d00; OVERFLOW: hidden
+}
+#topad {
+	HEIGHT: 0px
+}
+
+.welcome-panel {}
+.welcome-panel ul{padding:5px 0;}
+.welcome-panel ul li{display:block;width:130px;float:left;list-style-type:disc;line-height:20px;}
+
+.welcome-login-box {padding-top:5px;}
+.welcome-login-box dl{float:left;margin:0;}
+.welcome-login-box dl dt{width:50px;line-height:20px;}
+.welcome-login-box dl dd{line-height:20px;}
+.welcome-login-box input {width:100px;}
+.welcome-login-box input[type=checkbox] {width:20px;}
+.welcome-login-box input[type=submit] {width:40px;height:20px;margin-left:10px;margin-top:-5px;}

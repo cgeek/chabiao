@@ -1,0 +1,79 @@
+<?php
+
+class InfoController extends Controller
+{
+	private $_data;
+
+	public function actionIndex()
+	{
+		$this->render('index');
+	}
+
+	public function actionView($id = NULL)
+	{
+		if(empty($id) || $id <= 0) {
+			throw new CHttpException(404,'The specified post cannot be found.');
+		}
+
+		$post = Post::model()->findByPk($id);
+		$post['content'] = preg_replace("/(<div([^>]*)>)|(<\/div>)/isU","",$post['content']);
+		$post['content'] = preg_replace("/class=['\"]*([^'\"]*)['\"]*/is","",$post['content']);
+		$this->_data['info'] = $post;
+		$this->render('view', $this->_data);
+	}
+
+	private function _removeDivTag($str)
+	{
+		$str=str_replace("<div", '', $str);
+		return $str;
+	}
+
+	public function actionList($type)
+	{
+		$post_list = array();
+
+		$type_array = array(
+			'zhaobiao' => array('name'=>'招标信息','category_id'=>'1', 'keywords'=>''),
+			'nizaijian' => array('name'=>'拟在建项目','category_id'=>'2', 'keywords'=>''),
+			'zhongbiao' => array('name'=>'中标公告','category_id'=>'3', 'keywords'=>''),
+			'qiugou' => array('name'=>'求购信息','category_id'=>'5', 'keywords'=>''),
+			'gongying' => array('name'=>'供应信息','category_id'=>'5', 'keywords'=>''),
+			'fagui' => array('name'=>'法规中心','category_id'=>'11', 'keywords'=>''),
+			'dongtai' => array('name'=>'行业动态','category_id'=>'7', 'keywords'=>''),
+		);
+		$current_category = $type_array[$type];
+		if(empty($current_category)) {
+			throw new CHttpException(404,'The specified post cannot be found.');
+		}
+		if(!empty($current_category['keywords'])) {
+			search()->setQuery("keywords:$current_category[keywords]");
+		}
+		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
+
+		$docs = search()->setLimit(20, 0)->search(); 
+		$count = search()->getLastCount();
+		$dbTotal = search()->getDbTotal();
+		foreach($docs as $doc)
+		{
+			//$post = Post::model()->findByPk($doc->id);
+			$post = array();
+			$title = $doc->title;
+			$content = strip_tags($doc->content);
+			$desc = search()->highlight($content);
+			$post = array(
+				'id' => $doc->id,
+				'title' => cut_str($title, 40),
+				'desc' => $desc,
+				'area' => $doc->area,
+				'ctime' => date('Y-m-d',$doc->ctime)
+			);
+			$post_list[] = $post;
+		}
+		//分页
+		$this->_data['count'] = $count;
+		$this->_data['dbTotal'] = $dbTotal;
+		$this->_data['post_list'] = $post_list;
+		$this->_data['current_category'] = $current_category;
+		$this->render('list', $this->_data);
+	}
+}
