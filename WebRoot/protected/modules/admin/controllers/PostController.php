@@ -65,14 +65,14 @@ class PostController extends Controller
 	public function actionSave()
 	{
 		$data = array();
-		$data['title'] = htmlspecialchars(addslashes(trim($_POST['title'])));
-		$data['content'] = htmlspecialchars(addslashes(trim($_POST['content'])));
+		$data['title'] = htmlspecialchars(trim($_POST['title']));
+		$data['content'] = htmlspecialchars(trim($_POST['content']));
 		$data['category'] = $_POST['category'];
 		$data['area'] = $_POST['area'];
 		$data['access'] = $_POST['access'];
 		$data['ptime'] = $_POST['ptime'];
 		$data['status'] = $_POST['status'];
-		$data['keywords'] = htmlspecialchars(addslashes(trim($_POST['keywords'])));
+		$data['keywords'] = htmlspecialchars(trim($_POST['keywords']));
 
 		$post_id = $_POST['post_id'];
 		if(isset($post_id) && $post_id > 0) {
