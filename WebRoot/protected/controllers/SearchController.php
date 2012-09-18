@@ -9,6 +9,11 @@ class SearchController extends Controller
 	{
 		$post_list = array();
 
+		$pageSize = 20;
+		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+		$offset = ($page - 1) * $pageSize;
+
+
 		_generateQueryString();
 		$search_begin = microtime(true);
 		$docs = search()->setLimit(20, 0)->search(); 
@@ -34,6 +39,12 @@ class SearchController extends Controller
 		}
 
 		//分页
+		$criteria=new CDbCriteria;
+		$pages=new CPagination($count);
+		$pages->pageSize= $pageSize;
+		$pages->applyLimit($criteria);
+		$this->_data['pages'] = $pages;
+
 		$this->_data['count'] = $count;
 		$this->_data['dbTotal'] = $dbTotal;
 		$this->_data['search_cost'] = $search_cost;

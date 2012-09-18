@@ -726,7 +726,7 @@ BODY {
 }
 .g-list-dot {
 	PADDING-LEFT: 10px;
-	BACKGROUND: url(../images/dot_20120705.gif) no-repeat 0px 12px;
+	/*BACKGROUND: url(../images/dot_20120705.gif) no-repeat 0px 12px;*/
 }
 .g-list-dot LI {
 	PADDING-LEFT: 10px; BACKGROUND: url(../images/base.png) no-repeat 0px -740px
@@ -2140,6 +2140,7 @@ BODY {
 .page_list{width:700px; OVERFLOW: hidden; padding-left:28px;margin:20px 0px 20px 0px;}
 .page_list ul{margin:0;padding:0; list-style-type:none;}
 .page_list ul li{padding:3px 6px 3px 6px;float:left;border:1px solid #c8c8c8; background:#f6f6f6;margin:0px 2px 0px 2px;}
+.page_list ul li.selected {background:#ccc;color:#fff;border:1px solid #ccc;}
 
 .search-notice {background:#FFFFE3;border:1px solid #ffc674;margin-bottom:10px;padding:10px;overflow:hidden;color:red;}
 .search-filter-box {background:#FFFFE3;border:1px solid #ffc674;height:70px;margin-bottom:10px;padding:10px;overflow:hidden;}

@@ -6,7 +6,43 @@ class InfoController extends Controller
 
 	public function actionIndex()
 	{
-		$this->render('index');
+
+		//首页栏目1
+		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category_id'=>1, 'keywords'=>'', 'limit'=>20));
+		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>'', 'limit'=>15));
+		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>'', 'limit'=>15));
+
+		$this->render('index', $this->_data);
+	}
+
+	private function _get_column_list($config)
+	{
+
+		if(!empty($config['keywords'])) {
+			search()->setQuery("keywords:$config[keywords]");
+		}
+		search()->addRange('category', $config['category_id'] , $config['category_id']);
+
+		$docs = search()->setLimit($config['limit'], 0)->search(); 
+		$count = search()->getLastCount();
+
+		$list = array();
+		foreach($docs as $doc)
+		{
+			//$post = Post::model()->findByPk($doc->id);
+			$post = array();
+			$title = $doc->title;
+			$post = array(
+				'id' => $doc->id,
+				'title' => cut_str($title, 40),
+				'area' => $doc->area,
+				'ctime' => date('Y-m-d',$doc->ctime)
+			);
+			$list[] = $post;
+		}
+
+		return $list;
+
 	}
 
 	public function actionView($id = NULL)
@@ -41,6 +77,7 @@ class InfoController extends Controller
 			'fagui' => array('name'=>'法规中心','category_id'=>'11', 'keywords'=>''),
 			'dongtai' => array('name'=>'行业动态','category_id'=>'7', 'keywords'=>''),
 		);
+
 		$current_category = $type_array[$type];
 		if(empty($current_category)) {
 			throw new CHttpException(404,'The specified post cannot be found.');
@@ -50,7 +87,11 @@ class InfoController extends Controller
 		}
 		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
 
-		$docs = search()->setLimit(20, 0)->search(); 
+		$pageSize = 20;
+		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+		$offset = ($page - 1) * $pageSize;
+
+		$docs = search()->setLimit($pageSize, $offset)->search(); 
 		$count = search()->getLastCount();
 		$dbTotal = search()->getDbTotal();
 		foreach($docs as $doc)
@@ -70,6 +111,12 @@ class InfoController extends Controller
 			$post_list[] = $post;
 		}
 		//分页
+		$criteria=new CDbCriteria;
+		$pages=new CPagination($count);
+		$pages->pageSize= $pageSize;
+		$pages->applyLimit($criteria);
+		$this->_data['pages'] = $pages;
+
 		$this->_data['count'] = $count;
 		$this->_data['dbTotal'] = $dbTotal;
 		$this->_data['post_list'] = $post_list;

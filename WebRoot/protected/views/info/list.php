@@ -1,6 +1,9 @@
 	<div class="g-mh-20 g-pb-10">
 		<div class="g-cf">
 			<div class="g-w-730 g-f-l g-mh-20">
+          		<div class="g-ad-730-90">
+       	    	 	<a href="http://www.unionbidding.com/"><img src="http://www.unionbidding.com/images/inner_banner.jpg"></a>
+				</div>
 				<div class="g-box-g g-b-dd">
 					<div class="bar">
 						<h2 class="cur"><?=$current_category['name'];?></h2>
@@ -20,14 +23,7 @@
 						</table>
 					<?php endif;?>
 						<div class="page_list">
-							<ul>
-								<li><a>首页</a></li>
-								<li class="thisclass"><a>1</a></li>
-								<li><a href="/plus/list.php?tid=1&amp;TotalResult=2954&amp;PageNo=2">2</a></li>
-								<li><a href="/plus/list.php?tid=1&amp;TotalResult=2954&amp;PageNo=2">下一页</a></li>
-								<li><a href="/plus/list.php?tid=1&amp;TotalResult=2954&amp;PageNo=74">末页</a></li>
-								<li><span class="pageinfo">共 <strong>74</strong>页<strong>2954</strong>条</span></li>
-							</ul>
+							<? $this->widget('CLinkPager', array('pages' => $pages, 'prevPageLabel'=>'上一页','nextPageLabel'=>'下一页','cssFile'=>false, 'header'=>false ,'firstPageLabel'=>'首页', 'lastPageLabel'=>'最后一页',)); ?>
 						</div>
 					</div>
 				</div>
