@@ -22,6 +22,7 @@ class InfoController extends Controller
 			search()->setQuery("keywords:$config[keywords]");
 		}
 		search()->addRange('category', $config['category_id'] , $config['category_id']);
+		search()->setSort('ptime');
 
 		$docs = search()->setLimit($config['limit'], 0)->search(); 
 		$count = search()->getLastCount();
@@ -36,7 +37,7 @@ class InfoController extends Controller
 				'id' => $doc->id,
 				'title' => cut_str($title, 40),
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d',$doc->ctime)
+				'ctime' => date('Y-m-d', strtotime($doc->ptime))
 			);
 			$list[] = $post;
 		}
@@ -86,6 +87,7 @@ class InfoController extends Controller
 			search()->setQuery("keywords:$current_category[keywords]");
 		}
 		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
+		search()->setSort('ptime');
 
 		$pageSize = 20;
 		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
@@ -106,7 +108,7 @@ class InfoController extends Controller
 				'title' => cut_str($title, 40),
 				'desc' => $desc,
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d',$doc->ctime)
+				'ctime' => date('Y-m-d', strtotime($doc->ptime))
 			);
 			$post_list[] = $post;
 		}

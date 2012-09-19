@@ -310,3 +310,11 @@ Stack trace:
 REQUEST_URI=/script/jquery_1_3_2/jquery-1.3.2.min.js
 HTTP_REFERER=http://www.chabiao.com/info/636617.html
 ---
+2012/09/19 09:18:06 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2204): Connection refused(C#61)
+REQUEST_URI=/
+HTTP_REFERER=http://www.chabiao.com/user/home
+---
+2012/09/19 09:19:14 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2204): Connection refused(C#61)
+REQUEST_URI=/
+HTTP_REFERER=http://www.chabiao.com/user/home
+---

@@ -16,6 +16,7 @@
  * @property string $website
  * @property string $reg_reason
  * @property string $source
+ * @property string $keywords
  */
 class UserMeta extends CActiveRecord
 {
@@ -49,10 +50,10 @@ class UserMeta extends CActiveRecord
 			array('user_id', 'numerical', 'integerOnly'=>true),
 			array('contact_name, mobile, fax, qq', 'length', 'max'=>64),
 			array('company_name, website, reg_reason, source', 'length', 'max'=>255),
-			array('address, products, company_desc', 'safe'),
+			array('address, products, company_desc, keywords', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('user_id, contact_name, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source', 'safe', 'on'=>'search'),
+			array('user_id, contact_name, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source, keywords', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -85,6 +86,7 @@ class UserMeta extends CActiveRecord
 			'website' => 'Website',
 			'reg_reason' => 'Reg Reason',
 			'source' => 'Source',
+			'keywords' => 'Keywords',
 		);
 	}
 
@@ -111,6 +113,7 @@ class UserMeta extends CActiveRecord
 		$criteria->compare('website',$this->website,true);
 		$criteria->compare('reg_reason',$this->reg_reason,true);
 		$criteria->compare('source',$this->source,true);
+		$criteria->compare('keywords',$this->keywords,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

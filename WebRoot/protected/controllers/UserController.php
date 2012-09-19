@@ -217,6 +217,7 @@ class UserController extends Controller
 			if(empty($username) || empty($password)) {
 				$this->ajax_response(false, "用户名或者密码不能为空");
 			}
+			var_dump($username);die();
 			if($this->_identity===null)
 			{
 				$this->_identity=new UserIdentity($username, $password);
@@ -234,7 +235,7 @@ class UserController extends Controller
 				if($this->_identity->errorCode === UserIdentity::ERROR_PASSWORD_INVALID) {
 					$this->ajax_response(false, "密码不正确，请重新输入");
 				} else if($this->_identity->errorCode === UserIdentity::ERROR_USERNAME_INVALID) { 
-					$this->ajax_response(false, "你输入的邮箱不正确，请重新输入");
+					$this->ajax_response(false, "你输入的用户名，请重新输入");
 				}
 			}
 		} else {
@@ -305,6 +306,7 @@ class UserController extends Controller
 			$userMeta_model->$key = $val;
 		}
 		$userMeta_model->save();
+		
 	}
 	
 	public function actionLogout()

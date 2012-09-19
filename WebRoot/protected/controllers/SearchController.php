@@ -16,7 +16,7 @@ class SearchController extends Controller
 
 		_generateQueryString();
 		$search_begin = microtime(true);
-		$docs = search()->setLimit(20, 0)->search(); 
+		$docs = search()->setSort('ptime')->setLimit(20, 0)->search(); 
 		$search_cost = microtime(true) - $search_begin;
 
 		$count = search()->getLastCount();
