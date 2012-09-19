@@ -301,9 +301,11 @@ class UserController extends Controller
 	{
 		if(empty($user_meta))
 			return false;
-		$userMeta_model = new userMeta();
+		$userMeta_model = new UserMeta;
 		foreach($user_meta as $key => $val) {
-			$userMeta_model->$key = $val;
+			if(!empty($val)) {
+				$userMeta_model->$key = $val;
+			}
 		}
 		$userMeta_model->save();
 		
