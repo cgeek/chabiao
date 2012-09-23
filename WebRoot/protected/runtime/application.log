@@ -318,3 +318,63 @@ HTTP_REFERER=http://www.chabiao.com/user/home
 REQUEST_URI=/
 HTTP_REFERER=http://www.chabiao.com/user/home
 ---
+2012/09/23 22:38:03 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2204): Connection refused(C#61)
+REQUEST_URI=/
+---
+2012/09/23 22:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "domain".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('domain')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/domain
+---
+2012/09/23 22:55:06 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2204): Connection refused(C#61)
+REQUEST_URI=/
+---
+2012/09/23 23:05:01 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.uri" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(10): CComponent->__get('uri')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#9 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:13:11 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `domain` `t` WHERE domain=:domain LIMIT 1.
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php (15)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (16)
+2012/09/23 23:13:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `domain` `t` WHERE domain=:domain LIMIT 1' in /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(1292): CDbCommand->queryRow()
+#2 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(1397): CActiveRecord->query(Object(CDbCriteria))
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(15): CActiveRecord->find('domain=:domain', Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#9 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#10 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:19:09 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2204): Connection refused(C#61)
+REQUEST_URI=/
+---
+2012/09/23 23:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---

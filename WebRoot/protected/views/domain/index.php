@@ -1,7 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'Page'=>array('/page'),
-	'Services',
+	'Domain',
 );?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 

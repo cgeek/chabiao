@@ -7,17 +7,24 @@ class InfoController extends Controller
 	public function actionIndex()
 	{
 
+		$hostInfo = Yii::app()->request->hostInfo;
+		$domain = substr($hostInfo, 7);
+		if(empty($domain)) {
+			$domain = 'www.unionbidding.com';
+		}
+		$domain_db = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+
+		$keywords = $domain_db['keywords'];
 		//首页栏目1
-		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category_id'=>1, 'keywords'=>'', 'limit'=>20));
-		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>'', 'limit'=>15));
-		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>'', 'limit'=>15));
+		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category_id'=>1, 'keywords'=>"$keywords", 'limit'=>20));
+		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
 
 		$this->render('index', $this->_data);
 	}
 
 	private function _get_column_list($config)
 	{
-
 		if(!empty($config['keywords'])) {
 			search()->setQuery("keywords:$config[keywords]");
 		}
@@ -41,9 +48,7 @@ class InfoController extends Controller
 			);
 			$list[] = $post;
 		}
-
 		return $list;
-
 	}
 
 	public function actionView($id = NULL)

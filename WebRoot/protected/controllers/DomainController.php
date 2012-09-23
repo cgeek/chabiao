@@ -1,10 +1,10 @@
 <?php
 
-class PageController extends Controller
+class DomainController extends Controller
 {
-	public function actionServices()
+	public function actionIndex()
 	{
-		$this->render('services');
+		$this->render('index');
 	}
 
 	// Uncomment the following methods and override them if needed
