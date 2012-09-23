@@ -8,14 +8,13 @@ class InfoController extends Controller
 
 	public function __construct()
 	{
-
 		$hostInfo = Yii::app()->request->hostInfo;
 		$domain = substr($hostInfo, 7);
 		if(empty($domain)) {
 			$domain = 'www.unionbidding.com';
 		}
-		$site_info = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
-		$this->_data['site_info'] = $site_info;
+		$this->site_info = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		$this->_data['site_info'] = $this->site_info;
 	}
 
 	public function actionIndex()
@@ -68,7 +67,7 @@ class InfoController extends Controller
 		$post['content'] = preg_replace("/(<div([^>]*)>)|(<\/div>)/isU","",$post['content']);
 		$post['content'] = preg_replace("/class=['\"]*([^'\"]*)['\"]*/is","",$post['content']);
 		$this->_data['info'] = $post;
-		$this->render('view', $this->_data);
+		$this->render('/info/view', $this->_data);
 	}
 
 	private function _removeDivTag($str)
@@ -143,6 +142,6 @@ class InfoController extends Controller
 		$this->_data['dbTotal'] = $dbTotal;
 		$this->_data['post_list'] = $post_list;
 		$this->_data['current_category'] = $current_category;
-		$this->render('list', $this->_data);
+		$this->render('/info/list', $this->_data);
 	}
 }
