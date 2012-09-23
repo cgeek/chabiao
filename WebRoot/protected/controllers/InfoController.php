@@ -27,7 +27,7 @@ class InfoController extends Controller
 		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
 		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
 
-		$this->render('index', $this->_data);
+		$this->render('/info/index', $this->_data);
 	}
 
 	private function _get_column_list($config)

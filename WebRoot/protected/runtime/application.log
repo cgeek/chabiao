@@ -378,3 +378,156 @@ Stack trace:
 REQUEST_URI=/images/common/base.png
 HTTP_REFERER=http://www.chabiao.com/
 ---
+2012/09/23 23:44:54 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/09/23 23:44:55 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/09/23 23:45:15 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/09/23 23:45:27 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:46:18 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:46:52 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:46:57 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:47:09 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:47:58 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/09/23 23:48:08 [error] [exception.CException] exception 'CException' with message 'InfoController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(30): CController->render('index', Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
