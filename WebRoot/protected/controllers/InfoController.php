@@ -4,7 +4,9 @@ class InfoController extends Controller
 {
 	private $_data;
 
-	public function actionIndex()
+	private $site_info = array();
+
+	public function __construct()
 	{
 
 		$hostInfo = Yii::app()->request->hostInfo;
@@ -12,13 +14,18 @@ class InfoController extends Controller
 		if(empty($domain)) {
 			$domain = 'www.unionbidding.com';
 		}
-		$domain_db = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		$site_info = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		$this->_data['site_info'] = $site_info;
+	}
 
-		$keywords = $domain_db['keywords'];
+	public function actionIndex()
+	{
+
+		$keywords = $this->site_info['keywords'];
 		//首页栏目1
 		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category_id'=>1, 'keywords'=>"$keywords", 'limit'=>20));
-		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
-		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
 
 		$this->render('index', $this->_data);
 	}
@@ -88,9 +95,17 @@ class InfoController extends Controller
 		if(empty($current_category)) {
 			throw new CHttpException(404,'The specified post cannot be found.');
 		}
-		if(!empty($current_category['keywords'])) {
-			search()->setQuery("keywords:$current_category[keywords]");
+		$keywords = '';
+		if(!empty($this->site_info['keywords'])) {
+			$keywords = $this->site_info['keywords'];
 		}
+		if(!empty($current_category['keywords'])) {
+			$keywords = $keywords . " $current_category['keywords']";
+		}
+		if(!empty($keywords)) {
+			search()->setQuery("keywords:$keywords");
+		}
+
 		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
 		search()->setSort('ptime');
 
