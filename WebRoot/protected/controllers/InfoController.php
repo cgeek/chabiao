@@ -100,7 +100,7 @@ class InfoController extends Controller
 			$keywords = $this->site_info['keywords'];
 		}
 		if(!empty($current_category['keywords'])) {
-			$keywords = $keywords . " $current_category['keywords']";
+			$keywords = $keywords . " $current_category[keywords]";
 		}
 		if(!empty($keywords)) {
 			search()->setQuery("keywords:$keywords");
