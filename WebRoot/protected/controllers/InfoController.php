@@ -33,7 +33,9 @@ class InfoController extends Controller
 	private function _get_column_list($config)
 	{
 		if(!empty($config['keywords'])) {
-			search()->setQuery("keywords:$config[keywords]");
+			$arr = explode(',', $config['keywords']);
+			$keywords = implode(" OR ", $arr);
+			search()->setQuery("$keywords");
 		}
 		search()->addRange('category', $config['category_id'] , $config['category_id']);
 		search()->setSort('ptime');
