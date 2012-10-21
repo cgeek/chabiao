@@ -105,7 +105,9 @@ class InfoController extends Controller
 			$keywords = $keywords . " $current_category[keywords]";
 		}
 		if(!empty($keywords)) {
-			search()->setQuery("keywords:$keywords");
+			$arr = explode(',', $keywords);
+			$keywords = implode(" OR ", $arr);
+			search()->setQuery("$keywords");
 		}
 
 		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
