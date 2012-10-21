@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 <head>
-	<title>联合招标网-招标|招标网|招标信息|招标公告|投标|招标采购|中国权威招标采购信息门户网站</title>
+	<title><?=$site_info['title'];?>-招标|招标网|招标信息|招标公告|投标|招标采购|中国权威招标采购信息门户网站</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="zh" />
 	<meta name="description" content="联合招标网致力于为企业提供招标、采购、拟在建项目信息及网上招标采购等一系列商务服务。联合招标网是中国招标采购领域的权威资讯和交易网站，为各级政府采购、招标代理机构、招标企业、供应商提供强大的专业招标采购信息查询和相关服务。" />
@@ -46,7 +46,7 @@
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
 			<div style="width:220px;float:left;">
 				<A class="g-f-l" title="联合招标网(www.unionbidding.com)" href="/">
-					<IMG width=200 id="topLogo" src="/images/logo.png">
+				<IMG width=200 id="topLogo" src="<?=empty($site_info['logo']) ? '/images/logo.png' : $site_info['logo']; ?>">
 				</A>
 			</div>
 			<DIV class=g-search>
