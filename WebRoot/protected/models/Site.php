@@ -12,6 +12,7 @@
  * @property string $keywords
  * @property string $description
  * @property string $footer_html
+ * @property string $links
  * @property integer $ctime
  * @property integer $mtime
  * @property integer $status
@@ -47,10 +48,10 @@ class Site extends CActiveRecord
 			array('domain, logo, title', 'required'),
 			array('ctime, mtime, status', 'numerical', 'integerOnly'=>true),
 			array('domain, name, logo, title', 'length', 'max'=>255),
-			array('keywords, description, footer_html', 'safe'),
+			array('keywords, description, footer_html, links', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, domain, name, logo, title, keywords, description, footer_html, ctime, mtime, status', 'safe', 'on'=>'search'),
+			array('id, domain, name, logo, title, keywords, description, footer_html, links, ctime, mtime, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,6 +80,7 @@ class Site extends CActiveRecord
 			'keywords' => 'Keywords',
 			'description' => 'Description',
 			'footer_html' => 'Footer Html',
+			'links' => 'Links',
 			'ctime' => 'Ctime',
 			'mtime' => 'Mtime',
 			'status' => 'Status',
@@ -104,6 +106,7 @@ class Site extends CActiveRecord
 		$criteria->compare('keywords',$this->keywords,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('footer_html',$this->footer_html,true);
+		$criteria->compare('links',$this->links,true);
 		$criteria->compare('ctime',$this->ctime);
 		$criteria->compare('mtime',$this->mtime);
 		$criteria->compare('status',$this->status);

@@ -5393,3 +5393,137 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/admin/sites/assets/ico/favicon.ico
 ---
+2012/10/22 00:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/10/22 00:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/10/22 00:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/10/22 00:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/10/22 00:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/10/22 00:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2012/10/22 00:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/10/22 00:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/10/22 00:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/10/22 00:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2012/10/22 00:23:02 [error] [exception.CException] exception 'CException' with message 'Property "Site.links" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:174
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(160): CComponent->__set('links', '')
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/SitesController.php(155): CActiveRecord->__set('links', '')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/SitesController.php(122): SitesController->_save_edit_site('1', Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): SitesController->actionSave()
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('save')
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/sav...')
+#14 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/sites/save
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2012/10/22 00:23:05 [error] [exception.CException] exception 'CException' with message 'Property "Site.links" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:174
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(160): CComponent->__set('links', '')
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/SitesController.php(155): CActiveRecord->__set('links', '')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/SitesController.php(122): SitesController->_save_edit_site('1', Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): SitesController->actionSave()
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('save')
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/sav...')
+#14 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/sites/save
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
