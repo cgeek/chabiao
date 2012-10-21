@@ -4,7 +4,7 @@ class InfoController extends Controller
 {
 	private $_data;
 
-	private $site_info = array();
+	public $site_info = array();
 
 	public function __construct()
 	{
@@ -26,6 +26,7 @@ class InfoController extends Controller
 		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
 		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
 
+		//debug_json($this->_data);
 		$this->render('/info/index', $this->_data);
 	}
 
