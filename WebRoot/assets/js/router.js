@@ -19,6 +19,7 @@
 		//all plugins
 		'plugins': 'modules/plugins',
 		'bootstrap': 'libs/bootstrap/2.0.4/bootstrap',
+		'filedrop': 'libs/filedrop/jquery.filedrop',
 
 		'datepicker': 'libs/datepicker/1.3.0/glDatePicker',
 		'datepicker-css': 'libs/datepicker/1.3.0/default.css',

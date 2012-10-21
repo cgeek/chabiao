@@ -3,14 +3,16 @@ $this->breadcrumbs=array(
 	'所有文章'=>array('/admin/post'),
 	'文章列表',
 );?>
-
-<div class="option_box">
-	<ul class="clearfix">
-		<li><a target="_blank" href="/admin/post/add">添加文章</a></li>
-		<li><a href="/admin/post/list?status=-1">回收站列表</a></li>
+	<ul class="breadcrumb">
+		<li><a href="/admin">首页</a> <span class="divider">/</span></li>
+		<li class="active">文章列表</li>
 	</ul>
-</div>
-<div class="filter_box">
+	<p>
+		<a href="/admin/post/list" class="btn">文章列表</a>
+		<a href="/admin/post/list?status=-1" class="btn">回收站列表</a>
+		<a href="/admin/post/add" class="btn btn-primary" >添加文章</a>
+	</p>
+<!--div class="filter_box">
 	<form action="/admin/post/list" method="GET">
 	<span>筛选条件：</span>
 	<dl>
@@ -52,16 +54,15 @@ $this->breadcrumbs=array(
 		<button type="submit">提交</button>
 	</dl>
 	</form>
-</div>
+</div-->
 <div class="post_list list">
 	<table class="table table-bordered ">
 		<thead>
 			<tr>
-				<th>ID</th>
+				<th>#ID</th>
 				<th>文章标题</th>
 				<th>录入时间</th>
 				<th>类目</th>
-				<th>地区</th>
 				<th>权限</th>
 				<th>发布人</th>
 				<th>状态</th>
@@ -72,10 +73,9 @@ $this->breadcrumbs=array(
 	<?php foreach($post_list as $post):?>
 			<tr>
 				<th><?=$post['id'];?></th>
-				<th><?=cut_str($post['title'], 40);?></th>
-				<th><?=date('Y-m-d H:i',strtotime($post['ptime']));?></th>
+				<th><?=cut_str($post['title'], 20);?></th>
+				<th><?=date('Y-m-d',strtotime($post['ptime']));?></th>
 				<th><?=getCategoryName($post['category']);?></th>
-				<th><?=$post['area'];?></th>
 				<th><?=getAccessName($post['access']);?></th>
 				<th><?=$post['user']['user_name'];?></th>
 				<th><?php if($post['status'] == 1 ):?>
@@ -84,7 +84,7 @@ $this->breadcrumbs=array(
 					 <a href="javascript:void(0);" class="red">未审核</a>
 					<?php endif;?>
 				</th>
-				<th><a href="/admin/post/edit?id=<?=$post['id'];?>" target="_blank">编辑</a> | <a href="javascript:void(0);">删除</a></th>
+				<th><a href="/admin/post/edit?id=<?=$post['id'];?>">编辑</a> | <a href="javascript:void(0);">删除</a></th>
 			</tr>
 	<?php endforeach;?>
 		</tbody>

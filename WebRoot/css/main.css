@@ -261,3 +261,8 @@ button:hover {background:#999;}
 .list dl dd {max-width:400px;float:left;min-width:80px;display:block; text-align:center;padding:0 10px; margin-left:0;}
 .list dl.hd dd{border-right:1px solid #ccc;}
 .list tr:hover, .list dl:hover {background:#f7f7f7;}
+
+/*====== common ========*/
+.wrap {padding:0 20px;position:relative; display:block}
+.wrap #sidebar {width:20%;max-width:180px;float:left;}
+.wrap #main {float:left;width:70%;}

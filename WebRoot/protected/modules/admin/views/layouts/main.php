@@ -1,58 +1,84 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="zh_cn" />
-
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
+  	<meta charset="utf-8">
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta name="description" content="">
+	<meta name="author" content="">
+  <!-- Le styles -->
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <style>
+    body { padding-top: 60px; /* 60px to make the container go all the way
+    to the bottom of the topbar */ }
+  </style>
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/libs/seajs/1.1.0/sea.js"></script>
 </head>
 
 <body>
-
-<div class="container" id="page">
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name);?></div>
-	</div><!-- header -->
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'后台首页', 'url'=>array('/admin/default')),
-				array('label'=>'用户管理', 'url'=>array('/admin/user/list')),
-				array('label'=>'内容管理', 'url'=>array('/admin/post/list')),
-				array('label'=>'站群管理', 'url'=>array('/admin/sites')),
-				array('label'=>'广告管理', 'url'=>array('/admin/ads')),
-				array('label'=>'系统管理', 'url'=>array('/admin/system')),
-				array('label'=>'登录', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'退出登录 ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
-	<div class="clear"></div>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by cgeek.org<br/>
-		All Rights Reserved.<br/>
-	</div><!-- footer -->
-
-</div><!-- page -->
-
+  <div class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+        </a>
+        <a class="brand" href="#">
+        联合招标网管理后台
+        </a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li>
+              <a href="/admin">
+              	首页 
+              </a>
+            </li>
+            <li>
+              <a href="/admin/user">
+                用户管理
+              </a>
+            </li>
+            <li>
+              <a href="/admin/post">
+               	内容管理 
+              </a>
+            </li>
+            <li>
+              <a href="/admin/sites">
+              	站群管理	
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="navbar-form pull-right">
+          <input name="textinput1" type="text" name="username"  placeholder="用户名" class="span2">
+          <input name="textinput2" type="password" name="password" placeholder="密码" class="span2">
+          <button class="btn">
+            登录
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+<?php echo $content; ?>
+  </div>
 </body>
 </html>

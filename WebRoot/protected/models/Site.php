@@ -1,23 +1,27 @@
 <?php
 
 /**
- * This is the model class for table "domain".
+ * This is the model class for table "site".
  *
- * The followings are the available columns in table 'domain':
+ * The followings are the available columns in table 'site':
  * @property integer $id
  * @property string $domain
+ * @property string $name
  * @property string $logo
  * @property string $title
  * @property string $keywords
  * @property string $description
+ * @property string $footer_html
+ * @property integer $ctime
+ * @property integer $mtime
  * @property integer $status
  */
-class Domain extends CActiveRecord
+class Site extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Domain the static model class
+	 * @return Site the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -29,7 +33,7 @@ class Domain extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'domain';
+		return 'site';
 	}
 
 	/**
@@ -41,12 +45,12 @@ class Domain extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('domain, logo, title', 'required'),
-			array('status', 'numerical', 'integerOnly'=>true),
-			array('domain, logo, title', 'length', 'max'=>255),
-			array('keywords, description', 'safe'),
+			array('ctime, mtime, status', 'numerical', 'integerOnly'=>true),
+			array('domain, name, logo, title', 'length', 'max'=>255),
+			array('keywords, description, footer_html', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, domain, logo, title, keywords, description, status', 'safe', 'on'=>'search'),
+			array('id, domain, name, logo, title, keywords, description, footer_html, ctime, mtime, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,10 +73,14 @@ class Domain extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'domain' => 'Domain',
+			'name' => 'Name',
 			'logo' => 'Logo',
 			'title' => 'Title',
 			'keywords' => 'Keywords',
 			'description' => 'Description',
+			'footer_html' => 'Footer Html',
+			'ctime' => 'Ctime',
+			'mtime' => 'Mtime',
 			'status' => 'Status',
 		);
 	}
@@ -90,10 +98,14 @@ class Domain extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('domain',$this->domain,true);
+		$criteria->compare('name',$this->name,true);
 		$criteria->compare('logo',$this->logo,true);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('keywords',$this->keywords,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('footer_html',$this->footer_html,true);
+		$criteria->compare('ctime',$this->ctime);
+		$criteria->compare('mtime',$this->mtime);
 		$criteria->compare('status',$this->status);
 
 		return new CActiveDataProvider($this, array(

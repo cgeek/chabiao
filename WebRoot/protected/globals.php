@@ -24,6 +24,11 @@ function l($text, $url = '#', $htmlOptions = array())
 	return CHtml::link($text, $url, $htmlOptions);
 }
 
+function debug_json($data)
+{
+	echo json_encode($data);
+	die();
+}
 /*
 Utf-8、gb2312都支持的汉字截取函数
 cut_str(字符串, 截取长度, 开始长度, 编码);

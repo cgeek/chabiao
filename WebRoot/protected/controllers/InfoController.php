@@ -13,7 +13,7 @@ class InfoController extends Controller
 		if(empty($domain)) {
 			$domain = 'www.unionbidding.com';
 		}
-		$this->site_info = Domain::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		$this->site_info = Site::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
 		$this->_data['site_info'] = $this->site_info;
 	}
 

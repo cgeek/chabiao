@@ -7,6 +7,7 @@ class UserController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	private $_data = null;
+	public $layout = '/layouts/column2';
 	/**
 	 * @return array action filters
 	 */
@@ -26,7 +27,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('signup','register','login','logout','followers','following','timeline','detail'),
+				'actions'=>array('signup','register','login','logout','followers','following','timeline','detail', 'index'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -43,13 +44,23 @@ class UserController extends Controller
 		);
 	}
 
+	public function actionIndex()
+	{
+		$this->actionList();
+	}
+
 	public function actionList()
 	{
+
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 		$pageSize = 10;
 		$offset = ($p - 1) * $per_page;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
+		if(isset($_GET['keyword']) && !empty($_GET['keyword'])) {
+			$criteria->addSearchCondition('user_name', $_GET['keyword']);
+		}
+
 		$criteria->order = ' `ctime` DESC,`user_id` DESC';
 		$criteria->limit = $limit;
 		$criteria->offset = $offset;
@@ -110,5 +121,4 @@ class UserController extends Controller
 		}
 	}
 	
-
 }

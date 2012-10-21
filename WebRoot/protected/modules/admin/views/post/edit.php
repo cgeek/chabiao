@@ -4,13 +4,20 @@ $this->breadcrumbs=array(
 	'编辑',
 );?>
 
+	<ul class="breadcrumb">
+		<li><a href="/admin">首页</a> <span class="divider">/</span></li>
+		<li><a href="/admin/post">文章列表</a> <span class="divider">/</span></li>
+		<li class="active">编辑内容</li>
+	</ul>
 <form action="/admin/post/save" method="POST">
 	<input type="hidden" name="post_id" value="<?=isset($post_db['id']) ? $post_db['id'] :'';?>">
 <div class="post_box">
-	<dl>
-		<dt>文章标题：</dt>
-		<dd><input class="input_text title_input" placeholder="60个字以内" type="text" name="title" value="<?= empty($post_db) ? '':$post_db['title'];?>"></dd>
-	</dl>
+	<div class="control-group">
+		<label for="textinput1">
+			文章标题:
+		</label>
+		<input class="input-xxlarge title_input" placeholder="60个字以内" type="text" name="title" value="<?= empty($post_db) ? '':$post_db['title'];?>">
+	</div>
 	<dl>
 		<dt>所属栏目：</dt>
 		<dd>
@@ -73,7 +80,7 @@ $this->breadcrumbs=array(
 
 <script type="text/javascript">
 <!--
-window.UEDITOR_HOME_URL = '/assets/js/libs/ueditor/1.2.2/';
+	window.UEDITOR_HOME_URL = '/assets/js/libs/ueditor/1.2.2/';
 //-->
 </script>
 <script>

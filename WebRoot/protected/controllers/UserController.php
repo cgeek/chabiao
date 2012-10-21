@@ -217,7 +217,6 @@ class UserController extends Controller
 			if(empty($username) || empty($password)) {
 				$this->ajax_response(false, "用户名或者密码不能为空");
 			}
-			var_dump($username);die();
 			if($this->_identity===null)
 			{
 				$this->_identity=new UserIdentity($username, $password);

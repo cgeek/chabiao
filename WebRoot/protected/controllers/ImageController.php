@@ -7,6 +7,26 @@ class ImageController extends Controller
 	
 	private $upyun;
 
+	public function actionUploadMulti()
+	{
+		$image = CUploadedFile::getInstanceByName('file'); 
+		$retValue = "";  
+		if($image->size > 3*1024*1024){  
+			$retValue = "提示：文件大小不能超过3M";  
+		}else{
+			$f = file_get_contents($image->tempName);
+			$file_name = md5($f);
+			$file_type = $image->extensionName;
+			if(is_object($image) && get_class($image) === 'CUploadedFile') {
+				$image->saveAs(Yii::app()->basePath.'/../uploads/'.$file_name . ".$file_type");
+			}
+			$retValue = $file_name;
+		}
+
+		$this->_data['image'] = array('image_id'=>$file_name, 'image_path' => '/uploads/' . $file_name .".$file_type");
+		$this->ajax_response(true, '', $this->_data);
+	}
+
 	public function actionUpload()
 	{
 		$image = file_get_contents('php://input');

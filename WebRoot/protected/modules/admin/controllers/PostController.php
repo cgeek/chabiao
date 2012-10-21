@@ -4,6 +4,12 @@ class PostController extends Controller
 {
 	private $_data;
 
+	public $layout = '/layouts/column2';
+
+	public function actionIndex()
+	{
+		$this->actionList();
+	}
 	public function actionList()
 	{
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
