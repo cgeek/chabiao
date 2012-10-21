@@ -4,19 +4,6 @@ class InfoController extends Controller
 {
 	private $_data;
 
-	public $site_info = array();
-
-	public function __construct()
-	{
-		$hostInfo = Yii::app()->request->hostInfo;
-		$domain = substr($hostInfo, 7);
-		if(empty($domain)) {
-			$domain = 'www.unionbidding.com';
-		}
-		$this->site_info = Site::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
-		$this->_data['site_info'] = $this->site_info;
-	}
-
 	public function actionIndex()
 	{
 

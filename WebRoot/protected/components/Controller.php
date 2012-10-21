@@ -22,6 +22,8 @@ class Controller extends CController
 
 	public $breadcrumbs=array();
 
+	public $site_info = array();
+
 	public function ajax_response($success=true,$message="",$data = array())
 	{
 		$result['success'] = $success;
@@ -29,6 +31,16 @@ class Controller extends CController
 		$result['data'] = $data;
 		echo json_encode($result);
 		exit();
+	}
+
+	public function __construct()
+	{
+		$hostInfo = Yii::app()->request->hostInfo;
+		$domain = substr($hostInfo, 7);
+		if(empty($domain)) {
+			$domain = 'www.unionbidding.com';
+		}
+		$this->site_info = Site::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
 	}
 
 }
