@@ -239,7 +239,7 @@ class UserController extends Controller
 			}
 		} else {
 			if(Yii::app()->user->isGuest) {
-				$this->render('login');
+				$this->render('user/login');
 			} else {
 				$this->redirect(array('user/home'));
 			}
