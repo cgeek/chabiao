@@ -100,6 +100,9 @@
 <DIV class="g-w-990 g-mlr-a clearfix">
 		<a href="#" id="return_top" class="back_to_top" style="">回到顶部</a>
 	<!-- footer -->
+<?php if(isset($this->site_info) && !empty($this->site_info['footer_html'])):?>
+	<?=$this->site_info['footer_html'];?>
+<?php else:?>
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 
 		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
 			<a href="/plus/view.php?aid=10302" target="_blank">关于我们</a> 
@@ -152,6 +155,7 @@
 						 总机：4006-333-959  电话010-52883369  010-52889099 传真010-80537538<br/>
 									 京ICP备09106887号<br/>
 		</div>
+<?php endif;?>
 	</div>
 </div>
 </body>
