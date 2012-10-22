@@ -5877,3 +5877,188 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/admin/sites/assets/ico/favicon.ico
 ---
+2012/10/22 09:29:41 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:29:58 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:30:23 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:32:52 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2012/10/22 09:33:34 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:34:05 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/10/22 09:35:08 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "aside".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/views/user/home.php(2): CController->renderPartial('aside')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(127): require('/Users/cgeek/Si...')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cgeek/Si...', Array, true)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(870): CBaseController->renderFile('/Users/cgeek/Si...', Array, true)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/user/home', Array, true)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(92): CController->render('/user/home', Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(16): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---

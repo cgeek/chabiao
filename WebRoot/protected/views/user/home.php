@@ -1,5 +1,5 @@
 <div class="main user_page clearfix">
-	<?php $this->renderPartial('aside');?>
+	<?php $this->renderPartial('/user/aside');?>
 	<div class="main_body" style="min-height:400px;">
 		<h1 class="title">今日推荐信息</h1>
 		<div class="list_box">
