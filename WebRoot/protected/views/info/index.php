@@ -1,5 +1,9 @@
 <div class="g-mh-20">
-	<div class="g-ad-990-70 g-ta-c g-mb-10 g-b-dd"><a href="#" target="_blank"><img border="0" name="g_AsImageG0132_name" src="/images/ads/201206011126022056AM26Y.gif" width="990" height="70"></a> </div>
+	<div class="g-ad-990-70 g-ta-c g-mb-10 g-b-dd">
+		<a href="#" target="_blank">
+			<img border="0" name="g_AsImageG0132_name" src="<?=!empty($this->site_info['ad']['ad-banner']) ? $this->site_info['ad']['ad-banner'] :'/images/ads/201206011126022056AM26Y.gif';?>" width="990">
+		</a>
+	</div>
 </div>
 <div class="g-mh-20 g-pb-10">
     <div class="g-cf">
@@ -138,7 +142,7 @@
             
           </div>
         </div>
-		<div class="g-box-g1 g-mtb-10"><img border="0" src="/images/ads/xirui.gif" width="218" height="96"></div>
+		<div class="g-box-g1 g-mtb-10"><img border="0" src="<?=!empty($this->site_info['ad']['ad-1']) ? $this->site_info['ad']['ad-1'] :'/images/ads/xirui.gif';?>" width="218" height="96"></div>
 		<div class="g-box-g">
           <div class="bar">
 		  <a class="g-c-99 g-bi-n" title="" href="/info/action-topic.html" target="_blank" recid="800" rec="">更多</a>

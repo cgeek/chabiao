@@ -40,7 +40,14 @@ class Controller extends CController
 		if(empty($domain)) {
 			$domain = 'www.unionbidding.com';
 		}
-		$this->site_info = Site::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		$site_db = Site::model()->find("domain=:domain", array(':domain'=>$domain))->attributes;
+		if(!empty($site_db) && !empty($site_db['ad'])) {
+			$site_db['ad'] = json_decode($site_db['ad'], true);
+		}
+		if(!empty($site_db) && !empty($site_db['column_keywords'])) {
+			$site_db['column_keywords'] = json_decode($site_db['column_keywords'], true);
+		}
+		$this->site_info = $site_db;
 	}
 
 }
