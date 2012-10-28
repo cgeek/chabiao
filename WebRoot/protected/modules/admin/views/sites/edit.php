@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label" for="inputWarning">关键词：</label>
+					<label class="control-label" for="inputWarning">数据获取关键词：</label>
 					<div class="controls">
 						<input type="text" id="keywords" class="input-xlarge" name="keywords" value="<?=$site['keywords'];?>">
 						<span class="help-inline"></span>
@@ -74,26 +74,29 @@
 				</div>
 			</div>
 			<div class="tab-pane" id="column_keywords">
+				<p>为每个栏目设置关键词来获取数据</p>
+				<?php foreach(getCategorys() as $key=>$cate_name):?>
 				<div class="control-group">
-					<label class="control-label" for="">招标公告：</label>
+				<label class="control-label" for=""><?=$cate_name;?>：</label>
 					<div class="controls">
-						<input type="text" id="" name="keyword[zhaobiao]" value="">
+						<input type="text" id="" name="column_keywords[<?=$key;?>]" value="<?=$site['column_keywords'][$key];?>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="domain">中标公告：</label>
-					<div class="controls">
-						<input type="text" id="domain" name="keyword[zhongbiao]" value="">
-						<span class="help-inline"></span>
-					</div>
-				</div>
+				<?php endforeach;?>
 			</div>
 			<div class="tab-pane" id="seo">
 				<div class="control-group">
+					<label class="control-label" for="inputWarning">SEO keyword：</label>
+					<div class="controls">
+						<textarea name="description" rows="3" style="width:80%;height:50px;"><?=$site['seo_keyword'];?></textarea>
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
 					<label class="control-label" for="inputWarning">SEO description：</label>
 					<div class="controls">
-						<textarea name="description" rows="3"><?=$site['description'];?></textarea>
+						<textarea name="description" rows="3" style="width:80%;height:100px;"><?=$site['description'];?></textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -102,19 +105,13 @@
 				<div class="control-group">
 					<label class="control-label" for="inputWarning">友情链接：</label>
 					<div class="controls">
-						<textarea name="links" rows="3"><?=$site['links'];?></textarea>
+						<textarea name="links" rows="3" style="width:80%;height:300px;"><?=$site['links'];?></textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
 			</div>
 			<div class="tab-pane" id="ads">
-				<div class="control-group">
-					<label class="control-label" for="inputWarning">广告设置：</label>
-					<div class="controls">
-						<textarea name="ads" rows="3"><?=$site['ads'];?></textarea>
-						<span class="help-inline"></span>
-					</div>
-				</div>
+				<?=$this->renderPartial('/sites/ad-edit-tpl', $site);?>
 			</div>
 			<p>
 				<button id="site_save_btn" class="btn btn-large btn-primary" type="submit">保存</button>

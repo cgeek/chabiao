@@ -94,6 +94,12 @@ class SitesController extends Controller
 	{
 		$id = intval($_GET['id']) > 0 ? intval($_GET['id']) : 0;
 		$site_db = Site::model()->findByPk($id)->attributes;
+		if(!empty($site_db) && !empty($site_db['ad'])) {
+			$site_db['ad'] = json_decode($site_db['ad'], true);
+		}
+		if(!empty($site_db) && !empty($site_db['column_keywords'])) {
+			$site_db['column_keywords'] = json_decode($site_db['column_keywords'], true);
+		}
 		$this->_data['site'] = $site_db;
 		//debug_json($this->_data);
 		$this->render('edit', $this->_data);
@@ -108,12 +114,18 @@ class SitesController extends Controller
 				die();
 			}
 		}
-		$field_array = array('name', 'domain', 'title', 'keywords', 'logo', 'description', 'footer_html', 'links');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		$data = array();
 		foreach($field_array as $field) {
 			if(isset($_POST[$field])) {
-				$data[$field] = trim($_POST[$field]);
+				$data[$field] = $_POST[$field];
 			}
+		}
+		if(!empty($data['ad'])) {
+			$data['ad'] = json_encode($data['ad']);
+		}
+		if(!empty($data['column_keywords'])) {
+			$data['column_keywords'] = json_encode($data['column_keywords']);
 		}
 		$site_id = trim($_POST['id']);
 		if(empty($site_id)) {
@@ -125,7 +137,7 @@ class SitesController extends Controller
 
 	private function _save_add_site($data)
 	{
-		$field_array = array('name', 'domain', 'title', 'keywords', 'logo', 'description', 'footer_html', 'links');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		$new_site = new Site;
 		foreach($field_array as $field) {
 			if(isset($data[$field])) {
@@ -149,7 +161,7 @@ class SitesController extends Controller
 	{
 		$site_db = Site::model()->findByPk($site_id);
 
-		$field_array = array('name', 'domain', 'title', 'keywords', 'logo', 'description', 'footer_html', 'links');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		foreach($field_array as $field) {
 			if(isset($data[$field])) {
 				$site_db->$field = $data[$field];

@@ -10,8 +10,11 @@
  * @property string $logo
  * @property string $title
  * @property string $keywords
+ * @property string $column_keywords
  * @property string $description
+ * @property string $seo_keyword
  * @property string $footer_html
+ * @property string $ad
  * @property string $links
  * @property integer $ctime
  * @property integer $mtime
@@ -48,10 +51,10 @@ class Site extends CActiveRecord
 			array('domain, logo, title', 'required'),
 			array('ctime, mtime, status', 'numerical', 'integerOnly'=>true),
 			array('domain, name, logo, title', 'length', 'max'=>255),
-			array('keywords, description, footer_html, links', 'safe'),
+			array('keywords, column_keywords, description, seo_keyword, footer_html, ad, links', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, domain, name, logo, title, keywords, description, footer_html, links, ctime, mtime, status', 'safe', 'on'=>'search'),
+			array('id, domain, name, logo, title, keywords, column_keywords, description, seo_keyword, footer_html, ad, links, ctime, mtime, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -78,8 +81,11 @@ class Site extends CActiveRecord
 			'logo' => 'Logo',
 			'title' => 'Title',
 			'keywords' => 'Keywords',
+			'column_keywords' => 'Column Keywords',
 			'description' => 'Description',
+			'seo_keyword' => 'Seo Keyword',
 			'footer_html' => 'Footer Html',
+			'ad' => 'Ad',
 			'links' => 'Links',
 			'ctime' => 'Ctime',
 			'mtime' => 'Mtime',
@@ -104,8 +110,11 @@ class Site extends CActiveRecord
 		$criteria->compare('logo',$this->logo,true);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('keywords',$this->keywords,true);
+		$criteria->compare('column_keywords',$this->column_keywords,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('seo_keyword',$this->seo_keyword,true);
 		$criteria->compare('footer_html',$this->footer_html,true);
+		$criteria->compare('ad',$this->ad,true);
 		$criteria->compare('links',$this->links,true);
 		$criteria->compare('ctime',$this->ctime);
 		$criteria->compare('mtime',$this->mtime);

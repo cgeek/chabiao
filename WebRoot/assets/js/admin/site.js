@@ -97,6 +97,7 @@ define(function(require, exports, module){
 			})
 
 			_self.uploadLogo();
+			_self.uploadAds();
 			_self.remove_site();
 		},
 		remove_site: function() {
@@ -174,6 +175,64 @@ define(function(require, exports, module){
 					}
 				}
 			});
+		},
+
+		uploadAds: function() {
+			var select_dom;
+			//拖动上传图片
+			$('.dropzone').filedrop({
+				paramname:'file',
+				maxfiles: 5,
+				maxfilesize: 2,
+				url: '/image/uploadMulti',
+				uploadFinished:function(i,file,response) {
+	
+				},
+				error: function(err, file) {
+					switch(err) {
+						case 'BrowserNotSupported':
+							alert('你的浏览器不支持，请换成Chrome浏览器或者Safari浏览器');
+							break;
+						case 'TooManyFiles':
+							alert('你选择太多文件了');
+							break;
+						case 'FileTooLarge':
+							alert(file.name + '文件太大了！！');
+							break;
+						case 'FileTypeNotAllowed':
+							alert(file.name + '文件类型不允许');
+							break;
+						default:
+							break;
+					}
+				},
+				allowedfiletypes: ['image/jpg','image/png','image/gif', 'image/jpeg'],
+				maxfiles: 5,
+				maxfilesize: 5,
+				dragOver: function() {
+					select_dom = $(this);
+					$(this).css({'border-color':'#fb3'});
+				},
+				dresponsragLeave: function() {
+					select_dom.css('border-color','#ccc');
+				},
+				uploadStarted: function(i, file, len){
+					select_dom.find('.dropzone-tips').html('真正上传');
+				},
+				globalProgressUpdated: function(progress) {
+					select_dom.find('.dropzone-tips').html('已上传' + progress+"%");
+				},
+				uploadFinished: function(i, file, response, time) {
+					if(response && response.success == true) {
+						var image_url = response.data.image.image_path;
+						select_dom.find('input').val(image_url);
+						select_dom.find('.preview').html('<img src=\"'+ image_url + '\" >');
+						select_dom.find('.dropzone-tips').remove();
+						select_dom.css('border-color','#ccc');
+					}
+				}
+			});
 		}
+
 	};
 });
