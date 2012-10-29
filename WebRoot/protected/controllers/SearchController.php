@@ -16,7 +16,7 @@ class SearchController extends Controller
 
 		_generateQueryString();
 		$search_begin = microtime(true);
-		$docs = search()->setSort('ptime')->setLimit(20, 0)->search(); 
+		$docs = search()->setSort('mtime')->setLimit(20, 0)->search(); 
 		$search_cost = microtime(true) - $search_begin;
 
 		$count = search()->getLastCount();
@@ -33,7 +33,7 @@ class SearchController extends Controller
 				'title' => $title,
 				'desc' => $desc,
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d',$doc->ctime)
+				'mtime' => date('Y-m-d', strtotime($doc->mtime)),
 			);
 			$post_list[] = $post;
 		}

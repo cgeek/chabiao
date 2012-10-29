@@ -24,8 +24,8 @@ class InfoController extends Controller
 			$keywords = implode(" OR ", $arr);
 			search()->setQuery("$keywords");
 		}
-		search()->addRange('category', $config['category_id'] , $config['category_id']);
-		search()->setSort('ptime');
+		search()->addRange('category_id', $config['category_id'] , $config['category_id']);
+		search()->setSort('mtime');
 
 		$docs = search()->setLimit($config['limit'], 0)->search(); 
 		$count = search()->getLastCount();
@@ -40,7 +40,7 @@ class InfoController extends Controller
 				'id' => $doc->id,
 				'title' => cut_str($title, 40),
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d', strtotime($doc->ptime))
+				'mtime' => date('Y-m-d', strtotime($doc->mtime))
 			);
 			$list[] = $post;
 		}
@@ -71,13 +71,13 @@ class InfoController extends Controller
 		$post_list = array();
 
 		$type_array = array(
-			'zhaobiao' => array('name'=>'招标信息','category_id'=>'1', 'keywords'=>''),
-			'nizaijian' => array('name'=>'拟在建项目','category_id'=>'2', 'keywords'=>''),
-			'zhongbiao' => array('name'=>'中标公告','category_id'=>'3', 'keywords'=>''),
-			'qiugou' => array('name'=>'求购信息','category_id'=>'5', 'keywords'=>''),
-			'gongying' => array('name'=>'供应信息','category_id'=>'5', 'keywords'=>''),
-			'fagui' => array('name'=>'法规中心','category_id'=>'11', 'keywords'=>''),
-			'dongtai' => array('name'=>'行业动态','category_id'=>'7', 'keywords'=>''),
+			'zhaobiao' => array('name'=>'招标信息','category_id'=>'1'),
+			'nizaijian' => array('name'=>'拟在建项目','category_id'=>'2'),
+			'zhongbiao' => array('name'=>'中标公告','category_id'=>'3'),
+			'qiugou' => array('name'=>'求购信息','category_id'=>'4'),
+			'gongying' => array('name'=>'供应信息','category_id'=>'5'),
+			'fagui' => array('name'=>'法规中心','category_id'=>'11'),
+			'dongtai' => array('name'=>'行业动态','category_id'=>'7'),
 		);
 
 		$current_category = $type_array[$type];
@@ -97,8 +97,8 @@ class InfoController extends Controller
 			search()->setQuery("$keywords");
 		}
 
-		search()->addRange('category', $current_category['category_id'] , $current_category['category_id']);
-		search()->setSort('ptime');
+		search()->addRange('category_id', $current_category['category_id'] , $current_category['category_id']);
+		search()->setSort('mtime');
 
 		$pageSize = 20;
 		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
@@ -119,7 +119,7 @@ class InfoController extends Controller
 				'title' => cut_str($title, 40),
 				'desc' => $desc,
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d', strtotime($doc->ptime))
+				'mtime' => date('Y-m-d', strtotime($doc->mtime))
 			);
 			$post_list[] = $post;
 		}

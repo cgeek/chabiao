@@ -44,9 +44,9 @@
 <DIV class="g-w-990 g-mlr-a">
 	<DIV class="g-mh-20">
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
-			<div style="width:220px;float:left;">
+			<div style="width:220px;height:80px;float:left;">
 				<A class="g-f-l" title="<?=$this->site_info['name'];?>(www.unionbidding.com)" href="/">
-				<IMG width=200 id="topLogo" src="<?=$this->site_info['logo']; ?>">
+				<IMG width=200px id="topLogo" src="<?=$this->site_info['logo']; ?>">
 				</A>
 			</div>
 			<DIV class=g-search>

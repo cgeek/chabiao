@@ -16,7 +16,7 @@
 								<tr height="26">
 									<td width="10"></td>
 									<td class="g-h-28 g-lh-28 g-fz-14 g-list-dot">【<?=!empty($post['area'])? $post['area']: '全国';?>】<a href="/info/<?=$post['id'];?>.html" target="_blank" title="<?=$post['title'];?>" alt="<?=$post['title'];?>"> <?=$post['title'];?></a></td>
-									<td width="75"><?=$post['ctime'];?></td>
+									<td width="75"><?=$post['mtime'];?></td>
 								</tr>
 							<?php endforeach;?>
 							</tbody>

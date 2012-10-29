@@ -105,7 +105,7 @@ function filterHtml($str)
 function getCategorys()
 {
 	$category_array = array(
-		'1'=> '招标项目',
+		'1'=> '招标公告',
 		'2'=> '拟在建项目',
 		'3'=> '中标公告',
 		'4'=> '供应信息',
@@ -178,7 +178,7 @@ function _generateQueryString($keyword = '')
 
 		if($param['cat'] > 0) //分类区间
 		{
-			search()->addRange('category', $param['cat'] ,$param['cat']);
+			search()->addRange('category_id', $param['cat'] ,$param['cat']);
 		}
 		if(!empty($param['area'])) //分类区间
 		{

@@ -74,10 +74,10 @@ $this->breadcrumbs=array(
 			<tr>
 				<th><?=$post['id'];?></th>
 				<th><?=cut_str($post['title'], 20);?></th>
-				<th><?=date('Y-m-d',strtotime($post['ptime']));?></th>
+				<th><?=date('m-d h:i',strtotime($post['mtime']));?></th>
 				<th><?=getCategoryName($post['category']);?></th>
 				<th><?=getAccessName($post['access']);?></th>
-				<th><?=$post['user']['user_name'];?></th>
+				<th><?=($post['user_id'] == 0) ? '采集器': $post['user']['user_name'];?></th>
 				<th><?php if($post['status'] == 1 ):?>
 					审核通过
 					<?php else:?>

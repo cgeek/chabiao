@@ -10,6 +10,7 @@ class PostController extends Controller
 	{
 		$this->actionList();
 	}
+
 	public function actionList()
 	{
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
@@ -64,21 +65,20 @@ class PostController extends Controller
 
 	public function actionAdd()
 	{
-
 		$this->render('edit');
 	}
 
 	public function actionSave()
 	{
 		$data = array();
-		$data['title'] = htmlspecialchars(trim($_POST['title']));
-		$data['content'] = htmlspecialchars(trim($_POST['content']));
+		$data['title'] = $_POST['title'];
+		$data['content'] = $_POST['content'];
 		$data['category'] = $_POST['category'];
 		$data['area'] = $_POST['area'];
 		$data['access'] = $_POST['access'];
 		$data['ptime'] = $_POST['ptime'];
 		$data['status'] = $_POST['status'];
-		$data['keywords'] = htmlspecialchars(trim($_POST['keywords']));
+		$data['keywords'] = $_POST['keywords'];
 
 		$post_id = $_POST['post_id'];
 		if(isset($post_id) && $post_id > 0) {
@@ -90,6 +90,11 @@ class PostController extends Controller
 
 	private function _save_add($data)
 	{
+		$title_md5 = md5($data['title']);
+		$post_db = Post::model()->find("source_md5=:source_md5", array(':source_md5' => $title_md5));
+		if(!empty($post_db)) {
+			$this->ajax_response(false, '已经添加过,不能重复添加');
+		}
 		$new_post = new Post;
 		$new_post->title = $data['title'];
 		$new_post->content = $data['content'];
@@ -103,16 +108,22 @@ class PostController extends Controller
 		$new_post->user_id = user()->id;
 
 		$new_post->ctime = time();
-		$new_post->mtime = time();
+		$new_post->mtime = date('Y-m-d h:i:s', time());
 
-		$new_post->source_md5 = md5($data['title']);
+		$new_post->source_md5 = $title_md5;
 		if($new_post->save()) {
+			$post_id = Yii::app()->db->getLastInsertId();
+			$this->_data['post_id'] = $post_id;
+			if($data['status'] == 1) {
+				$this->_update_index($post_id, $data);
+			}
 			$this->ajax_response(true,'',$this->_data);
 		} else {
 			//var_dump($new_post->getErrors());
 			$this->ajax_response(false,'添加失败',$this->_data);
 		}
 	}
+
 
 	private function _save_edit($post_id, $data)
 	{
@@ -122,8 +133,26 @@ class PostController extends Controller
 		
 		Post::model()->updateByPk($post_id, $data);
 		$this->_data['post_id'] = $post_id;
-
+		
+		$this->_update_index($post_id, $data);
+		
 		$this->ajax_response(true,'',$this->_data);
+	}
+
+	public function _update_index($post_id, $data) 
+	{
+		$x_data = array(
+			'id' => $post_id,
+			'category_id' => $data['category'],
+			'area' => $data['area'],
+			'keywords' => $data['keywords'],
+			'title' => $data['title'],
+			'content' => $data['content'],
+			'mtime' => date('YYYYmmdd', strtotime($data['mtime'])),
+			'status' => $data['status']
+		);
+
+		search()->update($x_data);
 	}
 
 	public function actionDelete($post_id)
