@@ -8,6 +8,7 @@
 							<?php else:?>
 								<span class="dropzone-tips">
 									拖动替换广告 960 X 100 
+									AD-Banner
 								</span>
 							<?php endif;?>
 							</div>
@@ -23,7 +24,7 @@
 									<img src="<?=$ad['ad-1'];?>">
 								<?php else:?>
 									<span class="dropzone-tips">
-										拖动替换 670 X 75
+									AD-1,ad_show
 									</span>
 								<?php endif;?>
 								</div>
@@ -41,6 +42,7 @@
 							<?php else:?>
 								<span class="dropzone-tips">
 									拖动替换 670 X 75
+									AD-2
 								</span>
 							<?php endif;?>
 							</div>

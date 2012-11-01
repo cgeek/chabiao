@@ -1,5 +1,5 @@
 <div class="main user_page clearfix">
-	<?php $this->renderPartial('aside');?>
+	<?php $this->renderPartial('user/aside');?>
 	<div class="main_body page-account" style="min-height:400px;">
 		<h1 class="title">修改关键词</h1>
 		<div class="change_user_info">

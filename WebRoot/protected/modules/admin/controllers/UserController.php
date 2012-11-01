@@ -7,7 +7,7 @@ class UserController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	private $_data = null;
-	public $layout = '/layouts/column2';
+	public $layout = '/layouts/column1';
 	/**
 	 * @return array action filters
 	 */
@@ -72,6 +72,13 @@ class UserController extends Controller
 			$user_id = $user['user_id'];
 			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
 			if(!empty($userMeta)) {
+				if($userMeta['reg_reason'] == 0) {
+					$userMeta['reg_reason'] = '免费浏览';
+				} else if($userMeta['reg_reason'] == 1) {
+					$userMeta['reg_reason'] = '咨询入网';
+				} else if($userMeta['reg_reason'] == 2) {
+					$userMeta['reg_reason'] = '要成为付费会员';
+				}
 				$user = array_merge($user, $userMeta);
 			}
 			$user_list[] = $user;

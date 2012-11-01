@@ -25,7 +25,7 @@
 					</div>
 				</fieldset>
 				<div class="submit_btn">
-					<button type="submit" class="login_btn">登录</button>
+					<button type="submit" class="btn login_btn">登录</button>
 				</div>
 			</form>
 		</div>

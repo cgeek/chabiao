@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'user_meta':
  * @property integer $user_id
  * @property string $contact_name
+ * @property string $position
  * @property string $mobile
  * @property string $fax
  * @property string $qq
@@ -49,11 +50,11 @@ class UserMeta extends CActiveRecord
 			array('user_id', 'required'),
 			array('user_id', 'numerical', 'integerOnly'=>true),
 			array('contact_name, mobile, fax, qq', 'length', 'max'=>64),
-			array('company_name, website, reg_reason, source', 'length', 'max'=>255),
+			array('position, company_name, website, reg_reason, source', 'length', 'max'=>255),
 			array('address, products, company_desc, keywords', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('user_id, contact_name, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source, keywords', 'safe', 'on'=>'search'),
+			array('user_id, contact_name, position, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source, keywords', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,6 +77,7 @@ class UserMeta extends CActiveRecord
 		return array(
 			'user_id' => 'User',
 			'contact_name' => 'Contact Name',
+			'position' => 'Position',
 			'mobile' => 'Mobile',
 			'fax' => 'Fax',
 			'qq' => 'Qq',
@@ -103,6 +105,7 @@ class UserMeta extends CActiveRecord
 
 		$criteria->compare('user_id',$this->user_id);
 		$criteria->compare('contact_name',$this->contact_name,true);
+		$criteria->compare('position',$this->position,true);
 		$criteria->compare('mobile',$this->mobile,true);
 		$criteria->compare('fax',$this->fax,true);
 		$criteria->compare('qq',$this->qq,true);

@@ -154,7 +154,17 @@ function getAccessName($access_id)
 	}	
 }
 
-
+function ad_show($data, $position , $width, $type = 'image') {
+	if(!isset($data[$position]) || empty($width)) {
+		return false;
+	}
+	//$target = $this->site_info['ad'][$position]['target'];
+	//$src = $this->site_info['ad'][$position]['src'];
+	$target = "#";
+	$src = $data[$position];
+	$str = "<a href=\"$target\" target=\"_blank\"><img src=\"$src\" width=\"$width\"></a>";
+	return $str;
+}
 
 //========search ========
 function _generateQueryString($keyword = '')

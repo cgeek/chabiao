@@ -54,9 +54,9 @@
 		<thead>
 			<tr>
 				<th>文章标题</th>
-				<th>地区</th>
-				<th>栏目</th>
-				<th>发布时间</th>
+				<th style="width:50px;">地区</th>
+				<th style="width:65px;">栏目</th>
+				<th style="width:65px;">发布时间</th>
 			</tr>
 		</thead>
 		<tbody>

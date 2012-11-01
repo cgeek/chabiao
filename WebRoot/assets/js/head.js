@@ -1,9 +1,9 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
-	require('plugins')($);
+	//require('plugins')($);
 	require('bootstrap')($);
 	//IE678 placeholder
-	$('input[placeholder], textarea[placeholder]').placeholder();
+	//$('input[placeholder], textarea[placeholder]').placeholder();
 
 	$('.carousel').carousel({
 		  interval: 2000

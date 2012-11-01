@@ -1,5 +1,5 @@
 <div class="main user_page clearfix">
-	<?php $this->renderPartial('aside');?>
+	<?php $this->renderPartial('user/aside');?>
 	<div class="main_body page-account" style="min-height:400px;">
 		<h1 class="title">修改密码</h1>
 		<div class="change_user_info">
@@ -22,7 +22,7 @@
 					<dl>
 						<dt for="fax">新密码:</dt>
 						<dd>
-							<input type="password" size=30 id="new_password" name="new_password" value="">
+							<input type="password" size=30 id="password" name="password" value="">
 							<span class="help-inline"></span>
 						</dd>
 					</dl>

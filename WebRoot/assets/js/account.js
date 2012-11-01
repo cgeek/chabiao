@@ -21,6 +21,7 @@ define(function(require, exports, module){
 						cookie.set('login_email', $form.find('input[name=email]').val(), {
 							expires: 3650 
 						});
+						alert('恭喜你注册成功！');
 						window.location.href = '/user/home';
 					} else {
 						_self.loadingElement.hideLoading();
@@ -106,6 +107,12 @@ define(function(require, exports, module){
 						minlength: 6,
 						maxlength: 32
 					},
+					check_password: {
+						required:true,
+						minlength: 6,
+						maxlength:32,
+						equalTo: '#password'
+					},
 					contact_name: {required:true},
 					mobile: {required:true},
 					company_name: {required:true},
@@ -137,6 +144,12 @@ define(function(require, exports, module){
 						required:"请填写密码",
 						minlength:$.format("密码最少 {0} 位"),
 						maxlength:$.format("用户名最多 {0} 位")
+					},
+					check_password: {
+						required:"请填写密码",
+						minlength:$.format("密码最少 {0} 位"),
+						maxlength:$.format("用户名最多 {0} 位"),
+						equalTo: "两次输入密码不一致不一致"
 					}
 				}
 			});
@@ -146,7 +159,7 @@ define(function(require, exports, module){
 			_self.validate();
 			
 			var last_login_email = cookie.get('login_email');
-			if (last_login_email != '') {      
+			if (last_login_email != '' && last_login_email != 'undefined') {      
 				$('input[name=email]').val(last_login_email);
 			}
 

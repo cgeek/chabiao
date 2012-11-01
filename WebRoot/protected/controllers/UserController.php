@@ -74,12 +74,12 @@ class UserController extends Controller
 				'id' => $doc->id,
 				'title' => $title,
 				'desc' => $desc,
+				'category' => $doc->category_id,
 				'area' => $doc->area,
 				'ctime' => date('Y-m-d',$doc->ctime)
 			);
 			$post_list[] = $post;
 		}
-
 		//分页
 		$this->_data['count'] = $count;
 		$this->_data['dbTotal'] = $dbTotal;
@@ -98,7 +98,7 @@ class UserController extends Controller
 		if(Yii::app()->request->isAjaxRequest) {
 
 		} else {
-			$this->render('password');
+			$this->render('/user/password');
 		}
 	}
 
@@ -124,13 +124,13 @@ class UserController extends Controller
 			$user_meta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>$id))->attributes;
 	
 			$this->_data['user_meta'] = $user_meta;
-			$this->render('info', $this->_data);
+			$this->render('user/info', $this->_data);
 		}
 	}
 	
 	public function actionPub()
 	{
-		$this->render('pub');
+		$this->render('user/pub');
 	}
 
 	public function actionKeywords()
@@ -146,7 +146,7 @@ class UserController extends Controller
 			$id = user()->id;
 			$user_meta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>$id))->attributes;
 			$this->_data['keywords'] = $user_meta['keywords'];
-			$this->render('keywords', $this->_data);
+			$this->render('user/keywords', $this->_data);
 		}
 	}
 
@@ -277,6 +277,8 @@ class UserController extends Controller
 			$user_meta['address'] = $_POST['address'];
 			$user_meta['products'] = $_POST['products'];
 			$user_meta['website'] = $_POST['website'];
+			$user_meta['reg_reason'] = $_POST['reg_reason'];
+			$user_meta['source'] = $_SERVER['HTTP_HOST'];
 
 			if($user_model->save()) {
 				$user_meta['user_id'] = Yii::app()->db->getLastInsertId();
@@ -292,7 +294,7 @@ class UserController extends Controller
 				$this->ajax_response(false, "注册失败，请重新注册");
 			}
 		} else {
-			$this->render('register');
+			$this->render('user/register');
 		}
 	}
 
