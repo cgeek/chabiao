@@ -300,10 +300,15 @@
     </div>
     <div class="g-cf">
       <div class="g-w-670 g-f-l g-mh-20">
-        <div class="g-ad-670-70"><a href="/common/asinfostat.aspx?url=http%3a%2f%2fwww.icef.com.cn%2fsummer%2f&amp;code=G0130&amp;asinfoid=1165" target="_blank"><img border="0" name="g_AsImageG0130_name" src="/images/ads/20120418095620933I24VZ6.gif" width="668" height="68"> </a></div>
+		<div class="g-ad-670-70">
+			<?=ad_show($this->site_info['ad'], 'ad-3', '668px');?>
+		</div>
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
-        <div class="g-ad-310-70"><a href="/common/asinfostat.aspx?url=http%3a%2f%2fwww.hqew.com%2ftopic%2fcaigou%2findex.html&amp;code=G0131&amp;asinfoid=4527" target="_blank"><img border="0" name="g_AsImageG0131_name" src="/images/ads/20120611094614790H2LU99.gif" width="308" height="68"> </a></div>
+		
+		<div class="g-ad-310-70">
+			<?=ad_show($this->site_info['ad'], 'ad-4', '308px');?>
+			</div>
       </div>
     </div>
     <div class="g-cf">
