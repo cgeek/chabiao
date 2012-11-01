@@ -53,7 +53,7 @@
 						</div>
 					</div>
 					<div class="w310">
-						<div class="box" style="height:180px;"></div>
+						<div class="box" style="height:200px;"></div>
 						<div class="box-ad dropzone" id="ad-2">
 							<input type="hidden" name="ad[ad-2]" value="<?=$ad['ad-2'];?>">
 							<div class="preview">
