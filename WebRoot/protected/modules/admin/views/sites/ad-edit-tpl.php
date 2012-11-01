@@ -34,15 +34,15 @@
 							<div class="box" style="height:100px;"></div>
 							<div class="box" style="height:310px;"></div>
 						</div>
-						<div class="ad-center-1 dropzone" id="ad-2">
-							<input type="hidden" name="ad[ad-2]" value="<?=$ad['ad-2'];?>">
+						<div class="ad-center-1 dropzone" id="ad-3">
+							<input type="hidden" name="ad[ad-3]" value="<?=$ad['ad-3'];?>">
 							<div class="preview">
-							<?php if(isset($ad) && !empty($ad['ad-2'])):?>
-								<img src="<?=$ad['ad-2'];?>">
+							<?php if(isset($ad) && !empty($ad['ad-3'])):?>
+								<img src="<?=$ad['ad-3'];?>">
 							<?php else:?>
 								<span class="dropzone-tips">
 									拖动替换 670 X 75
-									AD-2
+									AD-3
 								</span>
 							<?php endif;?>
 							</div>
@@ -53,15 +53,28 @@
 						</div>
 					</div>
 					<div class="w310">
-						<div class="box" style="height:420px;"></div>
-						<div class="box-ad dropzone" id="ad-5">
-							<input type="hidden" name="ad[ad-3]" value="<?=$ad['ad-3'];?>">
+						<div class="box" style="height:180px;"></div>
+						<div class="box-ad dropzone" id="ad-2">
+							<input type="hidden" name="ad[ad-2]" value="<?=$ad['ad-2'];?>">
 							<div class="preview">
-							<?php if(isset($ad) && !empty($ad['ad-3'])):?>
+							<?php if(isset($ad) && !empty($ad['ad-2'])):?>
 								<img src="<?=$ad['ad-2'];?>">
 							<?php else:?>
 								<span class="dropzone-tips">
-									拖动替换 670 X 75
+									拖动替换 308 X 72
+								</span>
+							<?php endif;?>
+							</div>
+						</div>
+						<div class="box" style="height:120px;"></div>
+						<div class="box-ad dropzone" id="ad-4">
+							<input type="hidden" name="ad[ad-4]" value="<?=$ad['ad-4'];?>">
+							<div class="preview">
+							<?php if(isset($ad) && !empty($ad['ad-4'])):?>
+								<img src="<?=$ad['ad-4'];?>">
+							<?php else:?>
+								<span class="dropzone-tips">
+									拖动替换 308 X 68 
 								</span>
 							<?php endif;?>
 							</div>
