@@ -252,7 +252,7 @@
         </div>
         
 		<div class="g-ad-310-74">
-			<?=ad_show($this->site_info['ad'], 'ad-2', '218px');?>
+			<?=ad_show($this->site_info['ad'], 'ad-2', '310px');?>
 		</div>
 		<div class="g-box-g activity">
           <div class="bar"><a class="g-bi-n" href="/activity/show.html" target="_blank">更多</a>
