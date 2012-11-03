@@ -153,6 +153,7 @@
 		</div>
 	</div>
 <?php endif;?>
+<?=$this->site_info['tongji_script'];?>
 </div>
 </body>
 </html>

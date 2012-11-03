@@ -24,10 +24,8 @@ $this->breadcrumbs=array(
 					<th>客户名称</th>
 					<th>客户职位</th>
 					<th>电话/手机</th>
-					<th>在线QQ/MSN</th>
 					<th>公司名称</th>
 					<th>客户邮箱</th>
-					<th>主营产品</th>
 					<th>注册目地</th>
 					<th>来源</th>
 					<th>最后登录</th>
@@ -43,10 +41,8 @@ $this->breadcrumbs=array(
 					<th><?=cut_str($user['contact_name'], 30);?></th>
 					<th><?=cut_str($user['position'], 30);?></th>
 					<th><?=$user['mobile'];?></th>
-					<th><?=$user['qq'];?></th>
 					<th><?=$user['company_name'];?></th>
 					<th><?=$user['email'];?></th>
-					<th><?=$user['products'];?></th>
 					<th><?=$user['reg_reason'];?> &nbsp;</th>
 					<th><?=$user['source'];?> &nbsp;</th>
 					<th><?=$user['last_login_time'];?></th>
