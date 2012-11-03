@@ -89,17 +89,17 @@ $this->breadcrumbs=array(
 	<?php endforeach;?>
 		</tbody>
 	</table>
-
-	<div id="pager">  
+	<div class="pagination pagination-small">  
 <?php
 $this->widget('CLinkPager',array(  
 	'header'=>'', 
+	'cssFile' => false,
 	'firstPageLabel' => '首页',  
 	'lastPageLabel' => '末页',  
 	'prevPageLabel' => '上一页',  
 	'nextPageLabel' => '下一页',  
 	'pages' => $pages,  
-	'maxButtonCount'=>13 
+	'maxButtonCount'=>10 
 ));  
 ?>  
 	</div>  

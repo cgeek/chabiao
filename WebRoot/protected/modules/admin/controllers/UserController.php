@@ -53,14 +53,13 @@ class UserController extends Controller
 	{
 
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
-		$pageSize = 10;
-		$offset = ($p - 1) * $per_page;
+		$pageSize = 20;
+		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
 		if(isset($_GET['keyword']) && !empty($_GET['keyword'])) {
 			$criteria->addSearchCondition('user_name', $_GET['keyword']);
 		}
-
 		$criteria->order = ' `ctime` DESC,`user_id` DESC';
 		$criteria->limit = $limit;
 		$criteria->offset = $offset;
@@ -85,6 +84,8 @@ class UserController extends Controller
 		}
 		
 		$pager = new CPagination($count);
+		$pager->pageVar = 'p';
+		$pager->route =  '/admin/user';
 		$pager->pageSize = $pageSize;
 		$pager->applyLimit($criteria);
 		

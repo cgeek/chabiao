@@ -40,9 +40,15 @@ class SearchController extends Controller
 
 		//分页
 		$criteria=new CDbCriteria;
+		$criteria->limit = $pageSize;
+		$criteria->offset = $offset;
+
 		$pages=new CPagination($count);
 		$pages->pageSize= $pageSize;
+		$pages->pageVar = 'page';
+		$pages->route = '/search/index';
 		$pages->applyLimit($criteria);
+
 		$this->_data['pages'] = $pages;
 
 		$this->_data['count'] = $count;

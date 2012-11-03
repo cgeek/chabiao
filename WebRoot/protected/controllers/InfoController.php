@@ -125,6 +125,8 @@ class InfoController extends Controller
 		}
 		//分页
 		$criteria=new CDbCriteria;
+		$criteria->offset = $offset;
+		$criteria->limit = $pageSize;
 		$pages=new CPagination($count);
 		$pages->pageSize= $pageSize;
 		$pages->applyLimit($criteria);
