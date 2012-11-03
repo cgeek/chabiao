@@ -12,8 +12,11 @@
  * @property string $keywords
  * @property string $column_keywords
  * @property string $description
+ * @property string $seo_title
+ * @property string $head_meta
  * @property string $seo_keyword
  * @property string $footer_html
+ * @property string $tongji_script
  * @property string $ad
  * @property string $links
  * @property integer $ctime
@@ -50,11 +53,11 @@ class Site extends CActiveRecord
 		return array(
 			array('domain, logo, title', 'required'),
 			array('ctime, mtime, status', 'numerical', 'integerOnly'=>true),
-			array('domain, name, logo, title', 'length', 'max'=>255),
-			array('keywords, column_keywords, description, seo_keyword, footer_html, ad, links', 'safe'),
+			array('domain, name, logo, title, seo_title', 'length', 'max'=>255),
+			array('keywords, column_keywords, description, head_meta, seo_keyword, footer_html, tongji_script, ad, links', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, domain, name, logo, title, keywords, column_keywords, description, seo_keyword, footer_html, ad, links, ctime, mtime, status', 'safe', 'on'=>'search'),
+			array('id, domain, name, logo, title, keywords, column_keywords, description, seo_title, head_meta, seo_keyword, footer_html, tongji_script, ad, links, ctime, mtime, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -83,8 +86,11 @@ class Site extends CActiveRecord
 			'keywords' => 'Keywords',
 			'column_keywords' => 'Column Keywords',
 			'description' => 'Description',
+			'seo_title' => 'Seo Title',
+			'head_meta' => 'Head Meta',
 			'seo_keyword' => 'Seo Keyword',
 			'footer_html' => 'Footer Html',
+			'tongji_script' => 'Tongji Script',
 			'ad' => 'Ad',
 			'links' => 'Links',
 			'ctime' => 'Ctime',
@@ -112,8 +118,11 @@ class Site extends CActiveRecord
 		$criteria->compare('keywords',$this->keywords,true);
 		$criteria->compare('column_keywords',$this->column_keywords,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('seo_title',$this->seo_title,true);
+		$criteria->compare('head_meta',$this->head_meta,true);
 		$criteria->compare('seo_keyword',$this->seo_keyword,true);
 		$criteria->compare('footer_html',$this->footer_html,true);
+		$criteria->compare('tongji_script',$this->tongji_script,true);
 		$criteria->compare('ad',$this->ad,true);
 		$criteria->compare('links',$this->links,true);
 		$criteria->compare('ctime',$this->ctime);

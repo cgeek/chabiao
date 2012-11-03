@@ -66,9 +66,23 @@
 					</div>
 				</div>
 				<div class="control-group">
+					<label class="control-label" for="head_meta">自定义头部meta信息：</label>
+					<div class="controls">
+						<textarea name="head_meta" rows="2" class="input-xlarge" placeholder="<meta *****=****>"><?=$site['head_meta'];?></textarea>
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="tongji_script">流量统计代码：</label>
+					<div class="controls">
+						<textarea name="tongji_script" rows="3" class="input-xxlarge" placeholder="如百度统计的统计代码"><?=$site['tongji_script'];?></textarea>
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
 					<label class="control-label" for="footer_html">底部footer：</label>
 					<div class="controls">
-						<textarea name="footer_html" rows="5"></textarea>
+						<textarea name="footer_html" rows="5" class="input-xxlarge"><?=$site['footer_html'];?></textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -87,9 +101,16 @@
 			</div>
 			<div class="tab-pane" id="seo">
 				<div class="control-group">
+					<label class="control-label" for="inputWarning">SEO Title：</label>
+					<div class="controls">
+						<input type="text" class="input-xxlarge" name="seo_title" rows="3" value="<?=$site['seo_title'];?>" >
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
 					<label class="control-label" for="inputWarning">SEO keyword：</label>
 					<div class="controls">
-						<textarea name="description" rows="3" style="width:80%;height:50px;"><?=$site['seo_keyword'];?></textarea>
+						<textarea name="seo_keyword" rows="3" style="width:80%;height:50px;"><?=$site['seo_keyword'];?></textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>

@@ -73,8 +73,8 @@ $this->breadcrumbs=array(
 	<?php foreach($post_list as $post):?>
 			<tr>
 				<th><?=$post['id'];?></th>
-				<th><?=cut_str($post['title'], 20);?></th>
-				<th><?=date('m-d h:i',strtotime($post['mtime']));?></th>
+				<th><a href="/info/<?=$post['post_id'];?>"><?=cut_str($post['title'], 30);?></a></th>
+				<th><?=date('Y-m-d h:i',strtotime($post['mtime']));?></th>
 				<th><?=getCategoryName($post['category']);?></th>
 				<th><?=getAccessName($post['access']);?></th>
 				<th><?=($post['user_id'] == 0) ? '采集器': $post['user']['user_name'];?></th>
@@ -84,7 +84,7 @@ $this->breadcrumbs=array(
 					 <a href="javascript:void(0);" class="red">未审核</a>
 					<?php endif;?>
 				</th>
-				<th><a href="/admin/post/edit?id=<?=$post['id'];?>">编辑</a> | <a href="javascript:void(0);">删除</a></th>
+					<th><a href="/admin/post/edit?id=<?=$post['id'];?>">编辑</a> | <a href="javascript:void(0);">删除</a> | <a href="/info/<?=$post['post_id'];?>" target="_blank">查看</a></th>
 			</tr>
 	<?php endforeach;?>
 		</tbody>

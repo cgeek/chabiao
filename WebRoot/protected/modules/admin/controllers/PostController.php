@@ -4,7 +4,7 @@ class PostController extends Controller
 {
 	private $_data;
 
-	public $layout = '/layouts/column2';
+	public $layout = '/layouts/column1';
 
 	public function actionIndex()
 	{

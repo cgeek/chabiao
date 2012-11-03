@@ -8,7 +8,7 @@ class SitesController extends Controller
 	 */
 	private $_data = null;
 
-	public $layout = '/layouts/column2';
+	public $layout = '/layouts/column1';
 	/**
 	 * @return array action filters
 	 */
@@ -114,7 +114,7 @@ class SitesController extends Controller
 				die();
 			}
 		}
-		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'head_meta', 'tongji_script', 'seo_title', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		$data = array();
 		foreach($field_array as $field) {
 			if(isset($_POST[$field])) {
@@ -137,7 +137,7 @@ class SitesController extends Controller
 
 	private function _save_add_site($data)
 	{
-		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'head_meta', 'tongji_script', 'seo_title', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		$new_site = new Site;
 		foreach($field_array as $field) {
 			if(isset($data[$field])) {
@@ -162,6 +162,7 @@ class SitesController extends Controller
 		$site_db = Site::model()->findByPk($site_id);
 
 		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
+		$field_array = array('name', 'domain', 'title', 'keywords', 'column_keywords', 'logo', 'head_meta', 'tongji_script', 'seo_title', 'seo_keyword', 'description', 'footer_html', 'links', 'ad');
 		foreach($field_array as $field) {
 			if(isset($data[$field])) {
 				$site_db->$field = $data[$field];

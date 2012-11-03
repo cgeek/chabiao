@@ -41,31 +41,14 @@
           <span class="icon-bar">
           </span>
         </a>
-        <a class="brand" href="#">
-        联合招标网管理后台
-        </a>
+        <a class="brand" href="#">联合招标网管理后台</a>
         <div class="nav-collapse">
           <ul class="nav">
-            <li>
-              <a href="/admin">
-              	首页 
-              </a>
-            </li>
-            <li>
-              <a href="/admin/user">
-                用户管理
-              </a>
-            </li>
-            <li>
-              <a href="/admin/post">
-               	内容管理 
-              </a>
-            </li>
-            <li>
-              <a href="/admin/sites">
-              	站群管理	
-              </a>
-            </li>
+            <li><a href="/admin">管理首页</a></li>
+            <li><a href="/admin/user">用户管理</a></li>
+            <li><a href="/admin/post">内容管理</a></li>
+            <li><a href="/admin/sites">站群管理</a></li>
+            <li><a target="_blank" href="/">网站首页</a></li>
           </ul>
         </div>
         <form class="navbar-form pull-right">

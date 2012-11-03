@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 <head>
-	<title><?=$this->site_info['title'];?>-招标|招标网|招标信息|招标公告|投标|招标采购|中国权威招标采购信息门户网站</title>
+	<title><?=$this->site_info['title'];?>  <?=$this->site_info['seo_title'];?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="zh" />
-	<meta name="description" content="<?=$this->site_info['name'];?>致力于为企业提供招标、采购、拟在建项目信息及网上招标采购等一系列商务服务。<?=$this->site_info['name'];?>是中国招标采购领域的权威资讯和交易网站，为各级政府采购、招标代理机构、招标企业、供应商提供强大的专业招标采购信息查询和相关服务。" />
-	<meta name="keywords" content="招标,招标网,招标信息,招标采购,工程招标,政府采购,拟在建项目,招标文件,招标公告,求购信息,行业动态,商机,标讯,销售,标书,电子商务,产品,企业,服务,供应,求购,二手,投标" />
-
+	<?=$this->site_info['head_meta'];?>
+	<meta name="description" content="<?=$this->site_info['description'];?>" />
+	<meta name="keywords" content="<?=$this->site_info['seo_keyword'];?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/global.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/base.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css" />
@@ -45,8 +45,8 @@
 	<DIV class="g-mh-20">
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
 			<div style="width:220px;height:80px;float:left;">
-				<A class="g-f-l" title="<?=$this->site_info['name'];?>(www.unionbidding.com)" href="/">
-				<IMG width=200px id="topLogo" src="<?=$this->site_info['logo']; ?>">
+				<A class="g-f-l" title="<?=$this->site_info['name'];?>" href="/">
+					<IMG width=200px height="75px" id="topLogo" src="http://www.unionbidding.com<?=$this->site_info['logo']; ?>">
 				</A>
 			</div>
 			<DIV class=g-search>
@@ -63,8 +63,6 @@
 							<INPUT hideFocus id=search_submit type=submit style="overflow:hidden;"> 
 						</LI>
 					</UL>
-					<INPUT id=search_type value=1 type=hidden>
-					<INPUT id=select_type type=hidden>
 				</form>
 			</DIV>
 			<div class="gaoji"><a href="">高级搜索</a><br/><a href="">使用帮助</a></div>
@@ -100,17 +98,7 @@
 <DIV class="g-w-990 g-mlr-a clearfix">
 		<a href="#" id="return_top" class="back_to_top" style="">回到顶部</a>
 	<!-- footer -->
-<?php if(isset($this->site_info) && !empty($this->site_info['footer_html'])):?>
-	<?=$this->site_info['footer_html'];?>
-<?php else:?>
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 
-		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
-			<a href="/plus/view.php?aid=10302" target="_blank">关于我们</a> 
-			| <a href="/plus/view.php?aid=10303" target="_blank">联系我们</a> 
-			| <a href="/plus/view.php?aid=10305" target="_blank">供应商入网办法</a> 
-			| <a style="cursor:hand" onClick="this.style.behavior='url(#default#homepage)'; this.setHomePage('www.unionbidding.com');" style="color:#000; font-weight:normal;">设为首页</a> 
-			| <a style="cursor:hand"  onclick="window.external.AddFavorite(location.href,document.title);" style="color:#000;font-weight:normal;">加入收藏</a> 
-		</div>
 		<div style="width:950px;">
 			<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
 				<tr>
@@ -148,6 +136,14 @@
 					<td width="9%" align="left" valign="middle"><span><a href="http://www.itrust.org.cn" target=_blank>中国互联网协会网络诚信推进联盟</a></span> </td>
 				</tr>
 			</table>
+		</div>
+<?php if(isset($this->site_info) && !empty($this->site_info['footer_html'])):?>
+	<?=$this->site_info['footer_html'];?>
+<?php else:?>
+		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
+			<a href="/plus/view.php?aid=10302" target="_blank">关于我们</a> 
+			| <a href="/plus/view.php?aid=10303" target="_blank">联系我们</a> 
+			| <a href="/plus/view.php?aid=10305" target="_blank">供应商入网办法</a> 
 		</div>
 		<div style="line-height:22px;margin-top:10px;">Copyright &copy; 2009-2012 (www.unionbidding.com) Inc All Rights Reserved. [中网高科·中国<?=$this->site_info['name'];?>] 版权所有 <br/>
 				禁止任何单位和个人以任何方式复制或建立镜像 建议使用IE浏览器 1024×768模式浏览本网站<br/>

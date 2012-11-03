@@ -47,10 +47,6 @@
 							<?php endif;?>
 							</div>
 						</div>
-						<div class="w220">
-							<div class="box w220" style="height:300px;"></div>
-							<div class="ad-left-1"></div>
-						</div>
 					</div>
 					<div class="w310">
 						<div class="box" style="height:200px;"></div>
