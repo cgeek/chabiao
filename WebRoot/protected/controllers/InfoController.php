@@ -129,8 +129,11 @@ class InfoController extends Controller
 		$criteria=new CDbCriteria;
 		$criteria->offset = $offset;
 		$criteria->limit = $pageSize;
+
 		$pages=new CPagination($count);
 		$pages->pageSize= $pageSize;
+		$pages->pageVar = 'page';
+		$pages->route = '/info/' . $type;
 		$pages->applyLimit($criteria);
 		$this->_data['pages'] = $pages;
 

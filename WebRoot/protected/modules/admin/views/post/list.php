@@ -73,7 +73,7 @@ $this->breadcrumbs=array(
 	<?php foreach($post_list as $post):?>
 			<tr>
 				<th><?=$post['id'];?></th>
-				<th><a href="/info/<?=$post['id'];?>"><?=cut_str($post['title'], 30);?></a></th>
+				<th><a target="_blank" href="/info/<?=$post['id'];?>"><?=cut_str($post['title'], 30);?></a></th>
 				<th><?=date('Y-m-d h:i',strtotime($post['mtime']));?></th>
 				<th><?=getCategoryName($post['category']);?></th>
 				<th><?=getAccessName($post['access']);?></th>

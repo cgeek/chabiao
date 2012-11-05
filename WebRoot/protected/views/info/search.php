@@ -11,8 +11,8 @@
 						<dt>范围：</dt>
 						<dd>
 							<select name="f">
-								<option value="all" <?=($_GET['f'] == 'all') ? 'selected' :'';?>>按全文搜索</option>
-								<option value="title" <?=($_GET['f'] == 'title') ? 'selected' :'';?>>按标题搜索</option>
+								<option value="all" <?=(isset($_GET['f']) && $_GET['f'] == 'all') ? 'selected' :'';?>>按全文搜索</option>
+								<option value="title" <?=( isset($_GET['f']) && $_GET['f'] == 'title') ? 'selected' :'';?>>按标题搜索</option>
 							</select>
 						</dd>
 					</dl>
@@ -20,19 +20,20 @@
 						<dt>栏目：</dt>
 						<dd>
 							<select name="cat">
-								<option value="1" <?=($_GET['cat'] == 1) ? 'selected' :'';?>>招标信息</option>
-								<option value="2" <?=($_GET['cat'] == 2) ? 'selected' :'';?>>拟在建项目</option>
-								<option value="3" <?=($_GET['cat'] == 3) ? 'selected' :'';?>>中标公示</option>
-								<option value="4" <?=($_GET['cat'] == 4) ? 'selected' :'';?>>求购信息</option>
-								<option value="5" <?=($_GET['cat'] == 5) ? 'selected' :'';?>>供应信息</option>
+								<option value="1" <?=(isset($_GET['cat']) && $_GET['cat'] == 1) ? 'selected' :'';?>>招标信息</option>
+								<option value="2" <?=(isset($_GET['cat']) && $_GET['cat'] == 2) ? 'selected' :'';?>>拟在建项目</option>
+								<option value="3" <?=(isset($_GET['cat']) && $_GET['cat'] == 3) ? 'selected' :'';?>>中标公示</option>
+								<option value="4" <?=(isset($_GET['cat']) && $_GET['cat'] == 4) ? 'selected' :'';?>>求购信息</option>
+								<option value="5" <?=(isset($_GET['cat']) && $_GET['cat'] == 5) ? 'selected' :'';?>>供应信息</option>
 							</select>
 						</dd>
 						<dt>地区：</dt>
 						<dd>
 							<select name="area">
 								<option value="">全国</option>
-								<option value="浙江" <?=($_GET['area'] == '浙江') ? 'selected' :'';?>>浙江</option>
-								<option value="江苏" <?=($_GET['area'] == '江苏') ? 'selected' :'';?>>江苏</option>
+<?php foreach(getProvinces() as $area):?>
+								<option value="<?=$area;?>" <?=(isset($_GET['area']) && $_GET['area'] == $area) ? 'selected' :'';?>><?=$area;?></option>
+<?php endforeach;?>
 							</select>
 						</dd>
 						<dt>按时间段：</dt>
