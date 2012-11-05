@@ -77,15 +77,15 @@
 		</DIV>
 		<DIV class="g-p-r g-menu ">
 			<UL class=g-cf>
-				<LI class="first cur fcur"><A class=g-c-66 href="/">首页<?=$current_nav;?></A><B></B> </LI>
-				<LI class="<?=($current_nav == 'zhaobiao') ? 'cur':'';?>"><A class=g-c-66 href="/info/zhaobiao">招标信息 </A><B></B> </LI>
-				<LI class="<?=($current_nav == 'nizaijian') ? 'cur':'';?>"><A class=g-c-66 href="/info/nizaijian">拟在建项目</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'zhongbiao') ? 'cur':'';?>"><A class=g-c-66 href="/info/zhongbiao">中标公示</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'qiugou') ? 'cur':'';?>"><A class=g-c-66 href="/info/qiugou">求购信息</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'gongying') ? 'cur':'';?>"><A class=g-c-66 href="/info/gongying">供应信息</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'dongtai') ? 'cur':'';?>"><A class=g-c-66 href="/info/dongtai">行业动态</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'fagui') ? 'cur':'';?>"><A class=g-c-66 href="/info/fagui">法规中心</A><B></B> </LI>
-				<LI class="<?=($current_nav == 'zhaobiao') ? 'cur':'';?>"><A class=g-c-66 href="/page/services"   target=_blank>客服中心</A><B></B> </LI>
+				<LI class="first cur fcur"><A class=g-c-66 href="/">首页<?=$this->current_nav;?></A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'zhaobiao') ? 'cur':'';?>"><A class=g-c-66 href="/info/zhaobiao">招标信息 </A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'nizaijian') ? 'cur':'';?>"><A class=g-c-66 href="/info/nizaijian">拟在建项目</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'zhongbiao') ? 'cur':'';?>"><A class=g-c-66 href="/info/zhongbiao">中标公示</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'qiugou') ? 'cur':'';?>"><A class=g-c-66 href="/info/qiugou">求购信息</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'gongying') ? 'cur':'';?>"><A class=g-c-66 href="/info/gongying">供应信息</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'dongtai') ? 'cur':'';?>"><A class=g-c-66 href="/info/dongtai">行业动态</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'fagui') ? 'cur':'';?>"><A class=g-c-66 href="/info/fagui">法规中心</A><B></B> </LI>
+				<LI class="<?=($this->current_nav == 'zhaobiao') ? 'cur':'';?>"><A class=g-c-66 href="/page/services"   target=_blank>客服中心</A><B></B> </LI>
 				<LI class=g-drop> 全国免费咨询:<span style="font-family:microsoft yahei;">4006-333-959</span></LI>
 				<LI class=last></LI>
 			</UL>

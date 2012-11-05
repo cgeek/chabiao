@@ -24,6 +24,8 @@ class Controller extends CController
 
 	public $site_info = array();
 
+	public $current_nav;
+
 	public function ajax_response($success=true,$message="",$data = array())
 	{
 		$result['success'] = $success;
