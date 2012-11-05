@@ -52,8 +52,11 @@ class InfoController extends Controller
 		if(empty($id) || $id <= 0) {
 			throw new CHttpException(404,'The specified post cannot be found.');
 		}
-
 		$post = Post::model()->findByPk($id);
+		if(empty($post)) {
+			 header('HTTP/1.1 301 Moved Permanently');   
+			 header('Location: '. Yii::app()->request->hostInfo);
+		}
 		$post['content'] = preg_replace("/(<div([^>]*)>)|(<\/div>)/isU","",$post['content']);
 		$post['content'] = preg_replace("/class=['\"]*([^'\"]*)['\"]*/is","",$post['content']);
 		$this->_data['info'] = $post;

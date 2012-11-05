@@ -1,12 +1,22 @@
-<IfModule mod_rewrite.c>  
-  Options +FollowSymLinks  
-  IndexIgnore */*  
-  RewriteEngine on  
-    
-    # if a directory or a file exists, use it directly  
-  RewriteCond %{REQUEST_FILENAME} !-f  
-  RewriteCond %{REQUEST_FILENAME} !-d  
-  
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  IndexIgnore */*
+  RewriteEngine on
+
+  RewriteCond %{QUERY_STRING} ^aid=(\d+)$
+  RewriteRule ^plus/view.php$ /info/%1? [L,R=301]
+
+  RewriteCond %{QUERY_STRING} ^tid=(\d+)$
+  RewriteRule ^plus/list.php$ /info/zhaobiao? [L,R=301]
+
+  # if a directory or a file exists, use it directly  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
   # otherwise forward it to index.php  
-  RewriteRule . index.php  
+  RewriteRule . index.php
+
+
+  RewriteCond %{HTTP_HOST} ^yycgw.org? [NC]
+  RewriteRule ^(.*) http://www.yycgw.org/$1 [R=301,L]
+
 </IfModule>
