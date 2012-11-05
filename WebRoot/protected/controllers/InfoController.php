@@ -98,7 +98,7 @@ class InfoController extends Controller
 		}
 
 		search()->addRange('category', $current_category['category'] , $current_category['category']);
-		search()->setSort('mtime');
+		search()->setSort('ctime');
 
 		$pageSize = 20;
 		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
@@ -119,7 +119,7 @@ class InfoController extends Controller
 				'title' => cut_str($title, 40),
 				'desc' => $desc,
 				'area' => $doc->area,
-				'mtime' => date('Y-m-d', strtotime($doc->mtime))
+				'mtime' => date('Y-m-d', strtotime($doc->ctime))
 			);
 			$post_list[] = $post;
 		}

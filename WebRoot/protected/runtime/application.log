@@ -2859,3 +2859,12 @@ HTTP_REFERER=http://www.chabiao.com/
 2012/11/05 09:59:09 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(2167): Failed to recv the data from server completely (SIZE:0/8, REASON:closed)
 REQUEST_URI=/
 ---
+2012/11/05 10:02:18 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
+REQUEST_URI=/
+---
+2012/11/05 10:02:20 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
+REQUEST_URI=/
+---
+2012/11/05 10:03:56 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
+REQUEST_URI=/
+---
