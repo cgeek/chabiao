@@ -6,30 +6,29 @@
 		<div class="span4">
 			<div>
 				<h3>信息统计</h3>
-				<p>今日添加信息:<span>1000</span>条</p>
-				<p>待审核数据:<span>1000</span>条</p>
+				<p>今日采集信息:<span class="badge badge-warning"><?=$post_spider_count;?></span>条</p>
+				<p>今日用户添加信息:<span class="badge badge-important"><?=$post_user_count;?></span>条</p>
+				<p>信息总条数:<span class="badge"><?=$post_total_count;?></span>条</p>
 			</div>
-	        <a class="btn" href="/admin/post">查看列表»</a>
+	        <a class="btn  btn-success" href="/admin/post">查看列表»</a>
 		</div>
 		<div class="span4">
 			<div>
 				<h3>用户统计</h3>
 				<p>
-					今日新增用户数:<span>1</span>人
+					今日新增用户数:<span class="badge badge-important"><?=$user_increase_count;?></span>人
 				</p>
 				<p>
-					总共用户数:<span>100</span>人
+					总共用户数:<span class="badge"><?=$user_total_count;?></span>人
 				</p>
 			</div>
-	        <a class="btn" href="/admin/user">查看列表»</a>
+	        <a class="btn btn-warning" href="/admin/user">查看列表»</a>
 		</div>
 		<div class="span4">
 			<div>
 				<h3>流量统计</h3>
-				<p>今日访问UV:<span>1000</span>人</p>
-				<p>今日访问PV:<span>1000</span>人</p>
 			</div>
-	        <a class="btn" href="#">查看列表»</a>
+	        <a class="btn btn-info" target="_blank" href="http://tongji.baidu.com/web/5683082/overview/multi?siteId=2057434">查看百度统计»</a>
 		</div>
 	</div>
 </div>
