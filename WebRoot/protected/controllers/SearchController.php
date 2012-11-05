@@ -47,9 +47,9 @@ class SearchController extends Controller
 		$pages->pageVar = 'page';
 		$pages->route = '/search/index';
 		$pages->applyLimit($criteria);
-
 		$this->_data['pages'] = $pages;
 
+		$this->_data['current_category'] = array('name'=>'全部信息', 'category'=>'');
 		$this->_data['count'] = $count;
 		$this->_data['dbTotal'] = $dbTotal;
 		$this->_data['search_cost'] = $search_cost;
