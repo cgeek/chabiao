@@ -1,5 +1,12 @@
 <?php
-
+// www 301 redirect
+$host = $_SERVER['HTTP_HOST'];
+$request_uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';  
+if(!strstr($host,'www.'))
+{   
+	header('HTTP/1.1 301 Moved Permanently');//发出301头部   
+	header("Location: http://www.$host"."/$request_uri");//跳转到你希望的地址格式   
+}  
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
