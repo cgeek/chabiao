@@ -13,7 +13,6 @@ class SearchController extends Controller
 		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
 		$offset = ($page - 1) * $pageSize;
 
-
 		_generateQueryString();
 		$search_begin = microtime(true);
 		$docs = search()->setSort('ctime')->setLimit($pageSize, $offset)->search(); 
@@ -33,7 +32,7 @@ class SearchController extends Controller
 				'title' => $title,
 				'desc' => $desc,
 				'area' => $doc->area,
-				'mtime' => date('Y-m-d', strtotime($doc->ctime)),
+				'ctime' => date('Y-m-d', strtotime($doc->ctime)),
 			);
 			$post_list[] = $post;
 		}
@@ -58,12 +57,6 @@ class SearchController extends Controller
 		$this->_data['keyword'] = $keyword;
 		$this->_data['relatedkey'] = search()->getRelatedQuery();
 		$this->render('/info/search', $this->_data);
-	}
-
-
-	public function actionAjax()
-	{
-
 	}
 
 }
