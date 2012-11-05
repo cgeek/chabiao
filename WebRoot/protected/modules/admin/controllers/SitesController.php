@@ -54,7 +54,7 @@ class SitesController extends Controller
 	{
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 		$pageSize = 10;
-		$offset = ($p - 1) * $per_page;
+		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
 		$criteria->addCondition("status='0'");
