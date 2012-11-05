@@ -2868,3 +2868,9 @@ REQUEST_URI=/
 2012/11/05 10:03:56 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
 REQUEST_URI=/
 ---
+2012/11/05 10:13:50 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
+REQUEST_URI=/
+---
+2012/11/05 10:13:52 [error] [exception.XSException] [XSException] ../../../xunsearch/sdk/php/lib/XS.php(729): Not exists field with name: `ctime'
+REQUEST_URI=/
+---

@@ -73,12 +73,12 @@ class ApiController extends Controller
 	{
 		$x_data = array(
 			'id' => $post_id,
-			'category_id' => $data['category'],
+			'category' => $data['category'],
 			'area' => $data['area'],
 			'keywords' => $data['keywords'],
 			'title' => $data['title'],
 			'content' => $data['content'],
-			'mtime' => time(),
+			'ctime' => time(),
 			'status' => $data['status']
 		);
 		search()->update($x_data);
