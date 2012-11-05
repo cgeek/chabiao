@@ -57,6 +57,11 @@ class InfoController extends Controller
 		$post['content'] = preg_replace("/(<div([^>]*)>)|(<\/div>)/isU","",$post['content']);
 		$post['content'] = preg_replace("/class=['\"]*([^'\"]*)['\"]*/is","",$post['content']);
 		$this->_data['info'] = $post;
+		$current_category = array(
+			'category' => $post['category'],
+			'name'    => getCategoryName($post['category'])
+		);
+		$this->_data['current_category'] = $current_category;
 		$this->render('/info/view', $this->_data);
 	}
 
@@ -87,9 +92,6 @@ class InfoController extends Controller
 		$keywords = '';
 		if(!empty($this->site_info['keywords'])) {
 			$keywords = $this->site_info['keywords'];
-		}
-		if(!empty($current_category['keywords'])) {
-			$keywords = $keywords . " $current_category[keywords]";
 		}
 		if(!empty($keywords)) {
 			$arr = explode(',', $keywords);
