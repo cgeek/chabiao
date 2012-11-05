@@ -25,7 +25,7 @@ class InfoController extends Controller
 			search()->setQuery("$keywords");
 		}
 		search()->addRange('category', $config['category'] , $config['category']);
-		search()->setSort('mtime');
+		search()->setSort('ctime');
 
 		$docs = search()->setLimit($config['limit'], 0)->search(); 
 		$count = search()->getLastCount();
@@ -40,7 +40,7 @@ class InfoController extends Controller
 				'id' => $doc->id,
 				'title' => cut_str($title, 40),
 				'area' => $doc->area,
-				'mtime' => date('Y-m-d', strtotime($doc->mtime))
+				'mtime' => date('Y-m-d', strtotime($doc->ctime))
 			);
 			$list[] = $post;
 		}
