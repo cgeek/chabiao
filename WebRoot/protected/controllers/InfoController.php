@@ -40,7 +40,7 @@ class InfoController extends Controller
 				'id' => $doc->id,
 				'title' => cut_str($title, 40),
 				'area' => $doc->area,
-				'mtime' => date('Y-m-d', strtotime($doc->ctime))
+				'ctime' => date('Y-m-d', strtotime($doc->ctime))
 			);
 			$list[] = $post;
 		}

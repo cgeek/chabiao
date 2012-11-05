@@ -56,7 +56,7 @@
 				<form id=search_form action="/search/" method="GET" >
 					<UL class=g-cf>
 						<LI class="g-f-l g-p-r text">
-							<INPUT style="WIDTH: 380px" id=search_keywords class="g-f-l " placeholder="请输入您要查询的关键字..." name="keyword" maxLength=30 value="<?=$_GET['keyword'];?>">
+							<INPUT style="WIDTH: 380px" id=search_keywords class="g-f-l " placeholder="请输入您要查询的关键字..." name="keyword" maxLength=30 value="<?=isset($_GET['keyword']) ? $_GET['keyword']:'';?>">
 							<DIV id=search_tip class="g-notice g-d-n">请输入您要查询的关键字...<I></I></DIV>
 						</LI>
 						<LI class="g-f-l submit">
