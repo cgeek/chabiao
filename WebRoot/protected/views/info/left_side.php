@@ -5,7 +5,7 @@
 			</div>
 			<div style="padding:10px;">
 				<form name="form2" method="get" action="/search/" target="_blank">
-					<input type="hidden" name="cat" value="<?=$current_category['category_id'];?>">
+					<input type="hidden" name="cat" value="<?=$current_category['category'];?>">
 					<input name="keyword" type="text" id="search-keyword" value="" size="26" class="search-keyword" style="width:90px; height:16px ">
 					<select name="area" style="width:60px">
 						<option value="">全国</option>
