@@ -93,6 +93,6 @@
 			</div>
 
 			<!--导入右边栏 -->
-			<?php $this->renderPartial('/info/left_side');?>
+			<?php $this->renderPartial('/info/left_side', array('current_category' => $current_category));?>
 		</div>
 	</div>
