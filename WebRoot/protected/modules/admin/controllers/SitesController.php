@@ -76,6 +76,8 @@ class SitesController extends Controller
 			$domain_list[] = $domain;
 		}
 		$pager = new CPagination($count);
+		$pager->pageVar = 'p';
+		$pager->route =  '/admin/post';
 		$pager->pageSize = $pageSize;
 		$pager->applyLimit($criteria);
 		
