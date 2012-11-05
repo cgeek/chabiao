@@ -15,8 +15,8 @@ class PostController extends Controller
 	{
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 
-		$pageSize = 20;
-		$offset = ($p - 1) * $per_page;
+		$pageSize = 15;
+		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
 		if(!empty($_GET['category']) && ($_GET['category'] > 0)) {

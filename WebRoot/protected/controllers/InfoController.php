@@ -9,9 +9,9 @@ class InfoController extends Controller
 
 		$keywords = $this->site_info['keywords'];
 		//首页栏目1
-		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category_id'=>1, 'keywords'=>"$keywords", 'limit'=>20));
-		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category_id'=>3, 'keywords'=>"$keywords", 'limit'=>15));
-		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category_id'=>2, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category'=>1, 'keywords'=>"$keywords", 'limit'=>20));
+		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category'=>3, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category'=>2, 'keywords'=>"$keywords", 'limit'=>15));
 
 		//debug_json($this->_data);
 		$this->render('/info/index', $this->_data);
@@ -24,7 +24,7 @@ class InfoController extends Controller
 			$keywords = implode(" OR ", $arr);
 			search()->setQuery("$keywords");
 		}
-		search()->addRange('category_id', $config['category_id'] , $config['category_id']);
+		search()->addRange('category', $config['category'] , $config['category']);
 		search()->setSort('mtime');
 
 		$docs = search()->setLimit($config['limit'], 0)->search(); 
@@ -71,13 +71,13 @@ class InfoController extends Controller
 		$post_list = array();
 
 		$type_array = array(
-			'zhaobiao' => array('name'=>'招标信息','category_id'=>'1'),
-			'nizaijian' => array('name'=>'拟在建项目','category_id'=>'2'),
-			'zhongbiao' => array('name'=>'中标公告','category_id'=>'3'),
-			'qiugou' => array('name'=>'求购信息','category_id'=>'4'),
-			'gongying' => array('name'=>'供应信息','category_id'=>'5'),
-			'fagui' => array('name'=>'法规中心','category_id'=>'11'),
-			'dongtai' => array('name'=>'行业动态','category_id'=>'7'),
+			'zhaobiao' => array('name'=>'招标信息','category'=>'1'),
+			'nizaijian' => array('name'=>'拟在建项目','category'=>'2'),
+			'zhongbiao' => array('name'=>'中标公告','category'=>'3'),
+			'qiugou' => array('name'=>'求购信息','category'=>'4'),
+			'gongying' => array('name'=>'供应信息','category'=>'5'),
+			'fagui' => array('name'=>'法规中心','category'=>'11'),
+			'dongtai' => array('name'=>'行业动态','category'=>'7'),
 		);
 
 		$current_category = $type_array[$type];
@@ -97,7 +97,7 @@ class InfoController extends Controller
 			search()->setQuery("$keywords");
 		}
 
-		search()->addRange('category_id', $current_category['category_id'] , $current_category['category_id']);
+		search()->addRange('category', $current_category['category'] , $current_category['category']);
 		search()->setSort('mtime');
 
 		$pageSize = 20;

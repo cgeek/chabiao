@@ -117,12 +117,12 @@ function getCategorys()
 }
 
 //根据栏目id获取栏目名称
-function getCategoryName($category_id)
+function getCategoryName($category)
 {
 	$category_array = getCategorys();
-	if(isset($category_array[$category_id]))
+	if(isset($category_array[$category]))
 	{
-		return $category_array[$category_id];
+		return $category_array[$category];
 	} else {
 		return NULL;
 	}
@@ -188,7 +188,7 @@ function _generateQueryString($keyword = '')
 
 		if($param['cat'] > 0) //分类区间
 		{
-			search()->addRange('category_id', $param['cat'] ,$param['cat']);
+			search()->addRange('category', $param['cat'] ,$param['cat']);
 		}
 		if(!empty($param['area'])) //分类区间
 		{
