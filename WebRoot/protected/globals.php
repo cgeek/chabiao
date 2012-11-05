@@ -169,13 +169,17 @@ function ad_show($data, $position , $width, $type = 'image') {
 //========search ========
 function _generateQueryString($keyword = '')
 {
-	$param = $_GET;
+	$param = array();
+	$accepted_key = array('keyword', 'f', 'cat', 'area', 'st');
+	foreach($accepted_key as $key) {
+		$param[$key] = isset($_GET[$key]) ? $_GET[$key] : '';
+	}
 	if(!empty($keyword) && !isset($_GET['keyword'])) {
 		$param['keyword'] = $keyword;
 	}
 	if($param) {
 		$query = $param['keyword'] ? $param['keyword'] : '';
-		$param['f'] = $param['f'] ? $param['f'] : 'all';
+		$param['f'] = !empty($param['f']) ? $param['f'] : 'all';
 		if($param['f'] == 'title')  //是否为标题搜索
 		{
 			$sk = 'title:'.$query;
