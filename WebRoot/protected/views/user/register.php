@@ -43,6 +43,13 @@
 						</dd>
 					</dl>
 					<dl>
+						<dt for="position">职位<span class="red">*</span>:</dt>
+						<dd>
+							<input type="text" size=30 id="position" name="position" value="" placeholder="如：经理，普通员工">
+							<span class="help-inline"></span>
+						</dd>
+					</dl>
+					<dl>
 						<dt for="mobile">电话/手机<span class="red">*</span>:</dt>
 						<dd>
 							<input type="text" size=30 id="mobile" name="mobile" value="">

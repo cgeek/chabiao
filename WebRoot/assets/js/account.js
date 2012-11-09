@@ -18,9 +18,6 @@ define(function(require, exports, module){
 				dataType:'json',
 				success:function(data){
 					if (data.success == true) {
-						cookie.set('login_email', $form.find('input[name=email]').val(), {
-							expires: 3650 
-						});
 						alert('恭喜你注册成功！');
 						window.location.href = '/user/home';
 					} else {
@@ -56,9 +53,6 @@ define(function(require, exports, module){
 				dataType:'json',
 				success:function(data){
 					if (data.success == true) {
-						cookie.set('login_email', $form.find('input[name=email]').val(), {
-							expires: 3650 
-						});
 						window.location.href = '/user/home';
 					} else {
 						_self.loadingElement.hideLoading();

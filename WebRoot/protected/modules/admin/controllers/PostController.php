@@ -39,7 +39,11 @@ class PostController extends Controller
 		$post_list = array();
 		foreach($data as $post) {
 			$post_arr = $post->attributes;
-			$user = User::model()->findByPk($post_arr['user_id'])->attributes;
+			if(!empty($post_arr['user_id'])) {
+				$user = User::model()->findByPk($post_arr['user_id'])->attributes;
+			}  else {
+				$user = array();
+			}
 			$post_arr['user'] = $user;
 			$post_list[] = $post_arr;
 		}
