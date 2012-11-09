@@ -52,7 +52,7 @@ class SitesController extends Controller
 
 	public function actionList()
 	{
-		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
+		$p = isset($_GET['p']) && intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 		$pageSize = 10;
 		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;

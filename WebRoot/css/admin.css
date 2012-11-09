@@ -11,3 +11,9 @@
 .ad-setting-page #ad-2 {height:72px;}
 .ad-setting-page .box-ad {width:306px; height:70px; float:left; border:2px dashed red; margin-bottom:10px;}
 
+.item_user {cursor:pointer;}
+.reason_filter {width:100%; }
+.reason_filter span{float:left;line-height:20px;}
+.reason_filter ul{float:left;display:block; margin:0;padding:0;}
+.reason_filter ul li{list-style:none; float:left;text-align:center; padding:2px 5px;margin:0 5px;}
+.reason_filter ul li.active a{background:#b94a48;color:#fff;padding:2px 5px;}

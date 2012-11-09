@@ -2,7 +2,7 @@ define(function(require, exports, module){
 	var $ = require('jquery');
 	require('plugins')($);
 	require('filedrop')($);
-
+	Mustache = require('mustache');
 	var $form = $("#form_site");
 	
 	return {
@@ -92,11 +92,6 @@ define(function(require, exports, module){
 			_self.delete_user();
 		},
 		more_user_info : function() {
-			$('.item_user').hover(function(){
-				$(this).addClass('success');
-			}, function(){
-				$(this).removeClass('success');
-			});
 			$('body').delegate('.item_user', 'click', function(e){
 				e.preventDefault();
 				var user_id = $(this).attr('user_id');
@@ -107,6 +102,12 @@ define(function(require, exports, module){
 					dataType:'json',
 					success:function(data){
 						if (data.success == true) {
+							$('#user_more_info_modal').html(Mustache.to_html($('#user_more_info_tpl').html(), data.data));
+							$('#user_more_info_modal').modal({});
+
+							$('#user_info_tab a:first').tab('show');
+						} else {
+							alert(data.message);
 						}
 					}
 				});

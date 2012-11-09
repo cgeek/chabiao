@@ -51,7 +51,7 @@ class UserController extends Controller
 
 	public function actionList()
 	{
-		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
+		$p = isset($_GET['p']) && intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 		$pageSize = 20;
 		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
@@ -67,7 +67,7 @@ class UserController extends Controller
 				$criteria->addSearchCondition('user_name', $keyword);
 			}
 		}
-		if(isset($_GET['reg_reason']) && !empty($_GET['reg_reason'])) {
+		if(isset($_GET['reg_reason']) && $_GET['reg_reason'] != '') {
 			$criteria->addCondition("reg_reason=" . intval($_GET['reg_reason']));
 		}
 		$status = isset($_GET['status']) ? intval($_GET['status']) : 0;
@@ -139,6 +139,31 @@ class UserController extends Controller
 		}
 	}
 
+	public function actionDetail()
+	{
+		$user_id = $_POST['user_id'];
+		if(Yii::app()->request->isAjaxRequest) {
+			$user = User::model()->findByPk($user_id)->attributes;
+			if(empty($user)) {
+				$this->ajax_response(false, "用户不存在，无法删除");
+			}
+			if($user['reg_reason'] == 0) {
+				$user['reg_reason'] = '免费浏览';
+			} else if($user['reg_reason'] == 1) {
+				$user['reg_reason'] = '咨询入网';
+			} else if($user['reg_reason'] == 2) {
+				$user['reg_reason'] = '要成为付费会员';
+			}
+			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
+			if(!empty($userMeta)) {
+				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
+				$user = array_merge($user, $userMeta);
+			}
+			$this->ajax_response(true, "", $user);
+		} else {
+
+		}
+	}
 	public function actionDelete()
 	{
 		if(Yii::app()->request->isAjaxRequest) {

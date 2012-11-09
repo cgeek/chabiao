@@ -13,7 +13,7 @@ class PostController extends Controller
 
 	public function actionList()
 	{
-		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
+		$p = isset($_GET['p']) && intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 
 		$pageSize = 15;
 		$offset = ($p - 1) * $pageSize;
@@ -150,7 +150,7 @@ class PostController extends Controller
 			'keywords' => $data['keywords'],
 			'title' => $data['title'],
 			'content' => $data['content'],
-			'ctime' => date('YYYYmmdd', strtotime($data['ctime'])),
+			'ctime' => time(),
 			'status' => $data['status']
 		);
 
