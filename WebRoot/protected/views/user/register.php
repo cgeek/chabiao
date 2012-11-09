@@ -105,9 +105,9 @@
 						<dt>注册理由：</dt>
 						<dd>
 							<ul class="reason">
-								<li><input type="radio" value="2" checked=true name="reg_reason"><span>我要成为付费会员，请联系我</span></li>
+								<li><input type="radio" value="0" checked=true name="reg_reason"><span>我只想免费浏览信息</span></li>
 								<li><input type="radio" value="1" name="reg_reason"><span>我要咨询入网事宜，请人工联系我</span></li>
-								<li><input type="radio" value="0" name="reg_reason"><span>我只想免费浏览信息</span></li>
+								<li><input type="radio" value="2" name="reg_reason"><span>我要成为付费会员，请联系我</span></li>
 							</ul>
 						</dd>
 				</fieldset>

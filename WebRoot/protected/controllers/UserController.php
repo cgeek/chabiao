@@ -264,6 +264,7 @@ class UserController extends Controller
 			$user_model->email = $email;
 			$user_model->password =  md5($password);
 			$user_model->ctime = time();
+			$user_model->reg_reason = intval($_POST['reg_reason']);
 			$success = false;
 			$message = "";
 	
@@ -277,8 +278,9 @@ class UserController extends Controller
 			$user_meta['address'] = $_POST['address'];
 			$user_meta['products'] = $_POST['products'];
 			$user_meta['website'] = $_POST['website'];
-			$user_meta['reg_reason'] = $_POST['reg_reason'];
-			$user_meta['source'] = $_SERVER['HTTP_HOST'];
+			$user_meta['reg_reason'] = intval($_POST['reg_reason']);
+			$user_meta['source'] = isset($this->site_inf['domain']) ? $this->site_info['domain'] : '';
+			$user_meta['source_cn'] = isset($this->site_info['name']) ? $this->site_info['name']:'';
 
 			if($user_model->save()) {
 				$user_meta['user_id'] = Yii::app()->db->getLastInsertId();

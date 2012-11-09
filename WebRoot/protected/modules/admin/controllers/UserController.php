@@ -27,7 +27,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('signup','register','login','logout','followers','following','timeline','detail', 'index'),
+				'actions'=>array('signup','register','login','logout','detail', 'index', 'delete'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -51,15 +51,27 @@ class UserController extends Controller
 
 	public function actionList()
 	{
-
 		$p = intval($_GET['p']) > 1 ? intval($_GET['p']) : 1;
 		$pageSize = 20;
 		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
+
 		if(isset($_GET['keyword']) && !empty($_GET['keyword'])) {
-			$criteria->addSearchCondition('user_name', $_GET['keyword']);
+			$keyword = $_GET['keyword'];
+			if(is_numeric($keyword)) {
+				$criteria->addCondition("user_id=$keyword");
+			} else if(is_email($keyword)) {
+				$criteria->addCondition("email=$keyword");
+			} else {
+				$criteria->addSearchCondition('user_name', $keyword);
+			}
 		}
+		if(isset($_GET['reg_reason']) && !empty($_GET['reg_reason'])) {
+			$criteria->addCondition("reg_reason=" . intval($_GET['reg_reason']));
+		}
+		$status = isset($_GET['status']) ? intval($_GET['status']) : 0;
+		$criteria->addCondition("status=$status");
 		$criteria->order = ' `ctime` DESC,`user_id` DESC';
 		$criteria->limit = $limit;
 		$criteria->offset = $offset;
@@ -69,15 +81,16 @@ class UserController extends Controller
 		foreach($data as $user) {
 			$user = $user->attributes;
 			$user_id = $user['user_id'];
+			if($user['reg_reason'] == 0) {
+				$user['reg_reason'] = '免费浏览';
+			} else if($user['reg_reason'] == 1) {
+				$user['reg_reason'] = '咨询入网';
+			} else if($user['reg_reason'] == 2) {
+				$user['reg_reason'] = '要成为付费会员';
+			}
 			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
 			if(!empty($userMeta)) {
-				if($userMeta['reg_reason'] == 0) {
-					$userMeta['reg_reason'] = '免费浏览';
-				} else if($userMeta['reg_reason'] == 1) {
-					$userMeta['reg_reason'] = '咨询入网';
-				} else if($userMeta['reg_reason'] == 2) {
-					$userMeta['reg_reason'] = '要成为付费会员';
-				}
+				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
 				$user = array_merge($user, $userMeta);
 			}
 			$user_list[] = $user;
@@ -88,12 +101,9 @@ class UserController extends Controller
 		$pager->route =  '/admin/user';
 		$pager->pageSize = $pageSize;
 		$pager->applyLimit($criteria);
-		
 		$this->_data['user_list'] = $user_list;
 		$this->_data['pages'] = $pager;
-
 		$this->render('list', $this->_data);
-
 	}
 
 	public function actionAdd()
@@ -128,5 +138,23 @@ class UserController extends Controller
 			$this->render('register');
 		}
 	}
-	
+
+	public function actionDelete()
+	{
+		if(Yii::app()->request->isAjaxRequest) {
+			$user_id = $_POST['user_id'];
+			$user_db = User::model()->findByPk($user_id);
+			if(empty($user_db)) {
+				$this->ajax_response(false, "用户不存在，无法删除");
+			}
+			$user_db->status = "-1";
+			if($user_db->update()) {
+				$this->ajax_response(true, "删除成功!");
+			} else {
+				$this->ajax_response(false , "删除失败!");
+			}
+		} else {
+			die('删除用户页面');
+		}
+	}
 }

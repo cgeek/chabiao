@@ -67,7 +67,9 @@ function cut_str($string, $sublen, $start = 0, $code = 'UTF-8')
 		return $tmpstr;
 	}
 }
-
+function is_email ($email) {
+	    return strlen($email) > 6 && preg_match("/^[\w\-\.]+@[\w\-\.]+(\.\w+)+$/", $email);
+}
 //format time to human
 function human_time($small_ts, $large_ts=false) {
 	if(!$large_ts) $large_ts = time();

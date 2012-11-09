@@ -17,6 +17,8 @@
  * @property integer $ctime
  * @property string $mtime
  * @property string $last_login_time
+ * @property string $last_login_ip
+ * @property integer $reg_reason
  * @property integer $status
  */
 class User extends CActiveRecord
@@ -48,13 +50,13 @@ class User extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('ctime', 'required'),
-			array('msg_count, ctime, status', 'numerical', 'integerOnly'=>true),
+			array('msg_count, ctime, reg_reason, status', 'numerical', 'integerOnly'=>true),
 			array('user_name, password, gender', 'length', 'max'=>64),
-			array('email, website, location, province, description', 'length', 'max'=>255),
+			array('email, website, location, province, description, last_login_ip', 'length', 'max'=>255),
 			array('mtime, last_login_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('user_id, user_name, password, email, website, location, province, description, gender, msg_count, ctime, mtime, last_login_time, status', 'safe', 'on'=>'search'),
+			array('user_id, user_name, password, email, website, location, province, description, gender, msg_count, ctime, mtime, last_login_time, last_login_ip, reg_reason, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -88,6 +90,8 @@ class User extends CActiveRecord
 			'ctime' => 'Ctime',
 			'mtime' => 'Mtime',
 			'last_login_time' => 'Last Login Time',
+			'last_login_ip' => 'Last Login Ip',
+			'reg_reason' => 'Reg Reason',
 			'status' => 'Status',
 		);
 	}
@@ -116,6 +120,8 @@ class User extends CActiveRecord
 		$criteria->compare('ctime',$this->ctime);
 		$criteria->compare('mtime',$this->mtime,true);
 		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->compare('last_login_ip',$this->last_login_ip,true);
+		$criteria->compare('reg_reason',$this->reg_reason);
 		$criteria->compare('status',$this->status);
 
 		return new CActiveDataProvider($this, array(

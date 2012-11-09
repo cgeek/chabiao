@@ -3277,3 +3277,2402 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/admin/post/assets/ico/favicon.ico
 ---
+2012/11/09 20:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/11/09 20:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2012/11/09 20:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 20:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:39:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/cgeek/Sites/chabiao/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('delete')
+#8 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/dele...')
+#9 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/user/delete?user_id=3124
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 20:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:43:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:43:30 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE status=.
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (67)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (49)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (24)
+2012/11/09 20:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE status=' in /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(1541): CDbCommand->queryScalar()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(67): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(49): UserController->actionList()
+#4 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionIndex()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#12 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#14 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user')
+#15 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user?status=
+---
+2012/11/09 20:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:45:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2012/11/09 20:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:59:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 20:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:00:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:00:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:06:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:16:46 [error] [php] Attempt to assign property of non-object (/Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php:144)
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#1 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#4 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): UserController->runActionWithFilters()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): UserController->run()
+#8 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CWebApplication->run()
+REQUEST_URI=/admin/user/delete
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (144)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (24)
+2012/11/09 21:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:17:48 [error] [php] Attempt to assign property of non-object (/Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php:144)
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#1 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#4 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): UserController->runActionWithFilters()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): UserController->run()
+#8 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CWebApplication->run()
+REQUEST_URI=/admin/user/delete
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (144)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (24)
+2012/11/09 21:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:24:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 21:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 21:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:49:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user?reg_reason=%E6%88%91%E8%A6%81%E5%92%A8%E8%AF%A2%E5%85%A5%E7%BD%91%E4%BA%8B%E5%AE%9C%EF%BC%8C%E8%AF%B7%E4%BA%BA%E5%B7%A5%E8%81%94%E7%B3%BB%E6%88%91
+---
+2012/11/09 21:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user?reg_reason=%E6%88%91%E8%A6%81%E5%92%A8%E8%AF%A2%E5%85%A5%E7%BD%91%E4%BA%8B%E5%AE%9C%EF%BC%8C%E8%AF%B7%E4%BA%BA%E5%B7%A5%E8%81%94%E7%B3%BB%E6%88%91
+---
+2012/11/09 21:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:52:48 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reg_season' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE (reg_season=0) AND (status=0).
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (76)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (49)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (24)
+2012/11/09 21:52:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reg_season' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE (reg_season=0) AND (status=0)' in /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(1541): CDbCommand->queryScalar()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(76): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(49): UserController->actionList()
+#4 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionIndex()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#12 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#14 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user')
+#15 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user?reg_reason=%E6%88%91%E8%A6%81%E5%92%A8%E8%AF%A2%E5%85%A5%E7%BD%91%E4%BA%8B%E5%AE%9C%EF%BC%8C%E8%AF%B7%E4%BA%BA%E5%B7%A5%E8%81%94%E7%B3%BB%E6%88%91
+HTTP_REFERER=http://www.chabiao.com/admin/user?reg_reason=%E6%88%91%E8%A6%81%E6%88%90%E4%B8%BA%E4%BB%98%E8%B4%B9%E4%BC%9A%E5%91%98%EF%BC%8C%E8%AF%B7%E8%81%94%E7%B3%BB%E6%88%91
+---
+2012/11/09 21:53:07 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reg_season' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE (reg_season=0) AND (status=0).
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (76)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php (49)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (24)
+2012/11/09 21:53:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reg_season' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `user` `t` WHERE (reg_season=0) AND (status=0)' in /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(1541): CDbCommand->queryScalar()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(76): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/UserController.php(49): UserController->actionList()
+#4 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionIndex()
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#12 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#14 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user')
+#15 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/user?reg_reason=1
+---
+2012/11/09 21:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:53:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 21:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 21:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:02:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:13:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/11/09 22:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/11/09 22:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2012/11/09 22:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:20:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2012/11/09 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('detail')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('detail')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/deta...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/detail
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2012/11/09 22:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2012/11/09 22:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
