@@ -64,6 +64,9 @@ class InfoController extends Controller
 			'category' => $post['category'],
 			'name'    => getCategoryName($post['category'])
 		);
+		if(!empty($post)) {
+			$this->title = $post['title'];
+		}
 		$this->_data['current_category'] = $current_category;
 		$this->render('/info/view', $this->_data);
 	}
@@ -89,7 +92,9 @@ class InfoController extends Controller
 		);
 
 		$current_category = $type_array[$type];
-		if(empty($current_category)) {
+		if(isset($current_category) && !empty($current_category)) {
+			$this->title = $current_category['name'];
+		} else {
 			throw new CHttpException(404,'The specified post cannot be found.');
 		}
 		$keywords = '';

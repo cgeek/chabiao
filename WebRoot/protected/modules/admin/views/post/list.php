@@ -12,49 +12,37 @@ $this->breadcrumbs=array(
 		<a href="/admin/post/list?status=-1" class="btn">回收站列表</a>
 		<a href="/admin/post/add" class="btn btn-primary" >添加文章</a>
 	</p>
-<!--div class="filter_box">
+<div class="filter_box">
 	<form action="/admin/post/list" method="GET">
-	<span>筛选条件：</span>
-	<dl>
-		<dt>类目:</dt>
-		<dd>
-			<select name="category">
-				<option value="">全部</option>
+		<div class="controls controls-row">
+			<select class="span2" name="category">
+				<option value="">全部类目</option>
 				<?php foreach(getCategorys() as $key=>$category):?>
-				<option value="<?=$key;?>" <?=($key == $_GET['category']) ? 'selected' :'';?>><?=$category;?></option>
+				<option value="<?=$key;?>" <?=isset($_GET['category']) && ($key == $_GET['category']) ? 'selected' :'';?>><?=$category;?></option>
 				<?php endforeach;?>
 			</select>
-		</dd>
-		<dt>权限：</dt>
-		<dd>
-			<select name="access">
-				<option value="">全部</option>
+			<select  class="span2" class="" name="access">
+				<option value="">选择权限</option>
 				<?php foreach(getAccess() as $key=>$access):?>
-				<option value="<?=$key;?>" <?=($key == $_GET['access']) ? 'selected' :'';?>><?=$access;?></option>
+				<option value="<?=$key;?>" <?=isset($_GET['access']) && ($key == $_GET['access']) ? 'selected' :'';?>><?=$access;?></option>
 				<?php endforeach;?>
 			</select>
-		</dd>
-		<dt>地区：</dt>
-		<dd>
-			<select name="area">
-				<option value="">全部</option>
+			<select  class="span2" name="area">
+				<option value="">全部区域</option>
 				<?php foreach(getProvinces() as $province):?>
-				<option value="<?=$province;?>" <?=($province == $_GET['area']) ? 'selected' :'';?>><?=$province;?></option>
+				<option value="<?=$province;?>" <?=isset($_GET['area']) && ($province ==  $_GET['area']) ? 'selected' :'';?>><?=$province;?></option>
 				<?php endforeach;?>
 			</select>
-		</dd>
-		<dt>状态：</dt>
-		<dd>
-			<select name="status">
-				<option value="">全部</option>
-				<option value="0" <?=('0' == $_GET['status']) ? 'selected':'';?>>未审核</option>
-				<option value="1" <?=('1' == $_GET['status']) ? 'selected':'';?>>审核通过</option>
+			<select  class="span2" name="status">
+				<option value="">选择状态</option>
+				<option value="0" <?=isset($_GET['status']) && ('0' == $_GET['status']) ? 'selected':'';?>>未审核</option>
+				<option value="1" <?=isset($_GET['status']) && ('1' == $_GET['status']) ? 'selected':'';?>>审核通过</option>
 			</select>
-		</dd>
-		<button type="submit">提交</button>
-	</dl>
+			<button class="btn btn-success" type="submit">筛选</button>
+			<a class="btn " href="/admin/post/list">清除筛选条件</a>
+		</div>
 	</form>
-</div-->
+</div>
 <div class="post_list list">
 	<table class="table table-bordered ">
 		<thead>

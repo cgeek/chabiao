@@ -279,7 +279,7 @@ class UserController extends Controller
 			$user_meta['products'] = $_POST['products'];
 			$user_meta['website'] = $_POST['website'];
 			$user_meta['reg_reason'] = intval($_POST['reg_reason']);
-			$user_meta['source'] = isset($this->site_inf['domain']) ? $this->site_info['domain'] : '';
+			$user_meta['source'] = isset($this->site_info['domain']) ? $this->site_info['domain'] : '';
 			$user_meta['source_cn'] = isset($this->site_info['name']) ? $this->site_info['name']:'';
 
 			if($user_model->save()) {

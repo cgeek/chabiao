@@ -19,17 +19,17 @@ class PostController extends Controller
 		$offset = ($p - 1) * $pageSize;
 		$limit = $pageSize;
 		$criteria = new CDbCriteria;
-		if(!empty($_GET['category']) && ($_GET['category'] > 0)) {
+		if(isset($_GET['category']) && !empty($_GET['category']) && ($_GET['category'] > 0)) {
 			$criteria->addCondition("category=$_GET[category]");		
 		}
 		if(isset($_GET['access']) ) {
 			$criteria->addCondition("access=" . intval($_GET['access']));		
 		}
-		if(isset($_GET['status']) ) {
-			$criteria->addCondition("status=" .intval($_GET['status']));		
+		if(isset($_GET['status']) && $_GET['status'] != '' ) {
+			$criteria->addCondition("status=" .intval($_GET['status']));
 		}
 		if(isset($_GET['area']) && !empty($_GET['area'])) {
-			$criteria->addCondition("area='{$_GET[area]}'");		
+			$criteria->addSearchCondition('area', "{$_GET['area']}");
 		}
 		$criteria->order = ' `ctime` DESC, `id` DESC';
 		$criteria->limit = $limit;

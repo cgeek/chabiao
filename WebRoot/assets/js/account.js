@@ -152,18 +152,7 @@ define(function(require, exports, module){
 			var _self = this;
 			_self.validate();
 			
-			var last_login_email = cookie.get('login_email');
-			if (last_login_email != '' && last_login_email != 'undefined') {      
-				$('input[name=email]').val(last_login_email);
-			}
-
 			$form.find(':input[value=""]:first').select();
-			var errorFromQuery = cookie.get('loginError');
-			if (errorFromQuery) {
-				cookie.remove('loginError');
-				_self.showError(errorFromQuery);
-			}
-
 			_self.saveKeywords();
 		},
 		saveKeywords:function()

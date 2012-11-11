@@ -59,10 +59,10 @@ return array(
 		 */
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.0.0.1;dbname=chabiao',
+			'connectionString' => 'mysql:host=119.57.20.92;dbname=chabiao',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '123456',
+			'username' => 'manyou88',
+			'password' => 'miaomiao',
 			'charset' => 'utf8',
 		),
 		'search' => array(

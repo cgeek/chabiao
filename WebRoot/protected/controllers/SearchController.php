@@ -8,11 +8,14 @@ class SearchController extends Controller
 	public function actionIndex($keyword = NULL)
 	{
 		$post_list = array();
-
+		
 		$pageSize = 20;
 		$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
 		$offset = ($page - 1) * $pageSize;
 
+		if(isset($_GET['area'])) {
+			$this->title = addslashes($_GET['area']);
+		}
 		_generateQueryString();
 		$search_begin = microtime(true);
 		$docs = search()->setSort('ctime')->setLimit($pageSize, $offset)->search(); 

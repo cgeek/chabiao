@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 <head>
-	<title><?=$this->site_info['title'];?>  <?=$this->site_info['seo_title'];?></title>
+	<title><?=$this->title;?><?=$this->site_info['title'];?>  <?=$this->site_info['seo_title'];?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="zh" />
 	<?=$this->site_info['head_meta'];?>
@@ -19,9 +19,8 @@
 		<UL class="g-cf g-w-990 g-mlr-a">
 			<LI class="right"><a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.unionbidding.com');" href="#"><font  color="#666666">设为首页</font></a></LI>
 			<LI class="right"><a href="#" onClick="javascript:window.external.AddFavorite('http://www.unionbidding.com','<?=$this->site_info['name'];?>')" title="<?=$this->site_info['name'];?>"><font  color="#666666">收藏本站</font></a></LI>
-			<LI class="right en g-p-r"><A href="#">广告服务</A></LI>
-			<LI class="right en g-p-r"><A href="#">邮件订阅</A></LI>
-			<LI class="right g-bi-n"><A href="#">企业入网</A> </LI>
+			<!--LI class="right en g-p-r"><A href="#">邮件订阅</A></LI-->
+			<LI class="right g-bi-n"><A href="/page/access.html">企业入网</A> </LI>
 			<LI class="left g-c-66 en"><?=$this->site_info['name'];?>-中国权威招标与采购信息服务商 </LI>
 			<LI class="left g-drop"><A class="menu g-c-66" href="javascript:;"><b>中网高科旗下网站</b></A>
 				<DIV class="list sub g-d-n">
@@ -45,7 +44,7 @@
 	<DIV class="g-mh-20">
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
 			<div style="width:220px;height:80px;float:left;">
-				<A class="g-f-l" title="<?=$this->site_info['name'];?>" href="/">
+				<A  title="<?=$this->site_info['name'];?>" href="/">
 					<IMG width=200px height="75px" id="topLogo" src="http://www.unionbidding.com<?=$this->site_info['logo']; ?>">
 				</A>
 			</div>
@@ -141,9 +140,9 @@
 	<?=$this->site_info['footer_html'];?>
 <?php else:?>
 		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
-			<a href="/plus/view.php?aid=10302" target="_blank">关于我们</a> 
-			| <a href="/plus/view.php?aid=10303" target="_blank">联系我们</a> 
-			| <a href="/plus/view.php?aid=10305" target="_blank">供应商入网办法</a> 
+			<a href="/page/about.html" target="_blank">关于我们</a> 
+			| <a href="/page/contact.html" target="_blank">联系我们</a> 
+			| <a href="/page/access.html" target="_blank">供应商入网办法</a> 
 		</div>
 		<div style="line-height:22px;margin-top:10px;">Copyright &copy; 2009-2012 (www.unionbidding.com) Inc All Rights Reserved. [中网高科·中国<?=$this->site_info['name'];?>] 版权所有 <br/>
 				禁止任何单位和个人以任何方式复制或建立镜像 建议使用IE浏览器 1024×768模式浏览本网站<br/>

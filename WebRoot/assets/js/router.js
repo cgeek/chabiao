@@ -24,7 +24,7 @@
 		'datepicker': 'libs/datepicker/1.3.0/glDatePicker',
 		'datepicker-css': 'libs/datepicker/1.3.0/default.css',
 		// modules
-		'account.head' : 'modules/account.head',
+		'account.head' : 'modules/account.head'
 		
 	};
 

@@ -118,6 +118,7 @@ function getCategorys()
 		'9'=> '会展消息',
 		'10'=> '优秀供应商',
 		'11'=> '中标企业',
+		'999'=> '关于我们',
 	);
 	return $category_array;
 }
