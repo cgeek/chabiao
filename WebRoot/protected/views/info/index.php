@@ -361,8 +361,8 @@
             <div class="g-pb-5 g-mt-10 g-mlr-82">
             <img src="/images/ads/left_1.gif" width="200" height="67">            </div>
             <ul class="g-list-txt g-list-dot g-mb-10">
-<?php if(!empty($dongtai_list)):?>
-	<?php foreach($dongtai_list as $item):?>
+<?php if(!empty($toubiaozhinang_list)):?>
+	<?php foreach($toubiaozhinang_list as $item):?>
 				<li>
 					<a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a>
 				</li>
@@ -405,19 +405,14 @@
           <div class="con">
             <div class="g-list-txt g-mtb-5">
               <ul>
-			  <li><a href="/info/8585" target="_blank" title="2011年国际太阳能及光伏会议暨展览会">2011年国际太阳能及光伏会议暨展览会</a></li>
-<li><a href="/info/8584" target="_blank" title="2011第77届中国电子展（春季展--深圳）">2011第77届中国电子展（春季展--深圳）</a></li>
-<li><a href="/info/8583" target="_blank" title="2011第十九届中国国际服装服饰博览会">2011第十九届中国国际服装服饰博览会</a></li>
-<li><a href="/info/8582" target="_blank" title="2011第二十二届国际制冷、空调、供暖、通风及食品冷冻加工展览会">2011第二十二届国际制冷、空调、供暖、通风及食品冷冻加工展览会</a></li>
-<li><a href="/info/8581" target="_blank" title="2011第十九届中国国际五金博览会">2011第十九届中国国际五金博览会</a></li>
-<li><a href="/info/8580" target="_blank" title="2011第十一届中国厦门国际石材展览会亚洲最大的石材专业展览会">2011第十一届中国厦门国际石材展览会亚洲最大的石材专业展览会</a></li>
-<li><a href="/info/5964" target="_blank" title="第十一届中国(北京)国际工程机械、建材机械及矿山机械展览与技术交流会">第十一届中国(北京)国际工程机械、建材机械及矿山机械展览与技术交流会</a></li>
-<li><a href="/info/299" target="_blank" title="2011中国（北京）国际涂料博览会">2011中国（北京）国际涂料博览会</a></li>
-<li><a href="/info/298" target="_blank" title="2011中国热泵展">2011中国热泵展</a></li>
-<li><a href="/info/296" target="_blank" title="第十一届中国国际电力电工高低压电器展览会">第十一届中国国际电力电工高低压电器展览会</a></li>
-<li><a href="/info/289" target="_blank" title="2011中国（重庆）国际软件及信息服务展览会">2011中国（重庆）国际软件及信息服务展览会</a></li>
-
-			 </ul>
+<?php if(!empty($zhanghui_list)):?>
+	<?php foreach($zhanghui_list as $item):?>
+				<li>
+					<a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a>
+				</li>
+	<?php endforeach;?>
+<?php endif;?>
+            </ul>
             </div>
           </div>
         </div>
