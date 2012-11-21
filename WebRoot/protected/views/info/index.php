@@ -348,7 +348,15 @@
  						 【<a href="/search/?area=青海" target="_blank">青海</a>】
  						 【<a href="/search/?area=新疆" target="_blank">新疆</a>】
 				</li>	
-                <li>华东   山东 | 安徽 | 上海 | 江苏 | 浙江 | 福建 | 江西</li>
+				<li>华东
+ 						 【<a href="/search/?area=山东" target="_blank">山东</a>】
+ 						 【<a href="/search/?area=安徽" target="_blank">安徽</a>】
+ 						 【<a href="/search/?area=上海" target="_blank">上海</a>】
+ 						 【<a href="/search/?area=江苏" target="_blank">江苏</a>】
+ 						 【<a href="/search/?area=浙江" target="_blank">浙江</a>】
+ 						 【<a href="/search/?area=福建" target="_blank">福建</a>】
+ 						 【<a href="/search/?area=江西" target="_blank">江西</a>】
+				</li>
                 <li>华中  【河南】【湖北】【湖南】</li>
                 <li>华南  【广东】【广西】【海南】</li>
                 <li>西南  【云南】【贵州】【四川】【重庆】【西藏】</li>
