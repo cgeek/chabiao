@@ -13,6 +13,15 @@ class InfoController extends Controller
 		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category'=>3, 'keywords'=>"$keywords", 'limit'=>15));
 		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category'=>2, 'keywords'=>"$keywords", 'limit'=>15));
 
+		$this->_data['dongtai_list'] = $this->_get_column_list(array('category'=>7, 'keywords'=>"", 'limit'=>7));
+		$this->_data['gongying_list'] = $this->_get_column_list(array('category'=>4, 'keywords'=>"", 'limit'=>10));
+		$this->_data['qiugou_list'] = $this->_get_column_list(array('category'=>5, 'keywords'=>"", 'limit'=>10));
+		$this->_data['zhongbiaobang_list'] = $this->_get_column_list(array('category'=>11, 'keywords'=>"", 'limit'=>8));
+		$this->_data['gongyingshang_list'] = $this->_get_column_list(array('category'=>10, 'keywords'=>"", 'limit'=>8));
+		
+		$this->_data['toubiaozhinang_list'] = $this->_get_column_list(array('category'=>8, 'keywords'=>"", 'limit'=>12));
+		$this->_data['zhanghui_list'] = $this->_get_column_list(array('category'=>9, 'keywords'=>"", 'limit'=>11));
+
 		//debug_json($this->_data);
 		$this->render('/info/index', $this->_data);
 	}

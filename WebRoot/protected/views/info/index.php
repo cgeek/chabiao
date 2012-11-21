@@ -358,22 +358,20 @@
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
-          <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/job/search.html" target="_blank" recid="800" rec="">更多</a>
+          <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/info/dongtai" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">行业动态</h2>
           </div>
           <div class="con">
             <div class="g-list-txt g-mtb-5">
               <ul>
-                
-                <li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/12664" target="_blank" title="多地提前遭遇“电荒” 煤价创两年半新高">多地提前遭遇“电荒” 煤价创两年半新高</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/12662" target="_blank" title="业界专家：缓解电荒需调整电力结构">业界专家：缓解电荒需调整电力结构</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/8588" target="_blank" title="中国2010年新增风电装机逾1300万千瓦">中国2010年新增风电装机逾1300万千瓦</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/8587" target="_blank" title="中国大规模建设“智能电网”总投资将超4万亿元">中国大规模建设“智能电网”总投资将超4万亿元</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/8586" target="_blank" title="“十二五”西藏将建成四大水电站">“十二五”西藏将建成四大水电站</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/6646" target="_blank" title="2010年全国十佳集采机构获奖单位">2010年全国十佳集采机构获奖单位</a></li>
-<li><span class="g-fz-12 g-pl-10 g-c-99 g-f-r">06-11</span><a href="/info/6645" target="_blank" title="联合体中标 采购合同应“联合”签订">联合体中标 采购合同应“联合”签订</a></li>
-
-  
+<?php if(!empty($dongtai_list)):?>
+	<?php foreach($dongtai_list as $item):?>
+				<li>
+					<span class="g-fz-12 g-pl-10 g-c-99 g-f-r"><?=$item['ctime'];?></span>
+					<a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a>
+				</li>
+	<?php endforeach;?>
+<?php endif;?>
               </ul>
             </div>
           </div>
@@ -410,21 +408,19 @@
             <div class="g-pb-5 g-mt-10 g-mlr-82">
             <img src="/images/ads/left_1.gif" width="200" height="67">            </div>
             <ul class="g-list-txt g-list-dot g-mb-10">
-			<li><a href="/info/8596" target="_blank" title="招标人员应注意的20个细节问题">招标人员应注意的20个细节问题</a></li>
-<li><a href="/info/8595" target="_blank" title="投标人八个最应该知道的问题">投标人八个最应该知道的问题</a></li>
-<li><a href="/info/8594" target="_blank" title="参与招标的5大关键技巧">参与招标的5大关键技巧</a></li>
-<li><a href="/info/8593" target="_blank" title="招标项目成功的要素">招标项目成功的要素</a></li>
-<li><a href="/info/8592" target="_blank" title="招标投标中的哪些行为属于不正当竞争？">招标投标中的哪些行为属于不正当竞争？</a></li>
-<li><a href="/info/8591" target="_blank" title="哪些投标文件会按废标处理？">哪些投标文件会按废标处理？</a></li>
-<li><a href="/info/8590" target="_blank" title="供应商质疑须把握好“四个环节”">供应商质疑须把握好“四个环节”</a></li>
-<li><a href="/info/8589" target="_blank" title="评审专家管理中的问题及其对策">评审专家管理中的问题及其对策</a></li>
-<li><a href="/info/6426" target="_blank" title="竞争谈判流程图">竞争谈判流程图</a></li>
-<li><a href="/info/6425" target="_blank" title="邀请招标流程图">邀请招标流程图</a></li>
-<li><a href="/info/6424" target="_blank" title="公开招标流程图">公开招标流程图</a></li>
-<li><a href="/info/5733" target="_blank" title="如何合理设置和科学评审“技术性指标”">如何合理设置和科学评审“技术性指标”</a></li>
-
+				<li><a href="/info/8596" target="_blank" title="招标人员应注意的20个细节问题">招标人员应注意的20个细节问题</a></li>
+				<li><a href="/info/8595" target="_blank" title="投标人八个最应该知道的问题">投标人八个最应该知道的问题</a></li>
+				<li><a href="/info/8594" target="_blank" title="参与招标的5大关键技巧">参与招标的5大关键技巧</a></li>
+				<li><a href="/info/8593" target="_blank" title="招标项目成功的要素">招标项目成功的要素</a></li>
+				<li><a href="/info/8592" target="_blank" title="招标投标中的哪些行为属于不正当竞争？">招标投标中的哪些行为属于不正当竞争？</a></li>
+				<li><a href="/info/8591" target="_blank" title="哪些投标文件会按废标处理？">哪些投标文件会按废标处理？</a></li>
+				<li><a href="/info/8590" target="_blank" title="供应商质疑须把握好“四个环节”">供应商质疑须把握好“四个环节”</a></li>
+				<li><a href="/info/8589" target="_blank" title="评审专家管理中的问题及其对策">评审专家管理中的问题及其对策</a></li>
+				<li><a href="/info/6426" target="_blank" title="竞争谈判流程图">竞争谈判流程图</a></li>
+				<li><a href="/info/6425" target="_blank" title="邀请招标流程图">邀请招标流程图</a></li>
+				<li><a href="/info/6424" target="_blank" title="公开招标流程图">公开招标流程图</a></li>
+				<li><a href="/info/5733" target="_blank" title="如何合理设置和科学评审“技术性指标”">如何合理设置和科学评审“技术性指标”</a></li>
             </ul>
-            
           </div>
         </div>
       </div>
@@ -478,14 +474,25 @@
           </div>
         </div>
       </div>
-    </div>
+	</div>
+	</div>
     <div class="g-mh-20">
-	  <div class="g-b-dd g-p-10 g-lh-22 link g-c-99">
+	  <div class="g-b-dd g-p-10 g-lh-22 link g-c-99" style="border-top:1px solid #c8c8c8;">
 <?php if(isset($this->site_info) && !empty($this->site_info['links'])):?>
-	<?=$this->site_info['links'];?>
+		<?=$this->site_info['links'];?>
 <?php else:?>
-        <p class="link_p"><strong class="link_s">成员网站</strong> <a title="华强集团" href="http://www.szhq.com/" rel="nofollow" target="_blank">华强集团</a><span class="g-f-l">I</span><a title="华强实业股份" href="http://www.szhq0062.com/" rel="nofollow" target="_blank">华强实业股份</a><span class="g-f-l">I</span><a title="中华车网" href="http://www.hqgps.com/" rel="nofollow" target="_blank">中华车网</a><span class="g-f-l">I</span><a title="华强新城市" href="http://www.hqnewcity.com/" rel="nofollow" target="_blank">华强新城市</a><span class="g-f-l">I</span><a title="华强物业" href="http://www.hqwy.com.cn/" rel="nofollow" target="_blank">华强物业</a><span class="g-f-l">I</span><a title="方特主题公园" href="http://www.fantawild.com/" rel="nofollow" target="_blank">方特主题公园</a><span class="g-f-l">I</span><a title="方特网" href="http://www.fangte.com/" rel="nofollow" target="_blank">方特网</a><span class="g-f-l">I</span><a title="华强旅游城" href="http://www.hqtourcity.com/" rel="nofollow" target="_blank">华强旅游城</a><span class="g-f-l">I</span><a title="华强供应链" href="http://www.hqscm.com/" rel="nofollow" target="_blank">华强供应链</a><span class="g-f-l">I</span><a title="LED交易中心" href="/topic/LED/led.aspx" rel="nofollow" target="_blank">LED交易中心</a><span class="g-f-l">I</span><a title="华强商城" href="http://www.hqbuy.com/" rel="nofollow" target="_blank">华强商城</a><span class="g-f-l">I</span><a title="半导体应用联盟" href="http://www.csau.com/" rel="nofollow" target="_blank">半导体应用联盟</a><span class="g-f-l">I</span><a title="华强电子世界" href="http://www.hq-mart.com/Index.html" rel="nofollow" target="_blank">华强电子世界</a> </p>
-		<p class="link_p"><strong class="link_s">友情链接</strong> <a title="21IC电子网" href="http://www.21ic.com/" target="_blank" p="0">21IC电子网</a><span class="g-f-l">I</span><a title="中国单片机培训网" href="http://www.mcuchina.cn/" target="_blank" p="0">中国单片机培训网</a><span class="g-f-l">I</span><a title="电子产品世界网" href="http://www.eepw.com.cn/" target="_blank" p="0">电子产品世界网</a><span class="g-f-l">I</span><a title="中国照明网" href="http://www.lightingchina.com/" target="_blank" p="0">中国照明网</a><span class="g-f-l">I</span><a title="电子工程师之家" href="http://www.eehome.cn/" target="_blank" p="0">电子工程师之家</a><span class="g-f-l">I</span><a title="EETOP电子网" href="http://www.eetop.cn/" target="_blank" p="0">EETOP电子网</a><span class="g-f-l">I</span><a title="光电新闻网" href="http://www.ofweek.com/" target="_blank" p="0">光电新闻网</a><span class="g-f-l">I</span><a title="电子电路网" href="http://www.dziuu.com/" target="_blank" p="0">电子电路网</a><span class="g-f-l">I</span><a title="老古开发网" href="http://www.laogu.com/" target="_blank" p="0">老古开发网</a><span class="g-f-l">I</span><a title="工业电器网" href="http://www.cnelc.com/" target="_blank" p="0">工业电器网</a><span class="g-f-l">I</span><a title="中国电子企业协会" href="http://www.ceea.org.cn/" target="_blank" p="0">中国电子企业协会</a><span class="g-f-l">I</span><a title="世纪电源网" href="http://www.21dianyuan.com/" target="_blank" p="0">世纪电源网</a><span class="g-f-l">I</span><a title="与非网" href="http://www.eefocus.com/" target="_blank" p="0">与非网</a><span class="g-f-l">I</span><a title="LED在线" href="http://www.ledinside.cn/" target="_blank" p="0">LED在线</a><span class="g-f-l">I</span><a title="LED论坛" href="http://ledbbs.hqew.com/" target="_blank" p="0">LED论坛</a><span class="g-f-l">I</span><a title="通信产业网" href="http://www.ccidcom.com/" target="_blank" p="0">通信产业网</a><span class="g-f-l">I</span><a title="中华液晶网" href="http://www.fpdisplay.com/" target="_blank" p="0">中华液晶网</a><span class="g-f-l">I</span><a title="鼎好电子网" href="http://www.icmade.com/IC/" target="_blank" p="0">鼎好电子网</a><span class="g-f-l">I</span><a title="广东IC网" href="http://www.gdicw.com/" target="_blank" p="0">广东IC网</a><span class="g-f-l">I</span><a title="新电子" href="http://www.memchina.cn/" target="_blank" p="0">新电子</a><span class="g-f-l">I</span><a title="行业网" href="http://www.hangye5.com/" target="_blank" p="0">行业网</a><span class="g-f-l">I</span><a title="中国安防网" href="http://www.c-ps.net/" target="_blank" p="0">中国安防网</a><span class="g-f-l">I</span><a title="电子展" href="http://www.elexcon.com/" target="_blank" p="0">电子展</a><span class="g-f-l">I</span><a title="电源网" href="http://www.dianyuan.com/" target="_blank" p="0">电源网</a><span class="g-f-l">I</span><a title="电子创新网" href="http://www.eetrend.com/" target="_blank" p="0">电子创新网</a><span class="g-f-l">I</span><a title="电子站点联盟" href="http://www.hq300.com/" rel="nofollow" target="_blank" p="1">电子站点联盟</a><span class="g-f-l">I</span><a title="大比特资讯网" href="http://www.big-bit.com/" rel="nofollow" target="_blank" p="1">大比特资讯网</a><span class="g-f-l">I</span><a title="电子贸促会" href="http://www.ccpitecc.com/" target="_blank" p="0">电子贸促会</a><span class="g-f-l">I</span><a title="商城" href="http://www.zol.com/" target="_blank" p="0">商城</a><span class="g-f-l">I</span><a title="CPS中安网" href="http://www.cps.com.cn/" target="_blank" p="0">CPS中安网</a><span class="g-f-l">I</span><a title="全球IC采购网" href="http://www.qic.com.cn/" target="_blank" p="0">全球IC采购网</a> </p>
+		<p class="link_p">
+			<strong class="link_s">友情连接:</strong>
+			<a href="http://www.qiugonglue.com" target="_blank">求攻略</a>
+			<span class="g-f-l">I</span>
+			<a href="http://www.tyncg.org/" target="_blank">中国太阳能采购网</a>
+			<span class="g-f-l">I</span>
+			<a href="http://www.hnmec.org" target="_blank">华能物质招标网</a>
+			<span class="g-f-l">I</span>
+			<a href="http://www.hnmec.org" target="_blank">中电投招标网</a>
+			<span class="g-f-l">I</span>
+			<a href="http://www.ztbw.org/" target="_blank"></a>
+		</p>
 <?php endif;?>
       </div>
     </div>

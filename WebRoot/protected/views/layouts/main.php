@@ -98,6 +98,11 @@
 		<a href="#" id="return_top" class="back_to_top" style="">回到顶部</a>
 	<!-- footer -->
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 
+		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
+			<a href="/page/about.html" target="_blank">关于我们</a> 
+			| <a href="/page/contact.html" target="_blank">联系我们</a> 
+			| <a href="/page/access.html" target="_blank">供应商入网办法</a> 
+		</div>
 		<div style="width:950px;">
 			<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
 				<tr>
@@ -139,17 +144,7 @@
 <?php if(isset($this->site_info) && !empty($this->site_info['footer_html'])):?>
 	<?=$this->site_info['footer_html'];?>
 <?php else:?>
-		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
-			<a href="/page/about.html" target="_blank">关于我们</a> 
-			| <a href="/page/contact.html" target="_blank">联系我们</a> 
-			| <a href="/page/access.html" target="_blank">供应商入网办法</a> 
-		</div>
-		<div style="line-height:22px;margin-top:10px;">Copyright &copy; 2009-2012 (www.unionbidding.com) Inc All Rights Reserved. [中网高科·中国<?=$this->site_info['name'];?>] 版权所有 <br/>
-				禁止任何单位和个人以任何方式复制或建立镜像 建议使用IE浏览器 1024×768模式浏览本网站<br/>
-			 关键词：<?=$this->site_info['name'];?> | 中国<?=$this->site_info['name'];?> | 中网高科招标网 | 中国联合招标采购网<br/>
-						 总机：4006-333-959  电话010-52883369  010-52889099 传真010-80537538<br/>
-									 京ICP备09106887号<br/>
-		</div>
+		<p style="text-align:center">京ICP备09106887号</p>
 	</div>
 <?php endif;?>
 <?=$this->site_info['tongji_script'];?>
