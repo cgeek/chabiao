@@ -330,9 +330,24 @@
           <div class="con">
             <div class="g-list-txt_area g-mtb-6">
               <ul>
-                <li>华北  【北京】【天津】【河北】【山西】【内蒙古】</li>
-                <li>东北  【吉林】【辽宁】【黑龙江】</li>
-                <li>西北  【陕西】【甘肃】【宁夏】【青海】【新疆】</li>
+				<li>华北  【<a href="/search/?area=北京" target="_blank">北京</a>】
+ 						  【<a href="/search/?area=天津" target="_blank">天津</a>】
+ 						  【<a href="/search/?area=河北" target="_blank">河北</a>】
+ 						  【<a href="/search/?area=山西" target="_blank">山西</a>】
+ 						  【<a href="/search/?area=内蒙古" target="_blank">内蒙古</a>】
+				</li>
+				<li>东北  
+ 						 【<a href="/search/?area=吉林" target="_blank">吉林</a>】
+ 						 【<a href="/search/?area=辽宁" target="_blank">辽宁</a>】
+ 						 【<a href="/search/?area=黑龙江" target="_blank">黑龙江</a>】
+				</li>
+				<li>西北 
+ 						 【<a href="/search/?area=陕西" target="_blank">陕西</a>】
+ 						 【<a href="/search/?area=甘肃" target="_blank">甘肃</a>】
+ 						 【<a href="/search/?area=宁夏" target="_blank">宁夏</a>】
+ 						 【<a href="/search/?area=青海" target="_blank">青海</a>】
+ 						 【<a href="/search/?area=新疆" target="_blank">新疆</a>】
+				</li>	
                 <li>华东   山东 | 安徽 | 上海 | 江苏 | 浙江 | 福建 | 江西</li>
                 <li>华中  【河南】【湖北】【湖南】</li>
                 <li>华南  【广东】【广西】【海南】</li>
