@@ -120,24 +120,17 @@
       <div class="g-w-220 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
-		  <a class="g-c-99 g-bi-n" title="" href="/info/action-topic.html" target="_blank" recid="800" rec="">更多</a>
+		  <a class="g-c-99 g-bi-n" title="" href="/info/gongying" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">最新采购信息</h2>
           </div>
           <div class="con">
-            
             <ul class="g-list-txt g-list-dot g-mtb-5">
-              <li><a title="电视知识100问-5" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=708" target="_blank">电视知识芯片业并购不断中</a> </li>
-              <li><a title="全球LTE芯片业并购不断中国格局未定" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=702" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  <li><a title="电视知识100问-5" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=708" target="_blank">电视知识100问-5中国格局未定</a> </li>
-              <li><a title="全球LTE芯片业并购不断中国格局未定" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=702" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  <li><a title="电视知识100问-5" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=708" target="_blank">电视知识芯片业并购不断中国格</a> </li>
-              <li><a title="全球LTE芯片业并购不断中国格局未定" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=702" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-             <li><a title="电视知识100问-5" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=708" target="_blank">电视知识芯片业并购不断中</a> </li>
-              <li><a title="全球LTE芯片业并购不断中国格局未定" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=702" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  <li><a title="电视知识100问-5" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=708" target="_blank">电视知识100问-5中国格局未定</a> </li>
-              <li><a title="全球LTE芯片业并购不断中国格局未定" href="http://bbs.csau.com/forum.php?mod=viewthread&amp;tid=702" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
+<?php if(!empty($gongying_list)):?>
+	<?php foreach($gongying_list as $item):?>
+				<li><a title="<?=$item['title'];?>" href="/info/<?=$item['id'];?>.html" target="_blank"><?=$item['title'];?></a> </li>
+	<?php endforeach;?>
+<?php endif;?>
             </ul>
-            
           </div>
         </div>
 		<div class="g-box-g1 g-mtb-10">
@@ -213,7 +206,8 @@
 			<?=ad_show($this->site_info['ad'], 'ad-2', '310px');?>
 		</div>
 		<div class="g-box-g activity">
-          <div class="bar"><a class="g-bi-n" href="/activity/show.html" target="_blank">更多</a>
+			<div class="bar">
+				<!--a class="g-bi-n" href="#" target="_blank">更多</a-->
             <h2 class="g-c-w">增值服务</h2>
           </div>
           <div class="con">
@@ -278,8 +272,8 @@
           </div>
           <div class="con">
             <ul class="g-list-txt g-list-dot g-mtb-5">
-<?php if(!empty($gongyin_list)):?>
-	<?php foreach($gongyin_list as $item):?>
+<?php if(!empty($gongying_list)):?>
+	<?php foreach($gongying_list as $item):?>
 				<li><a title="<?=$item['title'];?>" href="/info/<?=$item['id'];?>.html" target="_blank"><?=$item['title'];?></a> </li>
 	<?php endforeach;?>
 <?php endif;?>
@@ -359,7 +353,8 @@
           </div>
           <div class="con">
             <div class="g-pb-5 g-mt-10 g-mlr-82">
-            <img src="/images/ads/left_1.gif" width="200" height="67">            </div>
+			   <img src="/images/ads/left_1.gif" width="200" height="67">
+			</div>
             <ul class="g-list-txt g-list-dot g-mb-10">
 <?php if(!empty($toubiaozhinang_list)):?>
 	<?php foreach($toubiaozhinang_list as $item):?>
@@ -374,7 +369,7 @@
       </div>
       <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
-          <div class="bar g-box-t"><a class="g-c-99 g-bi-n" title="" href="http://bbs.hqew.com/" target="_blank" recid="800" rec="">更多</a><a class="g-c-66" title="" href="http://bbs.hqew.com/forumdisplay.php?fid=4" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">更多商机先知先觉</span></a>
+          <div class="bar g-box-t"><a class="g-c-99 g-bi-n" title="" href="/info/nizaijian" target="_blank" recid="800" rec="">更多</a><a class="g-c-66" title="" href="/info/nizaijian" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">更多商机先知先觉</span></a>
             <h2 class="cur" title="">拟在建项目</h2>
           </div>
           <div class="con">
@@ -396,10 +391,10 @@
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         
-        <div class="g-ad-310-42"><a href="http://im.hqew.com/" target="_blank"><img border="0" name="g_AsImageG0133_name" src="/images/ads/201202221518042201M95H9.gif" width="308" height="40"> </a></div>
+        <div class="g-ad-310-42"><a href="#" target="_blank"><img border="0" name="g_AsImageG0133_name" src="/images/ads/201202221518042201M95H9.gif" width="308" height="40"> </a></div>
         <div class="g-ad-310-42"><a href="/chinachips/service_index.html" target="_blank"><img border="0" name="g_AsImageG0134_name" src="/images/ads/20120222151854205XUFUJ6.gif" width="308" height="40"> </a></div>
         <div class="g-box-g">
-          <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/job/search.html" target="_blank" recid="800" rec="">更多</a>
+          <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/info/zhanghui" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">会展信息</h2>
           </div>
           <div class="con">

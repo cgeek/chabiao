@@ -17,7 +17,7 @@ class InfoController extends Controller
 		$this->_data['gongying_list'] = $this->_get_column_list(array('category'=>4, 'keywords'=>"", 'limit'=>10));
 		$this->_data['qiugou_list'] = $this->_get_column_list(array('category'=>5, 'keywords'=>"", 'limit'=>10));
 		$this->_data['zhongbiaobang_list'] = $this->_get_column_list(array('category'=>11, 'keywords'=>"", 'limit'=>8));
-		$this->_data['gongyingshang_list'] = $this->_get_column_list(array('category'=>10, 'keywords'=>"", 'limit'=>8));
+		$this->_data['gongyingshang_list'] = $this->_get_column_list(array('category'=>10, 'keywords'=>"", 'limit'=>5));
 		
 		$this->_data['toubiaozhinang_list'] = $this->_get_column_list(array('category'=>8, 'keywords'=>"", 'limit'=>12));
 		$this->_data['zhanghui_list'] = $this->_get_column_list(array('category'=>9, 'keywords'=>"", 'limit'=>11));
@@ -100,6 +100,8 @@ class InfoController extends Controller
 			'gongying' => array('name'=>'供应信息','category'=>'5'),
 			'fagui' => array('name'=>'法规中心','category'=>'11'),
 			'dongtai' => array('name'=>'行业动态','category'=>'7'),
+			'toubiaozhinang' => array('name'=>'投标指南','category'=>'8'),
+			'zhanghui' => array('name'=>'展会信息','category'=>'9'),
 		);
 
 		$current_category = $type_array[$type];
