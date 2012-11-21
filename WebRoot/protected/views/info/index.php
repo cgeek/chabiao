@@ -145,16 +145,16 @@
 		</div>
 		<div class="g-box-g">
           <div class="bar">
-		  <a class="g-c-99 g-bi-n" title="" href="/info/action-topic.html" target="_blank" recid="800" rec="">更多</a>
+		  <a class="g-c-99 g-bi-n" title="" href="/info/gongying" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">优秀供应商</h2>
           </div>
           <div class="con">
             <ul class="g-list-txt g-list-dot g-mtb-5">
-			<li><a href="/info/219" target="_blank" title="青岛市开元电气电站设备有限责任公司">青岛市开元电气电站设备有限责任公司</a></li>
-<li><a href="/info/218" target="_blank" title="山东凌宝电气有限公司">山东凌宝电气有限公司</a></li>
-<li><a href="/info/217" target="_blank" title="成都化工研究设计院水处理技术开发中心">成都化工研究设计院水处理技术开发中心</a></li>
-<li><a href="/info/216" target="_blank" title="天津市空气压缩机有限公司">天津市空气压缩机有限公司</a></li>
-<li><a href="/info/215" target="_blank" title=" 江苏南天絮凝剂有限公司"> 江苏南天絮凝剂有限公司</a></li>
+<?php if(!empty($gongyingshang_list)):?>
+	<?php foreach($gongyingshang_list as $item):?>
+				<li><a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a></li>
+	<?php endforeach;?>
+<?php endif;?>
             </ul>
           </div>
         </div>
@@ -194,57 +194,15 @@
 				<li class="g-w-24 g-ws-w">结果</li>
               </ul>
               <div class="g-mtb-5 bid">
-			  <ul class="g-h-22 g-lh-22">
+<?php if(!empty($zhongbiaobang_list)):?>
+	<?php foreach($zhongbiaobang_list as $item):?>
+			  	<ul class="g-h-22 g-lh-22">
                   <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16730" target="_blank" title="南京华德仓储设备制造有限公司">南京华德仓储设备制造有限公司</a></li>
+				  <li class="g-w-200"><a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a></li>
                   <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16729" target="_blank" title="河南新开电气集团股份有限公司">河南新开电气集团股份有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16728" target="_blank" title="上海康建防护屏蔽有限公司">上海康建防护屏蔽有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16727" target="_blank" title="开封市盛达水表有限公司">开封市盛达水表有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16726" target="_blank" title="上海施威焊接产业有限公司">上海施威焊接产业有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16725" target="_blank" title="上海阀门二厂有限公司">上海阀门二厂有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16724" target="_blank" title="宁波水表股份有限公司">宁波水表股份有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16723" target="_blank" title="河南省东方（集团）防腐有限公">河南省东方（集团）防腐有限公</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16722" target="_blank" title="江苏元升太阳能集团有限公司">江苏元升太阳能集团有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-<ul class="g-h-22 g-lh-22">
-                  <li class="g-w-20 g-fw-b"><span class="red">恭贺:</span></li>
-				  <li class="g-w-200"><a href="/info/16721" target="_blank" title="河北三环太阳能有限公司">河北三环太阳能有限公司</a></li>
-                  <li class="g-w-30"><span class="red">中标</span></li>
-                </ul>
-	
+				</ul>
+	<?php endforeach;?>
+<?php endif;?>
               </div>
             </div>
             
@@ -315,21 +273,16 @@
       <div class="g-w-220 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
-		  <a class="g-c-99 g-bi-n" title="" href="/info/action-topic.html" target="_blank" recid="800" rec="">更多</a>
+		  <a class="g-c-99 g-bi-n" title="" href="/info/gongying" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">最新供应信息</h2>
           </div>
           <div class="con">
             <ul class="g-list-txt g-list-dot g-mtb-5">
-              	<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  				<li><a title="电视知识100问-5" href="" target="_blank">电视知识芯片业并购不断中国格</a> </li>
-              	<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-             	<li><a title="电视知识100问-5" href="" target="_blank">电视知识芯片业并购不断中</a> </li>
-              	<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
- 			 	<li><a title="电视知识100问-5" href="" target="_blank">电视知识100问-5中国格局未定</a> </li>
-              	<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  				<li><a title="电视知识100问-5" href="" target="_blank">电视知识芯片业并购不断中国格</a> </li>
-              	<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
-  				<li><a title="全球LTE芯片业并购不断中国格局未定" href="" target="_blank">全球LTE芯片业并购不断中国格局未定</a> </li>
+<?php if(!empty($gongyin_list)):?>
+	<?php foreach($gongyin_list as $item):?>
+				<li><a title="<?=$item['title'];?>" href="/info/<?=$item['id'];?>.html" target="_blank"><?=$item['title'];?></a> </li>
+	<?php endforeach;?>
+<?php endif;?>
             </ul>
           </div>
         </div>
@@ -337,7 +290,7 @@
       </div>
       <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
-          <div class="bar g-box-t"><a class="g-bi-n" href="/activity/show.html" target="_blank">更多</a><a class="g-c-66" title="" href="/info-c12.html" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">如何提升中标几率？</span></a>
+          <div class="bar g-box-t"><a class="g-bi-n" href="/info/zhongbiao" target="_blank">更多</a><a class="g-c-66" title="" href="/info-c12.html" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">如何提升中标几率？</span></a>
             <h2 class="cur" title="">中标公告</h2>
           </div>
           <div class="con ">
@@ -401,25 +354,20 @@
       <div class="g-w-220 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
-		  <a class="g-c-99 g-bi-n" title="" href="/info/action-topic.html" target="_blank" recid="800" rec="">更多</a>
+		  <a class="g-c-99 g-bi-n" title="" href="/info/toubiaozhinang" target="_blank" recid="800" rec="">更多</a>
             <h2 class="cur" title="">招投标指南</h2>
           </div>
           <div class="con">
             <div class="g-pb-5 g-mt-10 g-mlr-82">
             <img src="/images/ads/left_1.gif" width="200" height="67">            </div>
             <ul class="g-list-txt g-list-dot g-mb-10">
-				<li><a href="/info/8596" target="_blank" title="招标人员应注意的20个细节问题">招标人员应注意的20个细节问题</a></li>
-				<li><a href="/info/8595" target="_blank" title="投标人八个最应该知道的问题">投标人八个最应该知道的问题</a></li>
-				<li><a href="/info/8594" target="_blank" title="参与招标的5大关键技巧">参与招标的5大关键技巧</a></li>
-				<li><a href="/info/8593" target="_blank" title="招标项目成功的要素">招标项目成功的要素</a></li>
-				<li><a href="/info/8592" target="_blank" title="招标投标中的哪些行为属于不正当竞争？">招标投标中的哪些行为属于不正当竞争？</a></li>
-				<li><a href="/info/8591" target="_blank" title="哪些投标文件会按废标处理？">哪些投标文件会按废标处理？</a></li>
-				<li><a href="/info/8590" target="_blank" title="供应商质疑须把握好“四个环节”">供应商质疑须把握好“四个环节”</a></li>
-				<li><a href="/info/8589" target="_blank" title="评审专家管理中的问题及其对策">评审专家管理中的问题及其对策</a></li>
-				<li><a href="/info/6426" target="_blank" title="竞争谈判流程图">竞争谈判流程图</a></li>
-				<li><a href="/info/6425" target="_blank" title="邀请招标流程图">邀请招标流程图</a></li>
-				<li><a href="/info/6424" target="_blank" title="公开招标流程图">公开招标流程图</a></li>
-				<li><a href="/info/5733" target="_blank" title="如何合理设置和科学评审“技术性指标”">如何合理设置和科学评审“技术性指标”</a></li>
+<?php if(!empty($dongtai_list)):?>
+	<?php foreach($dongtai_list as $item):?>
+				<li>
+					<a href="/info/<?=$item['id'];?>.html" target="_blank" title="<?=$item['title'];?>"><?=$item['title'];?></a>
+				</li>
+	<?php endforeach;?>
+<?php endif;?>
             </ul>
           </div>
         </div>

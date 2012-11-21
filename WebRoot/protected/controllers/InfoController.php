@@ -11,7 +11,7 @@ class InfoController extends Controller
 		//首页栏目1
 		$this->_data['zhaobiao_list'] = $this->_get_column_list(array('category'=>1, 'keywords'=>"$keywords", 'limit'=>20));
 		$this->_data['zhongbiao_list'] = $this->_get_column_list(array('category'=>3, 'keywords'=>"$keywords", 'limit'=>15));
-		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category'=>2, 'keywords'=>"$keywords", 'limit'=>15));
+		$this->_data['nizaijian_list'] = $this->_get_column_list(array('category'=>2, 'keywords'=>"$keywords", 'limit'=>14));
 
 		$this->_data['dongtai_list'] = $this->_get_column_list(array('category'=>7, 'keywords'=>"", 'limit'=>7));
 		$this->_data['gongying_list'] = $this->_get_column_list(array('category'=>4, 'keywords'=>"", 'limit'=>10));
@@ -32,6 +32,8 @@ class InfoController extends Controller
 			$arr = explode(',', $config['keywords']);
 			$keywords = implode(" OR ", $arr);
 			search()->setQuery("$keywords");
+		} else {
+			search()->setQuery("");
 		}
 		search()->addRange('category', $config['category'] , $config['category']);
 		search()->setSort('ctime');
