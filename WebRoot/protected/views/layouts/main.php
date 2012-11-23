@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 <head>
-	<title><?=$this->title;?><?=$this->site_info['title'];?>  <?=$this->site_info['seo_title'];?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="zh" />
+	<title><?=$this->title;?><?=$this->site_info['title'];?>  <?=$this->site_info['seo_title'];?></title>
 	<?=$this->site_info['head_meta'];?>
 	<meta name="description" content="<?=$this->site_info['description'];?>" />
 	<meta name="keywords" content="<?=$this->site_info['seo_keyword'];?>" />
