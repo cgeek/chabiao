@@ -32,7 +32,7 @@
 								<div class="control-group">
 									<div class="controls">
 										<label class="checkbox">
-											<input type="checkbox"> 记住密码
+											<input type="checkbox" name="remember" value="1"> 记住密码
 										</label>
 										<button type="submit" class="btn">登录</button>
 									</div>
