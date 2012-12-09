@@ -96,13 +96,14 @@
 							<td align="left"><a href="/search/?area=山东" title="山东" target="_blank">山东</a></td>
 							<td align="left"><a href="/search/?area=贵州" title="贵州" target="_blank">贵州</a></td>
 							<td align="left"><a href="/search/?area=四川" title="四川" target="_blank">四川</a></td>
-							<td align="left"><a href="/search/?area=江西" title="江西" target="_blank">江西</a><a href="/plus/list.php?tid=92" title="内蒙古" target="_blank"></a></td>
+							<td align="left"><a href="/search/?area=江西" title="江西" target="_blank">江西</a>
+										  <a href="/search/?area=内蒙古" title="内蒙古" target="_blank"></a></td>
 							<td align="left"><a href="/search/?area=新疆" title="新疆" target="_blank">新疆</a></td>
 						</tr>
 						<tr>
 							<td align="center"> </td>
 							<td align="left"><a href="/search/?area=黑龙江" title="黑龙江" target="_blank">黑龙江</a></td>
-							<td align="left"><a href="/search/?area=内蒙古" title="内蒙古" target="_blank">内蒙古</a><a href="/plus/list.php?tid=194" title="新疆" target="_blank"></a></td>
+							<td align="left"><a href="/search/?area=内蒙古" title="内蒙古" target="_blank">内蒙古</a></td>
 							<td align="left"> </td>
 							<td align="left"> </td>
 							<td align="left"></td>
@@ -113,7 +114,7 @@
 				</div>
 		  </div>
 	</div>
-		<div class="g-box-g">
+		<!--div class="g-box-g">
 		  <div class="bar">
 			<h2 class="cur">会员中标榜</h2>
 		  </div>
@@ -136,7 +137,12 @@
 			  </ul>
 			</div>
 		  </div>
-		</div>
+		</div-->
 
+		<script type="text/javascript">
+           /*250*250，创建于2012-11-23*/
+       		var cpro_id = "u1135775";
+       </script>
+       <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
 		<!--相关资讯-->
 	  </div>
