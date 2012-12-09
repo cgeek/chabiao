@@ -56,7 +56,7 @@ define(function(require, exports, module){
 					if (data.success == true) {
 						$('button', $form).attr('disabled', false);
 						var referrer = $form.find('input[name=referrer]').val();
-						if(referrer != '') {
+						if(referrer != undefined && referrer != '') {
 							window.location.href = referrer;
 						} else {
 							window.location.href = '/user/home';
