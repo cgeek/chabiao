@@ -16,6 +16,7 @@
 						<div class="login_form">
 							<p style="padding:30px 0;"><img width="144px" height="25px" src="/images/is_user.png"></p>
 							<form id="login_form" action="/user/login" method="post" class="form-horizontal">
+								<input type="hidden" name="referrer" value="/info/<?=$info['id'];?>.html">
 								<p class="page-account-alert-message error"></p>
 								<div class="control-group">
 									<label class="control-label" for="inputEmail">用户名：</label>
@@ -40,8 +41,8 @@
 							</form>
 						</div>
 						<div class="reg_form">
-							<p style="padding-top:30px;"><img width="150px" height="25px" src="/images/no_user.png"></p>
-							<p style="text:align;padding:10px 0;"><a class="btn btn-large btn-success" href="/user/register">免费注册用户</a></p>
+							<p style="padding:30px 0;"><img width="150px" height="25px" src="/images/no_user.png"></p>
+							<p ><a class="btn btn-large btn-success" href="/user/register">免费注册用户</a></p>
 							<!--p>注册之后你可以:</p>
 							<p><a href="/user/register"><img src="/images/reg_todo.png"></a></p-->
 						</div>

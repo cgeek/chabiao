@@ -21,9 +21,9 @@ define(function(require, exports, module){
 						alert('恭喜你注册成功！');
 						window.location.href = '/user/home';
 					} else {
-						_self.loadingElement.hideLoading();
 						_self.showError(data.message);
 					}
+					$('button', $form).attr('disabled', false);
 				}
 			});
 		},
@@ -37,8 +37,9 @@ define(function(require, exports, module){
 				success:function(data){
 					if (data.success == true) {
 						alert('修改成功');
+						$('button', $form).attr('disabled', false);
 					} else {
-						_self.loadingElement.hideLoading();
+						$('button', $form).attr('disabled', false);
 						_self.showError(data.message);
 					}
 				}
@@ -53,9 +54,15 @@ define(function(require, exports, module){
 				dataType:'json',
 				success:function(data){
 					if (data.success == true) {
-						window.location.href = '/user/home';
+						$('button', $form).attr('disabled', false);
+						var referrer = $form.find('input[name=referrer]').val();
+						if(referrer != '') {
+							window.location.href = referrer;
+						} else {
+							window.location.href = '/user/home';
+						}
 					} else {
-						_self.loadingElement.hideLoading();
+						$('button', $form).attr('disabled', false);
 						_self.showError(data.message);
 					}
 				}
@@ -66,7 +73,7 @@ define(function(require, exports, module){
 			$form.validate({
 				debug:true,
 				submitHandler: function(form) {
-					_self.loadingElement = $('button', form).showLoading({img:false});
+					_self.loadingElement = $('button', form).attr('disabled', true);
 					if (form.id == 'register_form') {
 						_self.register();
 					} else if(form.id == 'login_form') {
