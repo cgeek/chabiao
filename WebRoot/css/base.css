@@ -2187,3 +2187,42 @@ BODY {
 .no_login_box .login_form {width:380px;float:left; border-right:1px dashed #ccc;margin-right:40px;}
 .login_form .control-label {width:70px;}
 .login_form .controls {margin-left:70px;}
+
+
+/*======= qq online ======*/
+.float0831 { position:fixed; _position:absolute; top:180px; right:1px; font:12px/1.5 tahoma, arial, b8bf53; color:#666;}
+.float0831 a { color:#00A0E9; }
+.float0831 a:hover { color:#FF8100; text-decoration:none; }
+.float0831 .floatL { position:relative; width:28px; float:left; }
+.float0831 .floatL a { display:block; font-size:0; text-indent:-9999px;}
+.float0831 .floatR, .float0831 .tp, .float0831 .cn { background:url(/images/qq_online/float_bg.gif); }
+.float0831 .floatR { background-position:-131px bottom; background-repeat:no-repeat; width:130px; padding-bottom:15px; float:left; overflow:hidden; }
+.float0831 .tp {
+	background-position:; background-repeat:no-repeat; height:10px; background-repeat:no-repeat; }
+.float0831 .cn { background-position:-262px 0; background-repeat:repeat-y; }
+.float0831 .cn h3 { font-size:0; text-indent:-9999px; height:36px; }
+.float0831 .cn ul { padding:0 14px; }
+.float0831 .cn ul li { border-bottom:1px solid #E6E5E4; height:36px; line-height:36px; word-wrap: break-word; word-break: normal; overflow:hidden; }
+.float0831 .titZx, .float0831 .titDh, .float0831 .titDc, .float0831 .icoZx, .float0831 .icoTc, .float0831 .icoFf, .float0831 .icoTl, .float0831 .btnOpen, .float0831 .btnOpen_n, .float0831 .btnCtn { background:url(/images/qq_online/float_s.gif) no-repeat; }
+.float0831 .titZx { background-position:5px -10px; }
+.float0831 .titDh { background-position:5px -66px; }
+.float0831 .titDc { background-position:5px -124px; }
+.float0831 .icoZx { background-position:2px -154px; }
+.float0831 .icoTc { background-position:0 -323px; }
+.float0831 .icoFf { background-position:2px -213px; }
+.float0831 .icoTl { background-position:2px -266px; font-family:"Microsoft YaHei"; display:block; float:left; padding-left:20px; }
+.float0831 .btnOpen { background-position:-30px -396px; }
+.float0831 .btnOpen_n { background-position:0 -530px; }
+.float0831 .btnCtn { background-position:0 -396px; }
+.float0831 .icoZx, .float0831 .icoTc, .float0831 .icoFf { display:block; float:left; padding-left:28px; }
+.float0831 .btnOpen, .float0831 .btnOpen_n, .float0831 .btnCtn { width:28px; height:118px; position:relative; top:80px; left:2px; }
+.float0831 .btnOpen, .float0831 .btnOpen_n { top:118px; left:1px; }
+.float0831 .btnCtn { top:118px; left:2px; }
+.float0831 ul li h3.titDc a { display:block; width:80px; height:36px; }
+.float0831 ul li.top { border-bottom:1px solid #ACE5F9; }
+.float0831 ul li.bot { border-bottom:none; }
+.float0831 ul.webZx { background:url(/images/qq_online/webZx_bg.jpg) no-repeat; width:164px; height:65px; padding:0; }
+.float0831 ul.webZx2 { background:url(/images/qq_online/webZx_bg.jpg) no-repeat; width:164px; height:51px; padding:0; }
+.float0831 ul.webZx3 { background:url(/images/qq_online/webZx_bg_2.jpg) no-repeat; width:164px; height:15px; padding:0; }
+.float0831 ul li.webZx-in { border-bottom:none; height:50px; padding-left:5px; padding-top:8px; }
+

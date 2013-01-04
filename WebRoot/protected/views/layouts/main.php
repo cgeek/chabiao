@@ -149,5 +149,51 @@
 <?php endif;?>
 <?=$this->site_info['tongji_script'];?>
 </div>
+
+<!--- qq online--->
+<div id="floatTools" class="float0831">
+	<div class="floatL">
+		<a id="aFloatTools_Show" class="btnOpen" style="display:none;" href="javascript:void(0);" onclick="javascript:jq('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){jq('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.021bbs.com.cn'); });jq('#aFloatTools_Show').attr('style','display:none');jq('#aFloatTools_Hide').attr('style','display:block');return false;" title="查看在线客服">展开</a>
+		<a id="aFloatTools_Hide" class="btnCtn" href="javascript:void(0);" onclick="javascript:jq('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ jq('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.021bbs.com.cn'); });jq('#aFloatTools_Show').attr('style','display:block');jq('#aFloatTools_Hide').attr('style','display:none');return false;" title="关闭在线客服">收缩</a>
+	</div>
+	<div class="floatR" id="divFloatToolsView">
+		<div class="tp"></div>
+			<div class="cn">
+				<ul>
+					<li class="top"><h3 class="titZx">&nbsp;</h3></li>
+					<li>
+						<span class="icoZx" title="咨询客服">咨询客服</span>
+					</li>
+					<li>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="萌三国客服：1369394766">入网咨询客服</a>
+					</li>
+					<li>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="胡莱三国客服：1369394766">免费查询客服</a>
+					</li>
+					<li>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="非仙勿扰客服：1369394766">客服</a>
+					</li>
+					<li>
+						<span class="icoFf" title="VIP通道">VIP通道</span>
+					</li>
+					<li class="bot">
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="Vip客服：1369394766">Vip客服</a>
+					</li>
+				</ul>
+				<!--ul class="webZx">
+					<li class="webZx-in">
+						<a style="float: left;" href="javascript:void(0);" onclick="javascript:window.open('http://www.unionbidding.com/page/access.html', '_blank', '');" title="网页咨询"><img src="http://www.manyou88.com/source/plugin/blood_kefu/images/right_float_web.png" alt="网页咨询"></a>
+					</li>
+				</ul-->
+			<ul>
+				<li><h3 class="titDh">电话咨询</h3></li>
+				<li class="bot">
+					<span class="icoTl" title="客服电话：4006-333-959">4006-333-959</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!----- end of qq online---->
 </body>
 </html>

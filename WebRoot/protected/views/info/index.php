@@ -175,14 +175,14 @@
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
-          <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/user/register" target="_blank" recid="800" rec="">我要成为会员</a>
-            <h2 class="cur" title=""><a href="/info/zhongbiaobang">会员中标榜</a></h2>
+		  <div class="bar">
+            <h2 class="cur" title=""><a style="float:left;" href="/info/zhongbiaobang">会员中标榜</a></h2>
+			<a class="g-c-99 g-bi-n" title="" href="/user/register" target="_blank" recid="800" rec="">我要成为会员</a>
           </div>
           <div class="con">
             <div class="g-list-cols">
               <ul class="g-bc-f3 g-c-99 g-h-25 g-lh-25">
                 <li class="g-w-20">恭喜</li>
-                
                 <li class="g-w-206">企业名称</li>
 				<li class="g-w-24 g-ws-w">结果</li>
               </ul>
