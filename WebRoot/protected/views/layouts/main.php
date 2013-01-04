@@ -165,19 +165,19 @@
 						<span class="icoZx" title="咨询客服">咨询客服</span>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=175890828&site=qq&menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服"><img border="0" src="http://wpa.qq.com/pa?p=2:175890828:45" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="胡莱三国客服：1369394766">免费查询客服</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="非仙勿扰客服：1369394766">客服</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
 					</li>
 					<li>
 						<span class="icoFf" title="VIP通道">VIP通道</span>
 					</li>
 					<li class="bot">
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1369394766&amp;site=www.021bbs.com.cn&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="Vip客服：1369394766">Vip客服</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=3795937&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">vip用户客服</a>
 					</li>
 				</ul>
 				<!--ul class="webZx">
