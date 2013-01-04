@@ -45,7 +45,7 @@ return array(
 				'/plus/view.php?aid=<id:\d+>' => '/info/view',
 				'/login' => '/user/login',
 				'/logout' => '/user/logout',
-				'/info/<type:zhaobiao|nizaijian|zhongbiao|qiugou|gongying|dongtai|fagui>' => '/info/list',
+				'/info/<type:zhaobiao|nizaijian|zhongbiao|qiugou|gongying|dongtai|fagui|toubiaozhinang|zhongbiaobang>' => '/info/list',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

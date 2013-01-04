@@ -98,10 +98,11 @@ class InfoController extends Controller
 			'zhongbiao' => array('name'=>'中标公告','category'=>'3'),
 			'qiugou' => array('name'=>'求购信息','category'=>'4'),
 			'gongying' => array('name'=>'供应信息','category'=>'5'),
-			'fagui' => array('name'=>'法规中心','category'=>'11'),
+			'fagui' => array('name'=>'法规中心','category'=>'6'),
 			'dongtai' => array('name'=>'行业动态','category'=>'7'),
 			'toubiaozhinang' => array('name'=>'投标指南','category'=>'8'),
 			'zhanghui' => array('name'=>'展会信息','category'=>'9'),
+			'zhongbiaobang' => array('name'=>'会员中标榜','category'=>'11'),
 		);
 
 		$current_category = $type_array[$type];

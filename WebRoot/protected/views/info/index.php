@@ -176,7 +176,7 @@
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
           <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/user/register" target="_blank" recid="800" rec="">我要成为会员</a>
-            <h2 class="cur" title="">会员中标榜</h2>
+            <h2 class="cur" title=""><a href="/info/zhongbiaobang">会员中标榜</a></h2>
           </div>
           <div class="con">
             <div class="g-list-cols">
@@ -357,9 +357,23 @@
  						 【<a href="/search/?area=福建" target="_blank">福建</a>】
  						 【<a href="/search/?area=江西" target="_blank">江西</a>】
 				</li>
-                <li>华中  【河南】【湖北】【湖南】</li>
-                <li>华南  【广东】【广西】【海南】</li>
-                <li>西南  【云南】【贵州】【四川】【重庆】【西藏】</li>
+				<li>华中  
+ 						 【<a href="/search/?area=河南" target="_blank">河南</a>】
+ 						 【<a href="/search/?area=湖北" target="_blank">湖北</a>】
+ 						 【<a href="/search/?area=湖南" target="_blank">湖南</a>】
+				</li>
+                <li>华南  
+ 						 【<a href="/search/?area=广东" target="_blank">广东</a>】
+ 						 【<a href="/search/?area=广西" target="_blank">广西</a>】
+						 【<a href="/search/?area=海南" target="_blank">海南</a>】
+				</li>
+				<li>西南  
+ 						 【<a href="/search/?area=云南" target="_blank">云南</a>】
+ 						 【<a href="/search/?area=贵州" target="_blank">贵州</a>】
+						 【<a href="/search/?area=四川" target="_blank">四川</a>】
+ 						 【<a href="/search/?area=重庆" target="_blank">重庆</a>】
+ 						 【<a href="/search/?area=西藏" target="_blank">西藏</a>】
+				</li>
               </ul>
             </div>
           </div>
