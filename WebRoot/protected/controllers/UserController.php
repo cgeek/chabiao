@@ -74,9 +74,9 @@ class UserController extends Controller
 				'id' => $doc->id,
 				'title' => $title,
 				'desc' => $desc,
-				'category' => $doc->category_id,
+				'category' => $doc->category,
 				'area' => $doc->area,
-				'ctime' => date('Y-m-d',$doc->ctime)
+				'ctime' => date('Y-m-d', strtotime($doc->ctime))
 			);
 			$post_list[] = $post;
 		}

@@ -56,20 +56,20 @@
 							<span class="help-inline"></span>
 						</dd>
 					</dl>
-					<dl>
+					<!--dl>
 						<dt for="fax">传真:</dt>
 						<dd>
 							<input type="text" size=30 id="fax" name="fax" value="">
 							<span class="help-inline"></span>
 						</dd>
-					</dl>
-					<dl>
+					</dl-->
+					<!--dl>
 						<dt for="qq">QQ/MSN:</dt>
 						<dd>
 							<input type="text" size=30 id="qq" name="qq" value="">
 							<span class="help-inline"></span>
 						</dd>
-					</dl>
+					</dl-->
 
 					<dl class="title"> + 公司信息:</dl>
 					<dl>
@@ -86,7 +86,7 @@
 							<span class="help-inline"></span>
 						</dd>
 					</dl>
-					<dl>
+					<!--dl>
 						<dt for="address">公司地址:</dt>
 						<dd>
 							<input type="text" size=30 id="address" name="address" value="">
@@ -106,7 +106,7 @@
 							<input type="text" size=30 id="website" name="website" value="">
 							<span class="help-inline"></span>
 						</dd>
-					</dl>
+					</dl-->
 					<dl class="title"></dl>
 					<dl>
 						<dt>注册理由：</dt>
