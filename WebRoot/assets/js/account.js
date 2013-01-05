@@ -1,8 +1,6 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
 	require('plugins')($);
-	var cookie = require('cookie');
-
 	var $form = $(".page-account form");
 	
 	return {

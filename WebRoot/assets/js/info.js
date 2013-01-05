@@ -1,8 +1,6 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
-	require('plugins')($);
-	var cookie = require('cookie');
-
+	//require('plugins')($);
 	
 	return {
 		login:function(){
@@ -21,9 +19,6 @@ define(function(require, exports, module){
 				dataType:'json',
 				success:function(data){
 					if (data.success == true) {
-						cookie.set('login_email', $form.find('input[name=email]').val(), {
-							expires: 3650 
-						});
 						window.location.href = '/user/home';
 					} else {
 						alert('登录失败');

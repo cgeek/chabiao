@@ -11327,3 +11327,66 @@ Stack trace:
 REQUEST_URI=/user/home
 HTTP_REFERER=http://www.chabiao.com/user/register
 ---
+2013/01/05 18:41:57 [error] [exception.CException] exception 'CException' with message 'Library file of xunsearch not found, please check value of EXunSearch::$xsRoot' in /Users/cgeek/Sites/chabiao/WebRoot/protected/extensions/xunsearch/EXunSearch.php:111
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(388): EXunSearch->init()
+#1 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(104): CModule->getComponent('search')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(15): CModule->__get('search')
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(36): search()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(12): InfoController->_get_column_list(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/01/05 18:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/01/05 18:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/01/05 18:44:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/01/05 18:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/01/05 18:44:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/base.png".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/common/b...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/common/base.png
+HTTP_REFERER=http://www.chabiao.com/
+---

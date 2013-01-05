@@ -165,19 +165,19 @@
 						<span class="icoZx" title="咨询客服">咨询客服</span>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">入网咨询</a>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=3795937&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">入网咨询2</a>
 					</li>
 					<li>
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=50639503&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">免费查标2</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=2858216996&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="业务合作">业务合作</a>
 					</li>
 					<li>
 						<span class="icoFf" title="VIP通道">VIP通道</span>
 					</li>
 					<li class="bot">
-						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=3795937&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="咨询客服">vip用户客服</a>
+						<a class="icoTc" href="javascript:void(0);" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=1055939988&site=qq&menu=yes', '_blank', 'heig    ht=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" title="Vip客服">VIP用户客服</a>
 					</li>
 				</ul>
 				<!--ul class="webZx">
