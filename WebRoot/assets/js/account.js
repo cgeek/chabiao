@@ -78,6 +78,8 @@ define(function(require, exports, module){
 						_self.login();
 					} else if(form.id == 'update_form') {
 						_self.update();
+					} else if(form.id == 'change_password_form') {
+						_self.update();
 					}
 				},
 				validClass:'success',
