@@ -99,7 +99,7 @@ class UserController extends Controller
 			$user = User::model()->findByPk($id)->attributes;
 			$old_password = $_POST['old_password'];
 			$password = $_POST['password'];
-			if($old_password != $user['password']) {
+			if(md5($old_password) != $user['password']) {
 				$this->ajax_response(false,'原密码不正确，请重试');
 			}
 			$r = User::model()->updateAll(array('password'=> md5($password)), "user_id=$id");
