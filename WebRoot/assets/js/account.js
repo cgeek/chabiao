@@ -43,6 +43,24 @@ define(function(require, exports, module){
 				}
 			});
 		},
+		change_password:function() {
+			var _self = this;
+			$.ajax({
+				url:"/user/password",
+				type:"POST",
+				data:$form.serialize(),
+				dataType:'json',
+				success:function(data){
+					if (data.success == true) {
+						alert('修改成功');
+						$('button', $form).attr('disabled', false);
+					} else {
+						$('button', $form).attr('disabled', false);
+						_self.showError(data.message);
+					}
+				}
+			});
+		},
 		login:function(){
 			var _self = this;
 			$.ajax({
@@ -79,7 +97,7 @@ define(function(require, exports, module){
 					} else if(form.id == 'update_form') {
 						_self.update();
 					} else if(form.id == 'change_password_form') {
-						_self.update();
+						_self.change_password();
 					}
 				},
 				validClass:'success',
