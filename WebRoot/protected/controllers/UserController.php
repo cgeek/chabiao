@@ -96,9 +96,13 @@ class UserController extends Controller
 	{
 		$id = Yii::app()->user->user_id;
 		if(Yii::app()->request->isAjaxRequest) {
-			$user_meta = array();
-			$user_meta['website'] = $_POST['website'];
-			$r = User::model()->updateAll($user_meta, "user_id=$id");
+			$user = User::model()->findByPk($id)->attributes;
+			$old_password = $_POST['old_password'];
+			$password = $_POST['password'];
+			if($old_password != $user['password']) {
+				$this->ajax_response(false,'原密码不正确，请重试');
+			}
+			$r = User::model()->updateAll(array('password'=> md5($password)), "user_id=$id");
 			$this->ajax_response(true,'');
 		} else {
 			$this->render('/user/password');
@@ -109,13 +113,18 @@ class UserController extends Controller
 	{
 		$id = Yii::app()->user->user_id;
 		if(Yii::app()->request->isAjaxRequest) {
-			$user = User::model()->findByPk($id)->attributes;
-			$old_password = $_POST['old_password'];
-			$password = $_POST['password'];
-			if($old_password != $user['password']) {
-				$this->ajax_response(false,'原密码不正确，请重试');
-			}
-			$r = User::model()->updateAll(array('password'=> md5($password)), "user_id=$id");
+			$user_meta = array();
+			$user_meta['contact_name'] = $_POST['contact_name'];
+			$user_meta['mobile'] = $_POST['mobile'];
+			$user_meta['fax'] = $_POST['fax'];
+			$user_meta['qq'] = $_POST['qq'];
+			$user_meta['company_name'] = $_POST['company_name'];
+			$user_meta['company_desc'] = $_POST['company_desc'];
+			$user_meta['address'] = $_POST['address'];
+			$user_meta['products'] = $_POST['products'];
+			$user_meta['website'] = $_POST['website'];
+			$r = UserMeta::model()->updateAll($user_meta, "user_id=$id");
+			$this->_data['user_meta'] = $user_meta;
 			$this->ajax_response(true,'',$this->_data);
 		} else {
 			$user_meta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>$id))->attributes;
