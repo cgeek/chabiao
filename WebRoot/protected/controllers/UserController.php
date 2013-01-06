@@ -98,11 +98,8 @@ class UserController extends Controller
 		if(Yii::app()->request->isAjaxRequest) {
 			$user_meta = array();
 			$user_meta['website'] = $_POST['website'];
-
-			$r = UserMeta::model()->updateAll($user_meta, "user_id=$id");
-			$this->ajax_response(true,'',$this->_data);
-		} else {
-
+			$r = User::model()->updateAll($user_meta, "user_id=$id");
+			$this->ajax_response(true,'');
 		} else {
 			$this->render('/user/password');
 		}
