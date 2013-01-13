@@ -1,6 +1,7 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
-	require('plugins')($);
+	//require('plugins')($);
+	require('validate')($);
 	var $form = $(".page-account form");
 	
 	return {

@@ -11414,3 +11414,192 @@ Stack trace:
 REQUEST_URI=/user/home
 HTTP_REFERER=http://www.chabiao.com/
 ---
+2013/01/11 10:12:56 [error] [exception.CException] exception 'CException' with message 'Library file of xunsearch not found, please check value of EXunSearch::$xsRoot' in /Users/cgeek/Sites/chabiao/WebRoot/protected/extensions/xunsearch/EXunSearch.php:111
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(388): EXunSearch->init()
+#1 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(104): CModule->getComponent('search')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(15): CModule->__get('search')
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(36): search()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(12): InfoController->_get_column_list(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/01/11 10:15:22 [error] [exception.CException] exception 'CException' with message 'Library file of xunsearch not found, please check value of EXunSearch::$xsRoot' in /Users/cgeek/Sites/chabiao/WebRoot/protected/extensions/xunsearch/EXunSearch.php:111
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(388): EXunSearch->init()
+#1 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(104): CModule->getComponent('search')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(15): CModule->__get('search')
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(36): search()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(12): InfoController->_get_column_list(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2013/01/11 10:16:29 [info] [application] login success
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php (11)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/views/info/index.php (77)
+2013/01/11 10:17:00 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.user_id" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/auth/CWebUser.php(141): CComponent->__get('user_id')
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php(24): CWebUser->__get('user_id')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(50): WebUser->__get('user_id')
+#3 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#11 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#13 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#14 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/01/12 11:01:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/libs/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/libs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/libs/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/user/info
+---
+2013/01/13 20:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_all_min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_all_min.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_all_min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_all_min.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_config.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_config.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_all.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_all.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_config.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_config.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_config.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_config.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/noseajs/ueditor/1.2.2/ueditor_config.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/noseajs/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/noseajs/ueditor/1.2.2/ueditor_config.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user//themes/de...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/user//themes/default/iframe.css
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "third-party".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('third-party')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('third-party')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/third-part...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/third-party/codemirror2.15/codemirror.css
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:11:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "third-party".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('third-party')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('third-party')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/third-part...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/third-party/SyntaxHighlighter/shCore.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "third-party".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('third-party')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('third-party')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/third-part...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/third-party/SyntaxHighlighter/shCoreDefault.css
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---
+2013/01/13 20:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "third-party".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('third-party')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('third-party')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/third-part...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/third-party/codemirror2.15/codemirror.js
+HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
+---

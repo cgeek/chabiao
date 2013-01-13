@@ -88,8 +88,3 @@ $this->widget('CLinkPager',array(
 		</div>		
 	</div>
 </div>
-<script>
-seajs.use('/assets/js/router.js',function(router){
-	//router.load('user_home');
-});
-</script>

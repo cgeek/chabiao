@@ -22,8 +22,11 @@
 		</div>		
 	</div>
 </div>
+<script src="/assets/noseajs/account.js"></script>
 <script>
+/*
 seajs.use('/assets/js/router.js',function(router){
 	router.load('account');
 });
+ */
 </script>

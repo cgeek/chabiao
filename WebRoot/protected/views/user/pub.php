@@ -61,8 +61,14 @@
  window.UEDITOR_HOME_URL = '/assets/js/libs/ueditor/1.2.2/';
  //-->
 </script>
+<link rel="stylesheet" type="text/css" href="/assets/noseajs/ueditor/1.2.2/themes/default/ueditor.css" />
+<script src="/assets/noseajs/ueditor/1.2.2/editor_all_min.js"></script>
+<script src="/assets/noseajs/ueditor/1.2.2/editor_config.js"></script>
+<script src="/assets/noseajs/user_add_info.js"></script>
 <script>
+/*
 seajs.use('/assets/js/router.js',function(router){
 	router.load('user_add_info');
 });
+ */
 </script>

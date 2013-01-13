@@ -67,7 +67,7 @@ return array(
 		),
 		'search' => array(
 			'class' => 'ext.xunsearch.EXunSearch',
-			'xsRoot' => '/xunsearch',  // xunsearch 安装目录
+			'xsRoot' => '/Users/cgeek/xunsearch',  // xunsearch 安装目录
 			'project' => 'chabiao', // 搜索项目名称或对应的 ini 文件路径
 			'charset' => 'utf-8', // 您当前使用的字符集（索引、搜索结果）
 		),

@@ -66,9 +66,11 @@
 			<?php $this->renderPartial('/info/left_side', array('current_category'=>$current_category));?>
 	  </div>
 	</div>
-
+<script src="/assets/noseajs/account.js"></script>
 <script>
+/*
 seajs.use('/assets/js/router.js',function(router){
 	router.load('account');
 });
+ */
 </script>

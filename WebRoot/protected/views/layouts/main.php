@@ -11,7 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/base.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/index.css" />
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/libs/seajs/1.1.0/sea.js"></script>
+	<script src="/assets/noseajs/jquery-1.8.3.min.js"></script>
+	<script src="/assets/noseajs/jquery.validate.min.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/libs/seajs/2.0.0/sea.js"></script>
 </head>
 <body>
 <DIV class="g-mh-20">
