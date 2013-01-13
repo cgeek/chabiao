@@ -11603,3 +11603,45 @@ Stack trace:
 REQUEST_URI=/user/third-party/codemirror2.15/codemirror.js
 HTTP_REFERER=http://www.chabiao.com/user/pub?category=1
 ---
+2013/01/13 21:28:43 [error] [exception.CException] exception 'CException' with message 'Library file of xunsearch not found, please check value of EXunSearch::$xsRoot' in /Users/cgeek/Sites/chabiao/WebRoot/protected/extensions/xunsearch/EXunSearch.php:111
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(388): EXunSearch->init()
+#1 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(104): CModule->getComponent('search')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(15): CModule->__get('search')
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(197): search()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(59): _generateQueryString('??????')
+#5 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionHome()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#9 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('home')
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/home')
+#16 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#18 {main}
+REQUEST_URI=/user/home
+HTTP_REFERER=http://www.chabiao.com/user/home
+---
+2013/01/13 22:09:33 [error] [exception.CException] exception 'CException' with message 'Library file of xunsearch not found, please check value of EXunSearch::$xsRoot' in /Users/cgeek/Sites/chabiao/WebRoot/protected/extensions/xunsearch/EXunSearch.php:111
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(388): EXunSearch->init()
+#1 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(104): CModule->getComponent('search')
+#2 /Users/cgeek/Sites/chabiao/WebRoot/protected/globals.php(15): CModule->__get('search')
+#3 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(36): search()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/InfoController.php(12): InfoController->_get_column_list(Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): InfoController->actionIndex()
+#6 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---

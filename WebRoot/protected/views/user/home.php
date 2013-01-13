@@ -65,7 +65,7 @@
 				<th><a href="/info/<?=$post['id'];?>.html" target="_blank"><?=cut_str($post['title'], 60);?></a></th>
 				<th><?=$post['area'];?></th>
 				<th><?=getCategoryName($post['category']);?></th>
-				<th><?=date('Y-m-d',$post['ptime']);?></th>
+				<th><?=$post['ctime'];?></th>
 			</tr>
 	<?php endforeach;?>
 		</tbody>

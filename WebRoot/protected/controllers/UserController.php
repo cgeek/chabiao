@@ -58,7 +58,7 @@ class UserController extends Controller
 
 		_generateQueryString($keyword);
 		$search_begin = microtime(true);
-		$docs = search()->setLimit(20, 0)->search(); 
+		$docs = search()->setSort('ctime')->setLimit(30, 0)->search(); 
 		$search_cost = microtime(true) - $search_begin;
 
 		$count = search()->getLastCount();
