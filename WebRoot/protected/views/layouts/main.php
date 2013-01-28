@@ -109,6 +109,8 @@
 			| <a href="/info/1013352.html" target="_blank">帮助中心</a> 
 			| <a href="/info/1107575.html" target="_blank">友情链接</a> 
 			| <a href="/page/contact.html" target="_blank">联系我们</a> 
+
+			<p>咨询热线：4006-333-959  &nbsp;&nbsp;客户热线：010-52889099  &nbsp;&nbsp; 销售热线：010-52883369</p>
 		</div>
 		<div style="width:950px;">
 			<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
