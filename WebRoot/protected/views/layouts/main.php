@@ -102,8 +102,13 @@
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 
 		<div style="width:950px;line-height:30px;height:30px;margin-bottom:6px;">
 			<a href="/page/about.html" target="_blank">关于我们</a> 
+			| <a href="/info/1107448.html" target="_blank">会员服务</a> 
+			| <a href="/info/1013353.html" target="_blank">入网流程</a> 
+			| <a href="/info/1107486.html" target="_blank">广告服务</a> 
+			| <a href="/info/1107572.html" target="_blank">法律声明</a> 
+			| <a href="/info/1013352.html" target="_blank">帮助中心</a> 
+			| <a href="/info/1107575.html" target="_blank">友情链接</a> 
 			| <a href="/page/contact.html" target="_blank">联系我们</a> 
-			| <a href="/page/access.html" target="_blank">供应商入网办法</a> 
 		</div>
 		<div style="width:950px;">
 			<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
