@@ -10,7 +10,7 @@
               	<h3 class="g-ta-c g-fz-16" style="border-bottom:1px dotted #d1d1d1;padding-bottom:10px;"><?=$info['title'];?></h3>
 				<p class="g-c-99 g-pb-10 g-ta-c" style="padding-top:10px;">发布日期：<?=$info['ptime'];?>　&nbsp;&nbsp;地区：<?=$info['area'];?></p>
 <?php if(in_array($info['category'], array( 1, 2, 3) ) && Yii::app()->user->isGuest):?>
-				<div style="border:1px solid #ccc;padding:10px; margin-top:20px;">
+				<div style="border:1px solid #ccc;padding:10px; margin:20px 0;">
 					<p style="color:#000;font-size:14px;">内容概要：</p>
 					<p><?=cut_str(strip_tags($info['content']), 320);?> ......</p>
 				</div>
