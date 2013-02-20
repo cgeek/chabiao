@@ -1,7 +1,7 @@
 <?php $this->beginContent('/layouts/main'); ?>
   <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span2">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">
@@ -24,7 +24,7 @@
             </ul>
           </div>
         </div>
-        <div class="span9">
+        <div class="span10">
 			<?php echo $content; ?>
 			<p></p>
         </div>

@@ -90,6 +90,9 @@ define(function(require, exports, module){
 			var _self = this;
 			_self.more_user_info();
 			_self.delete_user();
+			_self.update_user_info();
+			_self.payment_user();
+			_self.delete_payment_user();
 		},
 		more_user_info : function() {
 			$('body').delegate('.item_user', 'click', function(e){
@@ -113,6 +116,25 @@ define(function(require, exports, module){
 				});
 			});
 		},
+		update_user_info: function() {
+			$('body').delegate('#save_user_info_btn', 'click', function(e) {
+				e.preventDefault();
+				var $form = $('#user_info_form');
+				$.ajax({
+					url:"/admin/user/save",
+					type:"POST",
+					data: $form.serialize(),
+					dataType:'json',
+					success:function(data){
+						if (data.success == true) {
+							$('.ajax_response_info').html('恭喜你，保存成功！').show().fadeOut(5000);
+						} else {
+							$('.ajax_response_info').html('保存失败，请联系管理员！').show().fadeOut(5000);
+						}
+					}
+				});
+			});
+		},
 		delete_user: function() {
 			$('body').delegate('.delete_user_btn', 'click', function(e){
 				e.preventDefault();
@@ -129,6 +151,61 @@ define(function(require, exports, module){
 					success:function(data){
 						if (data.success == true) {
 							$('.user_id_' + user_id).fadeOut();
+						} else {
+							//_self.loadingElement.hideLoading();
+							_self.showError(data.message);
+						}
+					}
+				});
+			});
+		},
+		delete_payment_user: function() {
+			$('body').delegate('.delete_payment_user_btn', 'click', function(e){
+				e.preventDefault();
+				if(confirm("确定取消?")){
+				} else {
+					return false;
+				}
+				var user_id = $(this).attr('user_id');
+				$.ajax({
+					url:"/admin/user/deletePayment",
+					type:"POST",
+					data: {'user_id':user_id},
+					dataType:'json',
+					success:function(data){
+						if (data.success == true) {
+							$('.user_id_' + user_id).fadeOut();
+							return false;
+						} else {
+							//_self.loadingElement.hideLoading();
+							_self.showError(data.message);
+						}
+					}
+				});
+				return false;
+			});
+		},
+		payment_user: function() {
+			$('body').delegate('#payment_btn', 'click', function(e){
+				e.preventDefault();
+				var payment = $('#payment_amount').val();
+				if(payment == '' || payment <= 0) {
+					alert('请先完善付费信息，才能设置为付费会员');
+					return false;
+				}
+				if(confirm("确定用户已付款，成为付费用户?")){
+				} else {
+					return false;
+				}
+				var user_id = $(this).attr('user_id');
+				$.ajax({
+					url:"/admin/user/payment",
+					type:"POST",
+					data: {'user_id':user_id},
+					dataType:'json',
+					success:function(data) {
+						if (data.success == true) {
+							$('#payment_btn').attr("disabled", "true").html('已经是付费会员');
 						} else {
 							//_self.loadingElement.hideLoading();
 							_self.showError(data.message);

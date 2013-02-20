@@ -55,8 +55,8 @@ $this->breadcrumbs=array(
                 <tr>
 					<th>ID</th>
 					<th>注册时间</th>
-					<th>用户名</th>
 					<th>客户名称</th>
+					<th>手机号码</th>
 					<th>公司名称</th>
 					<th>注册目地</th>
 					<th>来源</th>
@@ -69,17 +69,19 @@ $this->breadcrumbs=array(
 				<tr user_id="<?=$user['user_id'];?>" class="item_user user_id_<?=$user['user_id'];?>">
 					<th><?=$user['user_id'];?></th>
 					<th><?=date('Y-m-d',$user['ctime']);?></th>
-					<th><?=cut_str($user['user_name'], 30);?></th>
 					<th><?=cut_str($user['contact_name'], 30);?></th>
+					<th><?=$user['mobile'];?></th>
 					<th><?=$user['company_name'];?></th>
 					<th><?=$user['reg_reason'];?> &nbsp;</th>
 					<th><?=$user['source_cn'];?> &nbsp;</th>
 					<th><?=$user['last_login_time'];?></th>
 					<th>
-						<a class="more_user_info_btn" href="/admin/user/ajax" user_id="<?=$user['user_id'];?>">更多信息</a>
 						<?php if(isset($_GET['status']) && $_GET['status'] == -1):?>
+
+						<?php elseif(isset($_GET['status']) && $_GET['status'] == 1):?>
+						  <a class="delete_payment_user_btn" user_id="<?=$user['user_id'];?>" href="/admin/user/delete_payment_user?user_id=<?=$user['user_id'];?>" target="_blank">取消付费状态</a>
 						<?php else:?>
-						 | <a class="delete_user_btn" user_id="<?=$user['user_id'];?>" href="/admin/user/delete?user_id=<?=$user['user_id'];?>" target="_blank">删除</a>
+						  <a class="delete_user_btn" user_id="<?=$user['user_id'];?>" href="/admin/user/delete?user_id=<?=$user['user_id'];?>" target="_blank">删除</a>
 						<?php endif;?>
 					</th>
                 </tr>
@@ -111,7 +113,8 @@ $this->widget('CLinkPager',array(
 		<h3>用户详细信息</h3>
 	</div>
 	<div class="modal-body">	
-		<form class="form-horizontal">
+	<form class="form-horizontal" id="user_info_form">
+		<input type="hidden" name="user_id" value="{{user_id}}">
 		<ul class="nav nav-tabs" id="user_info_tab">
 			<li class="active"><a href="#metaInfo" data-toggle="tab" >公司信息</a></li>
 			<li><a href="#baseInfo" data-toggle="tab" >注册信息</a></li>
@@ -237,35 +240,27 @@ $this->widget('CLinkPager',array(
 			</div>
 			<div class="tab-pane" id="payInfo">
 				<div class="control-group">
-					<label class="control-label" for="reg_reason">付费类型：</label>
+					<label class="control-label" for="payment_type">付费类型：</label>
 					<div class="controls">
-						<select name="pay_type">
+						<select name="userMeta[payment_type]">
 							<option value="0">免费浏览</option>
-							<option value="1">一年付费</option>
-							<option value="2">半年付费</option>
+							<option value="1" {{#payment}} selected {{/payment}} >一年付费</option>
 						</select>
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label" for="reg_reason">金额：</label>
+					<label class="control-label" for="payment_amount">金额：</label>
 					<div class="controls">
-						<input type="text" id="" value="{{payment}}">
+						<input type="text" id="payment_amount" name="userMeta[payment_amount]" value="{{payment_amount}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label" for="reg_reason">付费日期：</label>
+					<label class="control-label" for="payment_date">付费日期：</label>
 					<div class="controls">
-						<input type="text" id="" value="{{pay_date}}">
-						<span class="help-inline"></span>
-					</div>
-				</div>
-				<div class="control-group">
-					<label class="control-label" for="reg_reason">有效期至：</label>
-					<div class="controls">
-						<input type="text" id="" value="{{pay_date}}">
-						<span class="help-inline"></span>
+						<input type="text" id="" name="userMeta[payment_date]" value="{{payment_date}}">
+						<span class="help-inline">2013-02-14</span>
 					</div>
 				</div>
 
@@ -284,9 +279,10 @@ $this->widget('CLinkPager',array(
 		</form>
 	</div>
 	<div class="modal-footer">
-		<button class="btn  btn-success" data-dismiss="modal" aria-hidden="true">成为付费会员</button>
-		<button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">保存修改</button>
-		<button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+		<div class="label label-important ajax_response_info" style="float:left;display:none;padding:5px;"></div>
+		<button class="btn {{^payment_user}}btn-success{{/payment_user}}" {{#payment_user}}disabled=true{{/payment_user}}user_id="{{user_id}}" id="payment_btn">成为付费会员</button>
+		<button class="btn btn-primary" id="save_user_info_btn">保存修改</button>
+		<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
 	</div>
 
 </script>

@@ -10,6 +10,10 @@
               	<h3 class="g-ta-c g-fz-16" style="border-bottom:1px dotted #d1d1d1;padding-bottom:10px;"><?=$info['title'];?></h3>
 				<p class="g-c-99 g-pb-10 g-ta-c" style="padding-top:10px;">发布日期：<?=$info['ptime'];?>　&nbsp;&nbsp;地区：<?=$info['area'];?></p>
 <?php if(in_array($info['category'], array( 1, 2, 3) ) && Yii::app()->user->isGuest):?>
+				<div style="border:1px solid #ccc;padding:10px; margin-top:20px;">
+					<p style="color:#000;font-size:14px;">内容概要：</p>
+					<p><?=cut_str(strip_tags($info['content']), 320);?> ......</p>
+				</div>
 				<div class="no_login page-account">
 					<div class="red"><p>该条信息登录后才能浏览，请先<a href="/user/login/">登录</a>或<a href="/user/register">注册</a>为会员。</p></div>
 					<div class="no_login_box clearfix">
@@ -47,6 +51,12 @@
 							<p><a href="/user/register"><img src="/images/reg_todo.png"></a></p-->
 						</div>
 					</div>
+				</div>
+<?php elseif(in_array($info['category'], array( 1, 2, 3) ) && !Yii::app()->user->isGuest && Yii::app()->user->status < 1):?>
+				<div class="no_login page-account">
+					<div class="red"><p>亲，该条信息只有付费会员才能查看哦!</p></div>
+					<p> <br /><a target="_blank" href="/info/1107448.html">服务报价</a> </p>
+					<p> <br /><a target="_blank" href="/page/services">联系客服</a> </p>
 				</div>
 				<div style="border:1px solid #ccc;padding:10px; margin-top:20px;">
 					<p style="color:#000;font-size:14px;">内容概要：</p>

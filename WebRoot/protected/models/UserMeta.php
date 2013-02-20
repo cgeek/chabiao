@@ -19,6 +19,10 @@
  * @property string $source
  * @property string $source_cn
  * @property string $keywords
+ * @property string $remark
+ * @property string $payment_date
+ * @property string $payment_amount
+ * @property integer $payment_type
  */
 class UserMeta extends CActiveRecord
 {
@@ -49,13 +53,13 @@ class UserMeta extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('user_id', 'required'),
-			array('user_id', 'numerical', 'integerOnly'=>true),
+			array('user_id, payment_type', 'numerical', 'integerOnly'=>true),
 			array('contact_name, mobile, fax, qq', 'length', 'max'=>64),
-			array('position, company_name, website, reg_reason, source, source_cn', 'length', 'max'=>255),
-			array('address, products, company_desc, keywords', 'safe'),
+			array('position, company_name, website, reg_reason, source, source_cn, payment_amount', 'length', 'max'=>255),
+			array('address, products, company_desc, keywords, remark, payment_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('user_id, contact_name, position, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source, source_cn, keywords', 'safe', 'on'=>'search'),
+			array('user_id, contact_name, position, mobile, fax, qq, company_name, address, products, company_desc, website, reg_reason, source, source_cn, keywords, remark, payment_date, payment_amount, payment_type', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -91,6 +95,10 @@ class UserMeta extends CActiveRecord
 			'source' => 'Source',
 			'source_cn' => 'Source Cn',
 			'keywords' => 'Keywords',
+			'remark' => 'Remark',
+			'payment_date' => 'Payment Date',
+			'payment_amount' => 'Payment Amount',
+			'payment_type' => 'Payment Type',
 		);
 	}
 
@@ -120,6 +128,10 @@ class UserMeta extends CActiveRecord
 		$criteria->compare('source',$this->source,true);
 		$criteria->compare('source_cn',$this->source_cn,true);
 		$criteria->compare('keywords',$this->keywords,true);
+		$criteria->compare('remark',$this->remark,true);
+		$criteria->compare('payment_date',$this->payment_date,true);
+		$criteria->compare('payment_amount',$this->payment_amount,true);
+		$criteria->compare('payment_type',$this->payment_type);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

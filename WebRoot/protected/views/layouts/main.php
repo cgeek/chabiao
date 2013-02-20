@@ -100,7 +100,7 @@
 		<a href="#" id="return_top" class="back_to_top" style="">回到顶部</a>
 	<!-- footer -->
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 
-		<div style="width:950px;line-height:30px;height:50px;margin-bottom:6px;">
+		<div style="width:950px;line-height:30px;height:50px;margin-bottom:15px;">
 			<a href="/page/about.html" target="_blank">关于我们</a> 
 			| <a href="/info/1107448.html" target="_blank">会员服务</a> 
 			| <a href="/info/1013353.html" target="_blank">入网流程</a> 

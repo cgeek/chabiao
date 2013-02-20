@@ -7,7 +7,7 @@ class UserController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	private $_data = null;
-	public $layout = '/layouts/column1';
+	public $layout = '/layouts/column2';
 	/**
 	 * @return array action filters
 	 */
@@ -27,7 +27,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('signup','register','login','logout','detail', 'index', 'delete'),
+				'actions'=>array('signup','register','login','logout','detail', 'index', 'delete', 'save', 'payment', 'deletePayment'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -81,17 +81,17 @@ class UserController extends Controller
 		foreach($data as $user) {
 			$user = $user->attributes;
 			$user_id = $user['user_id'];
+			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
+			if(!empty($userMeta)) {
+				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
+				$user = array_merge($user, $userMeta);
+			}
 			if($user['reg_reason'] == 0) {
 				$user['reg_reason'] = '免费浏览';
 			} else if($user['reg_reason'] == 1) {
 				$user['reg_reason'] = '咨询入网';
 			} else if($user['reg_reason'] == 2) {
 				$user['reg_reason'] = '要成为付费会员';
-			}
-			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
-			if(!empty($userMeta)) {
-				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
-				$user = array_merge($user, $userMeta);
 			}
 			$user_list[] = $user;
 		}
@@ -147,6 +147,11 @@ class UserController extends Controller
 			if(empty($user)) {
 				$this->ajax_response(false, "用户不存在，无法删除");
 			}
+			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
+			if(!empty($userMeta)) {
+				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
+				$user = array_merge($user, $userMeta);
+			}
 			if($user['reg_reason'] == 0) {
 				$user['reg_reason'] = '免费浏览';
 			} else if($user['reg_reason'] == 1) {
@@ -154,16 +159,18 @@ class UserController extends Controller
 			} else if($user['reg_reason'] == 2) {
 				$user['reg_reason'] = '要成为付费会员';
 			}
-			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
-			if(!empty($userMeta)) {
-				if(isset($userMeta['reg_reason']) ) unset($userMeta['reg_reason']);
-				$user = array_merge($user, $userMeta);
+			if($user['payment_type'] == 1) {
+				$user['payment'] = true;
+			}
+			if ($user['status'] == 1) {
+				$user['payment_user'] = true;
 			}
 			$this->ajax_response(true, "", $user);
 		} else {
 
 		}
 	}
+
 	public function actionDelete()
 	{
 		if(Yii::app()->request->isAjaxRequest) {
@@ -177,6 +184,59 @@ class UserController extends Controller
 				$this->ajax_response(true, "删除成功!");
 			} else {
 				$this->ajax_response(false , "删除失败!");
+			}
+		} else {
+			die('删除用户页面');
+		}
+	}
+
+	public function actionSave()
+	{
+		if(Yii::app()->request->isAjaxRequest) {
+			if(!isset($_POST['user_id'])) {
+				$this->ajax_response(false ,'保存失败，用户id不存在');
+			}
+			$user_id = $_POST['user_id'];
+			$user_meta = isset($_POST['userMeta']) ? $_POST['userMeta'] : array();
+			$r = UserMeta::model()->updateAll($user_meta, "user_id=$user_id");
+			$this->_data['user_meta'] = $user_meta;
+			$this->ajax_response(true,'',$this->_data);
+		} else {
+			$this->ajax_response(false,'保存失败 403');
+		}
+	}
+
+	public function actionPayment()
+	{
+		if(Yii::app()->request->isAjaxRequest) {
+			$user_id = $_POST['user_id'];
+			$user_db = User::model()->findByPk($user_id);
+			if(empty($user_db)) {
+				$this->ajax_response(false, "用户不存在");
+			}
+			$user_db->status = "1";
+			if($user_db->update()) {
+				$this->ajax_response(true, "操作成功!");
+			} else {
+				$this->ajax_response(false , "操作失败!");
+			}
+		} else {
+			die('删除用户页面');
+		}
+	}
+	public function actionDeletePayment()
+	{
+		if(Yii::app()->request->isAjaxRequest) {
+			$user_id = $_POST['user_id'];
+			$user_db = User::model()->findByPk($user_id);
+			if(empty($user_db)) {
+				$this->ajax_response(false, "用户不存在，无法删除");
+			}
+			$user_db->status = "0";
+			if($user_db->update()) {
+				$this->ajax_response(true, "取消成功!");
+			} else {
+				$this->ajax_response(false , "取消失败!");
 			}
 		} else {
 			die('删除用户页面');
