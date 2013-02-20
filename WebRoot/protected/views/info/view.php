@@ -12,7 +12,7 @@
 <?php if(in_array($info['category'], array( 1, 2, 3) ) && Yii::app()->user->isGuest):?>
 				<div style="border:1px solid #ccc;padding:10px; margin:20px 0;">
 					<p style="color:#000;font-size:14px;">内容概要：</p>
-					<p><?=cut_str(strip_tags($info['content']), 320);?> ......</p>
+					<p><?=cut_str(strip_tags($info['content']), 420);?> ......</p>
 				</div>
 				<div class="no_login page-account">
 					<div class="red"><p>该条信息登录后才能浏览，请先<a href="/user/login/">登录</a>或<a href="/user/register">注册</a>为会员。</p></div>
