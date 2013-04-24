@@ -1,8 +1,8 @@
 	<div class="g-mh-20 g-pb-10">
 		<div class="g-crumb g-arr-g g-mb-10"></div>
 		<div class="g-cf">
-			<div class="g-w-730 g-f-l g-mh-20">
-          	<div class="g-ad-730-90">
+			<div class="g-w-700 g-f-l g-mh-20">
+          	<div class="g-ad-700-90">
             	<a href="http://www.unionbidding.com/"><img src="http://www.unionbidding.com/images/inner_banner.jpg"></a>
 			</div>
           	<div class="g-box-g g-b-dd pd15 clearfix" style="border-top:2px solid #1057A7;">
