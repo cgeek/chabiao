@@ -18,7 +18,7 @@
 <body>
 <DIV class="g-mh-20">
 	<DIV class="g-top">
-		<UL class="g-cf g-w-990 g-mlr-a">
+		<UL class="g-cf g-w-960 g-mlr-a">
 			<LI class="right"><a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.unionbidding.com');" href="#"><font  color="#666666">设为首页</font></a></LI>
 			<LI class="right"><a href="#" onClick="javascript:window.external.AddFavorite('http://www.unionbidding.com','<?=$this->site_info['name'];?>')" title="<?=$this->site_info['name'];?>"><font  color="#666666">收藏本站</font></a></LI>
 			<!--LI class="right en g-p-r"><A href="#">邮件订阅</A></LI-->
@@ -42,10 +42,10 @@
 		</UL>
 	</DIV>
 </DIV>
-<DIV class="g-w-990 g-mlr-a">
+<DIV class="g-w-960 g-mlr-a">
 	<DIV class="g-mh-20">
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
-			<div style="width:220px;height:80px;float:left;">
+			<div style="width:200px;height:80px;float:left;">
 				<A  title="<?=$this->site_info['name'];?>" href="/">
 					<IMG width=200px height="75px" id="topLogo" src="http://www.unionbidding.com<?=$this->site_info['logo']; ?>">
 				</A>
@@ -57,7 +57,7 @@
 				<form id=search_form action="/search/" method="GET" >
 					<UL class=g-cf>
 						<LI class="g-f-l g-p-r text">
-							<INPUT style="WIDTH: 380px" id=search_keywords class="g-f-l " placeholder="请输入您要查询的关键字..." name="keyword" maxLength=30 value="<?=isset($_GET['keyword']) ? $_GET['keyword']:'';?>">
+							<INPUT style="WIDTH: 370px" id=search_keywords class="g-f-l " placeholder="请输入您要查询的关键字..." name="keyword" maxLength=30 value="<?=isset($_GET['keyword']) ? $_GET['keyword']:'';?>">
 							<DIV id=search_tip class="g-notice g-d-n">请输入您要查询的关键字...<I></I></DIV>
 						</LI>
 						<LI class="g-f-l submit">
@@ -93,10 +93,10 @@
 		</DIV>
 	</div>
 </Div>
-<DIV class="g-w-990 g-mlr-a">
+<DIV class="g-w-960 g-mlr-a">
 <?php echo $content; ?>
 </div>
-<DIV class="g-w-990 g-mlr-a clearfix">
+<DIV class="g-w-960 g-mlr-a clearfix">
 		<a href="#" id="return_top" class="back_to_top" style="">回到顶部</a>
 	<!-- footer -->
 	<div style="width:950px;float:left;border-top:1px solid #ccc;padding:10px 20px 20px 20px;TEXT-ALIGN:CENTER;margin-top:20px;"> 

@@ -1,11 +1,15 @@
 <div class="g-mh-20">
-	<div class="g-ad-990-70 g-ta-c g-mb-10 g-b-dd">
-		<?=ad_show($this->site_info['ad'], 'ad-banner', '990px');?>
+	<div class="g-ad-960-70 g-ta-c g-mb-10 g-b-dd">
+<script type="text/javascript">
+/*首页横幅960*90，创建于2013-4-24*/
+var cpro_id = "u1269932";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
 	</div>
 </div>
 <div class="g-mh-20 g-pb-10">
     <div class="g-cf">
-      <div class="g-w-220 g-f-l g-mh-20">
+      <div class="g-w-200 g-f-l g-mh-20">
         <div class="g-box-g caozuo">
           <div class="bar"><a class="g-c-99 g-bi-n" title="" href="#" target="_blank" recid="800" rec="">帮助</a>
             <h2 title=""> 特色服务</h2>
@@ -48,18 +52,14 @@
           </div>
         </div>
       </div>
-      <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
-        <div class="g-ad-440-189">
-          <object id="FlashIDName" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="438" align="middle" height="187">
-            <param name="movie" value="http://www.hqewimg.com/file/ASFile/Flash/stock/ASInfoPlayer.swf?adHeight=187&amp;adWidth=438&amp;PicNameList=http://www.hqewimg.com/File/ASFile/G01/20120503151152693H54L4M.SWF|http://www.hqewimg.com/File/ASFile/G01/20120530134235825EHMJJA.SWF|http://www.hqewimg.com/File/ASFile/G01/20120523154245791DQJQTB.SWF|http://www.hqewimg.com/File/ASFile/G01/201202231104046046YYTO7.SWF&amp;urlList=">
-            <param name="quality" value="high">
-            <param name="bgcolor" value="#ffffff">
-            <param name="wmode" value="transparent">
-            <param name="allowScriptAccess" value="always">
-            <param name="FlashVars" value="adHeight=187&amp;adWidth=438&amp;FlashNameList=http://www.hqewimg.com/File/ASFile/G01/20120503151152693H54L4M.SWF|http://www.hqewimg.com/File/ASFile/G01/20120530134235825EHMJJA.SWF|http://www.hqewimg.com/File/ASFile/G01/20120523154245791DQJQTB.SWF|http://www.hqewimg.com/File/ASFile/G01/201202231104046046YYTO7.SWF&amp;urlList=">
-            <embed width="438" height="187" align="middle" src="http://www.hqewimg.com/file/ASFile/Flash/stock/ASInfoPlayer.swf?adHeight=187&amp;adWidth=438&amp;PicNameList=http://www.hqewimg.com/File/ASFile/G01/20120503151152693H54L4M.SWF|http://www.hqewimg.com/File/ASFile/G01/20120530134235825EHMJJA.SWF|http://www.hqewimg.com/File/ASFile/G01/20120523154245791DQJQTB.SWF|http://www.hqewimg.com/File/ASFile/G01/201202231104046046YYTO7.SWF&amp;urlList=" flashvars="adHeight=187&amp;adWidth=438&amp;FlashNameList=http://www.hqewimg.com/File/ASFile/G01/20120503151152693H54L4M.SWF|http://www.hqewimg.com/File/ASFile/G01/20120530134235825EHMJJA.SWF|http://www.hqewimg.com/File/ASFile/G01/20120523154245791DQJQTB.SWF|http://www.hqewimg.com/File/ASFile/G01/201202231104046046YYTO7.SWF&amp;urlList=" name="Flash_Net" quality="high" bgcolor="#ffffff" allowscriptaccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
-          </object>
-        </div>
+	  <div class="g-w-430 g-f-l g-mh-20 g-ml-10">
+		<div class="g-ad-430-189">
+			<h3>&nbsp;&nbsp;最新广告</h3>
+	  		<script type="text/javascript">
+				var cpro_id = "u1269950";
+			</script>
+				<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+		 </div>
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         <div class="g-ad-310-70">
@@ -117,7 +117,7 @@
       </div>
     </div>
     <div class="g-cf">
-      <div class="g-w-220 g-f-l g-mh-20">
+      <div class="g-w-200 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
 		  <a class="g-c-99 g-bi-n" title="" href="/info/gongying" target="_blank" recid="800" rec="">更多</a>
@@ -152,7 +152,7 @@
           </div>
         </div>
       </div>
-      <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
+      <div class="g-w-430 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
           <div class="bar g-box-t"><a class="g-c-99 g-bi-n" title="" href="/info/zhaobiao" target="_blank" recid="800" rec="">更多</a><a class="g-c-66" title="" href="#" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">如何能查看招标内容？</span></a>
             <h2 class="cur" title="">招标公告</h2>
@@ -251,9 +251,9 @@
       </div>
     </div>
     <div class="g-cf">
-      <div class="g-w-670 g-f-l g-mh-20">
-		<div class="g-ad-670-70">
-			<?=ad_show($this->site_info['ad'], 'ad-3', '668px');?>
+      <div class="g-w-640 g-f-l g-mh-20">
+		<div class="g-ad-640-70">
+			<?=ad_show($this->site_info['ad'], 'ad-3', '638px');?>
 		</div>
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
@@ -264,7 +264,7 @@
       </div>
     </div>
     <div class="g-cf">
-      <div class="g-w-220 g-f-l g-mh-20">
+      <div class="g-w-200 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
 		  <a class="g-c-99 g-bi-n" title="" href="/info/gongying" target="_blank" recid="800" rec="">更多</a>
@@ -282,7 +282,7 @@
         </div>
 		<div class="g-box-g1 g-mt-10"><img border="0" src="/images/ads/goca.jpg" width="218" height="136"></div>
       </div>
-      <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
+      <div class="g-w-430 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
           <div class="bar g-box-t"><a class="g-bi-n" href="/info/zhongbiao" target="_blank">更多</a><a class="g-c-66" title="" href="/info-c12.html" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">如何提升中标几率？</span></a>
             <h2 class="cur" title="">中标公告</h2>
@@ -382,7 +382,7 @@
     </div>
     
     <div class="g-cf">
-      <div class="g-w-220 g-f-l g-mh-20">
+      <div class="g-w-200 g-f-l g-mh-20">
         <div class="g-box-g">
           <div class="bar">
 		  <a class="g-c-99 g-bi-n" title="" href="/info/toubiaozhinang" target="_blank" recid="800" rec="">更多</a>
@@ -404,7 +404,7 @@
           </div>
         </div>
       </div>
-      <div class="g-w-440 g-f-l g-mh-20 g-ml-10">
+      <div class="g-w-430 g-f-l g-mh-20 g-ml-10">
         <div class="g-box-g">
           <div class="bar g-box-t"><a class="g-c-99 g-bi-n" title="" href="/info/nizaijian" target="_blank" recid="800" rec="">更多</a><a class="g-c-66" title="" href="/info/nizaijian" target="_blank" recid="804" rec=""><span style="color:#ff0000;font-weight:bold;">更多商机先知先觉</span></a>
             <h2 class="cur" title="">拟在建项目</h2>
@@ -428,7 +428,7 @@
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         
-        <div class="g-ad-310-42"><a href="#" target="_blank"><img border="0" name="g_AsImageG0133_name" src="/images/ads/201202221518042201M95H9.gif" width="308" height="40"> </a></div>
+        <div class="g-ad-310-42"><a href="#" target="_blank"><img border="0" name="g_AsImageG0133_name" src="/images/ads/201202221518042001M95H9.gif" width="308" height="40"> </a></div>
         <div class="g-ad-310-42"><a href="/chinachips/service_index.html" target="_blank"><img border="0" name="g_AsImageG0134_name" src="/images/ads/20120222151854205XUFUJ6.gif" width="308" height="40"> </a></div>
         <div class="g-box-g">
           <div class="bar"><a class="g-c-99 g-bi-n" title="" href="/info/zhanghui" target="_blank" recid="800" rec="">更多</a>

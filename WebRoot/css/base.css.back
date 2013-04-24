@@ -249,7 +249,7 @@ BODY {
 	MARGIN-LEFT: 20px
 }
 .g-search {
-	WIDTH: 520px; float:left;padding-top:12px;
+	WIDTH: 530px; float:left;padding-top:12px;
 }
 #search_tabs {
 	Z-INDEX: 2; PADDING-LEFT: 1px; OVERFLOW: hidden
@@ -267,7 +267,7 @@ BODY {
 	BORDER-BOTTOM: #e4e4e4 1px solid; BORDER-LEFT: #e4e4e4 1px solid; PADDING-BOTTOM: 3px; MARGIN-TOP: -1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND: #f9f9f9; BORDER-TOP: #e4e4e4 1px solid; BORDER-RIGHT: #e4e4e4 1px solid; PADDING-TOP: 3px
 }
 #search_form .text {
-	Z-INDEX: 1; BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 410px; BACKGROUND: #fff; HEIGHT: 30px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 0px solid
+	Z-INDEX: 1; BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 419px; BACKGROUND: #fff; HEIGHT: 30px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 0px solid
 }
 #search_form .submit {
 	BORDER-BOTTOM: #c00 1px solid; BORDER-LEFT: #c00 1px solid; WIDTH: 99px; HEIGHT: 30px; BORDER-TOP: #c00 1px solid; BORDER-RIGHT: #c00 1px solid
@@ -345,7 +345,7 @@ BODY {
 	BACKGROUND-COLOR: #fff; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -270px; MARGIN-BOTTOM: 10px
 }
 .g-menu LI {
-	PADDING-LEFT: 10px; BACKGROUND-POSITION: -92px -310px; FLOAT: left; HEIGHT: 38px
+	PADDING-LEFT: 12px; BACKGROUND-POSITION: -92px -310px; FLOAT: left; HEIGHT: 38px
 }
 .g-menu .first {
 	BACKGROUND-POSITION: 0px -190px
@@ -366,7 +366,7 @@ BODY {
 	WIDTH: 38px
 }
 .g-menu LI B {
-	WIDTH: 11px; BACKGROUND-POSITION: -80px -310px
+	WIDTH: 12px; BACKGROUND-POSITION: -80px -310px
 }
 .g-menu .cur {
 	BACKGROUND-POSITION: -92px -350px
@@ -479,7 +479,7 @@ BODY {
 	WIDTH: 27px
 }
 .g-page .prev {
-	BACKGROUND-POSITION: 0px -960px
+	BACKGROUND-POSITION: 0px -990px
 }
 .g-page .p {
 	BACKGROUND-POSITION: 0px -1020px
@@ -1041,8 +1041,8 @@ BODY {
 .g-w-a {
 	WIDTH: auto
 }
-.g-w-960 {
-	WIDTH: 960px
+.g-w-990 {
+	WIDTH: 990px
 }
 .g-w-730 {
 	WIDTH: 730px
@@ -1056,8 +1056,8 @@ BODY {
 .g-w-600 {
 	WIDTH: 600px
 }
-.g-w-640 {
-	WIDTH: 640px
+.g-w-670 {
+	WIDTH: 670px
 }
 .g-w-310 {
 	WIDTH: 310px
@@ -1077,11 +1077,11 @@ BODY {
 .g-w-470 {
 	WIDTH: 470px
 }
-.g-w-200 {
-	WIDTH: 200px
+.g-w-220 {
+	WIDTH: 220px
 }
-.g-w-430 {
-	WIDTH: 430px;
+.g-w-440 {
+	WIDTH: 440px
 }
 .g-w-690 {
 	WIDTH: 690px
@@ -1168,7 +1168,7 @@ BODY {
 	WIDTH: 24px;font-size:12px;
 }
 .red{color:#ff0000;}
-.g-ad-430-189 {
+.g-ad-440-189 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-ad-310-172 {
@@ -1204,10 +1204,10 @@ BODY {
 .g-ad-250-250 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-960-70 {
+.g-ad-990-70 {
 	BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; 
 }
-.g-ad-960-60 {
+.g-ad-990-60 {
 	BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; 
 }
 .g-ad-730-70 {
@@ -1220,7 +1220,7 @@ BODY {
 .g-ad-730-150 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-640-70 {
+.g-ad-670-70 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-ad-470-70 {
@@ -1238,10 +1238,10 @@ BODY {
 .g-ad-690-70 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-430-166 {
+.g-ad-440-166 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-640-204 {
+.g-ad-670-204 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-ad-470-166 {
@@ -1253,9 +1253,8 @@ BODY {
 .g-ad-250-90 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-430-189 {
-	WIDTH: 428px; HEIGHT: 187px;
-	overflow:hidden;
+.g-ad-440-189 {
+	WIDTH: 438px; HEIGHT: 187px
 }
 .g-ad-310-172 {
 	WIDTH: 308px; HEIGHT: 237px
@@ -1290,10 +1289,10 @@ BODY {
 .g-ad-250-250 {
 	WIDTH: 248px; HEIGHT: 248px
 }
-.g-ad-960-70 {
-	WIDTH: 960px; 
+.g-ad-990-70 {
+	WIDTH: 988px; HEIGHT: 68px
 }
-.g-ad-960-60 {
+.g-ad-990-60 {
 	WIDTH: 988px; HEIGHT: 48px
 }
 .g-ad-730-70 {
@@ -1306,8 +1305,8 @@ BODY {
 .g-ad-730-150 {
 	WIDTH: 728px; HEIGHT: 148px
 }
-.g-ad-640-70 {
-	WIDTH: 638px; HEIGHT: 68px
+.g-ad-670-70 {
+	WIDTH: 668px; HEIGHT: 68px
 }
 .g-ad-470-70 {
 	WIDTH: 468px; HEIGHT: 68px
@@ -1324,11 +1323,11 @@ BODY {
 .g-ad-690-70 {
 	WIDTH: 688px; HEIGHT: 68px
 }
-.g-ad-430-166 {
-	WIDTH: 428px; HEIGHT: 164px
+.g-ad-440-166 {
+	WIDTH: 438px; HEIGHT: 164px
 }
-.g-ad-640-204 {
-	WIDTH: 638px; HEIGHT: 202px
+.g-ad-670-204 {
+	WIDTH: 668px; HEIGHT: 202px
 }
 .g-ad-470-166 {
 	WIDTH: 468px; HEIGHT: 164px
@@ -1832,7 +1831,7 @@ BODY {
 	
 }
 .g-b-dd {
-	BORDER: #c8c8c8 1px solid;
+	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-b-ed {
 	BORDER-BOTTOM: #edce84 1px solid; BORDER-LEFT: #edce84 1px solid; BORDER-TOP: #edce84 1px solid; BORDER-RIGHT: #edce84 1px solid
