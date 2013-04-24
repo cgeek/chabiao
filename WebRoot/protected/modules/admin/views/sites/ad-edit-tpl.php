@@ -1,7 +1,7 @@
 				<div class="ad-setting-page">
 					<div class="header">头部信息</div>
 					<div id="ad-banner" class="ad-banner dropzone">
-						<input type="hidden" name="ad[ad-banner][image_url]" value="<?=$ad['ad-banner'];?>">
+						<input type="hidden" name="ad[ad-banner][image_url]" value="<?=$ad['ad-banner']['image_url'];?>">
 							<div class="preview">
 							<?php if(isset($ad) && !empty($ad['ad-banner'])):?>
 								<img src="<?=$ad['ad-banner']['image_url'];?>">
