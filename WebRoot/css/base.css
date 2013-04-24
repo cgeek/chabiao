@@ -1044,8 +1044,8 @@ BODY {
 .g-w-960 {
 	WIDTH: 960px
 }
-.g-w-730 {
-	WIDTH: 730px
+.g-w-700 {
+	WIDTH: 700px
 }
 .g-w-250 {
 	WIDTH: 250px
@@ -1210,14 +1210,14 @@ BODY {
 .g-ad-960-60 {
 	BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; 
 }
-.g-ad-730-70 {
+.g-ad-700-70 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-730-90 {
+.g-ad-700-90 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 
-.g-ad-730-150 {
+.g-ad-700-150 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-ad-640-70 {
@@ -1247,7 +1247,7 @@ BODY {
 .g-ad-470-166 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
-.g-ad-730-120 {
+.g-ad-700-120 {
 	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; BACKGROUND-COLOR: #fafafa; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid
 }
 .g-ad-250-90 {
@@ -1296,14 +1296,14 @@ BODY {
 .g-ad-960-60 {
 	WIDTH: 988px; HEIGHT: 48px
 }
-.g-ad-730-70 {
+.g-ad-700-70 {
 	WIDTH: 728px; HEIGHT: 68px
 }
-.g-ad-730-90 {
+.g-ad-700-90 {
 	WIDTH: 728px; HEIGHT: 88px
 }
 
-.g-ad-730-150 {
+.g-ad-700-150 {
 	WIDTH: 728px; HEIGHT: 148px
 }
 .g-ad-640-70 {
@@ -1333,8 +1333,8 @@ BODY {
 .g-ad-470-166 {
 	WIDTH: 468px; HEIGHT: 164px
 }
-.g-ad-730-120 {
-	WIDTH: 728px; HEIGHT: 118px
+.g-ad-700-120 {
+	WIDTH: 698px; HEIGHT: 118px
 }
 .g-ad-250-90 {
 	WIDTH: 248px; HEIGHT: 88px
