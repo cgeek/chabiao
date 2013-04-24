@@ -7,10 +7,10 @@
 	<?=$this->site_info['head_meta'];?>
 	<meta name="description" content="<?=$this->site_info['description'];?>" />
 	<meta name="keywords" content="<?=$this->site_info['seo_keyword'];?>" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/global.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/base.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/global.css?t=20130423" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/base.css?t=20130423" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css?t=20130423" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/index.css?t=20130423" />
 	<script src="/assets/noseajs/jquery-1.8.3.min.js"></script>
 	<script src="/assets/noseajs/jquery.validate.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/libs/seajs/2.0.0/sea.js"></script>

@@ -162,11 +162,11 @@ function getAccessName($access_id)
 }
 
 function ad_show($data, $position , $width, $type = 'image') {
-	if(!isset($data[$position]) || empty($width)) {
+	if(!isset($data[$position]) || empty($width) || empty($data[$position]['image_url'])) {
 		return false;
 	}
 
-	$target = !empty($data[$position]['image_href']) ? $data[$position]['image_href']:'#';
+	$target = !empty($data[$position]['image_href']) ? $data[$position]['href']:'#';
 	$src = !empty($data[$position]['image_url']) ? $data[$position]['image_url']:'';
 	$str = "<a href=\"$target\" target=\"_blank\"><img src=\"$src\" width=\"$width\"></a>";
 	return $str;
