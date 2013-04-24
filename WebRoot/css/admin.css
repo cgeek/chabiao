@@ -17,3 +17,6 @@
 .reason_filter ul{float:left;display:block; margin:0;padding:0;}
 .reason_filter ul li{list-style:none; float:left;text-align:center; padding:2px 5px;margin:0 5px;}
 .reason_filter ul li.active a{background:#b94a48;color:#fff;padding:2px 5px;}
+
+.dropzone {position:relative;}
+.dropzone .image_href {position:absolute; bottom:0;}
