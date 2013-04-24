@@ -12,7 +12,7 @@
 								</span>
 							<?php endif;?>
 							</div>
-						链接地址：<input type="text"  name="ad[ad-banner][href]" value="<?=$ad['ad-banner']['href'];?>">
+							<div class="image_href">链接地址：<input type="text"  name="ad[ad-banner][href]" value="<?=$ad['ad-banner']['href'];?>"></div>
 					</div>
 					<div class="w670 clearfix">
 						<div class="w220">
@@ -29,7 +29,7 @@
 									</span>
 								<?php endif;?>
 								</div>
-						链接地址：<input type="text"  name="ad[ad-1][href]" value="<?=$ad['ad-1']['href'];?>">
+						<div class="image_href">链接地址：<input type="text"  name="ad[ad-1][href]" value="<?=$ad['ad-1']['href'];?>"></div>
 							</div>
 						</div>
 						<div class="w440">
@@ -48,7 +48,7 @@
 								</span>
 							<?php endif;?>
 							</div>
-						链接地址：<input type="text"  name="ad[ad-3][href]" value="<?=$ad['ad-3']['href'];?>">
+						<div class="image_href">链接地址：<input type="text"  name="ad[ad-3][href]" value="<?=$ad['ad-3']['href'];?>"></div>
 						</div>
 					</div>
 					<div class="w310">
@@ -64,7 +64,7 @@
 								</span>
 							<?php endif;?>
 							</div>
-						链接地址：<input type="text"  name="ad[ad-2][href]" value="<?=$ad['ad-2']['href'];?>">
+						<div class="image_href">链接地址：<input type="text"  name="ad[ad-2][href]" value="<?=$ad['ad-2']['href'];?>"></div>
 						</div>
 						<div class="box" style="height:120px;"></div>
 						<div class="box-ad dropzone" id="ad-4">
@@ -78,7 +78,7 @@
 								</span>
 							<?php endif;?>
 							</div>
-						链接地址：<input type="text"  name="ad[ad-4][href]" value="<?=$ad['ad-4']['href'];?>">
+						<div class="image_href">链接地址：<input type="text"  name="ad[ad-4][href]" value="<?=$ad['ad-4']['href'];?>"></div>
 						</div>
 
 					</div>

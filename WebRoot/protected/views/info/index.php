@@ -63,7 +63,7 @@ var cpro_id = "u1269932";
       </div>
       <div class="g-w-310 g-f-l g-mh-20 g-ml-10">
         <div class="g-ad-310-70">
-        <img src="/images/ads/tese.gif" width="308" height="68">        </div>
+        <img src="/images/ads/tese.gif" width="308" height="68"></div>
         <div class="g-bc-b g-p-r service" id="_userlogin">
 		<form method="post" enctype="multipart/form-data" name="userlogin" style="margin:0px; padding:0px;">
 	<input type="hidden" name="fmdo" value="login">
