@@ -168,6 +168,10 @@ function ad_show($data, $position , $width, $type = 'image') {
 
 	$target = !empty($data[$position]['href']) ? $data[$position]['href']:'#';
 	$src = !empty($data[$position]['image_url']) ? $data[$position]['image_url']:'';
+	$url = parse_url($src);
+	if(empty($url['host'])) {
+		$src = 'http://www.unionbidding.com' . $src;
+	}
 	$str = "<a href=\"$target\" target=\"_blank\"><img src=\"$src\" width=\"$width\"></a>";
 	return $str;
 }
