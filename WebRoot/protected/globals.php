@@ -166,7 +166,7 @@ function ad_show($data, $position , $width, $type = 'image') {
 		return false;
 	}
 
-	$target = !empty($data[$position]['image_href']) ? $data[$position]['href']:'#';
+	$target = !empty($data[$position]['href']) ? $data[$position]['href']:'#';
 	$src = !empty($data[$position]['image_url']) ? $data[$position]['image_url']:'';
 	$str = "<a href=\"$target\" target=\"_blank\"><img src=\"$src\" width=\"$width\"></a>";
 	return $str;

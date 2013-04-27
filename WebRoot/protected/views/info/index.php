@@ -1,10 +1,11 @@
 <div class="g-mh-20">
 	<div class="g-ad-960-70 g-ta-c g-mb-10 g-b-dd">
+			<?=ad_show($this->site_info['ad'], 'ad-banner', '960px');?>
 <script type="text/javascript">
 /*首页横幅960*90，创建于2013-4-24*/
-var cpro_id = "u1269932";
+//var cpro_id = "u1269932";
 </script>
-<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+<!--script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script-->
 	</div>
 </div>
 <div class="g-mh-20 g-pb-10">
