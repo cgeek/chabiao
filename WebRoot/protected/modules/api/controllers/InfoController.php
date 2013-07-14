@@ -67,16 +67,12 @@ class InfoController extends Controller
 		if(empty($post)) {
 			ajax_response(404, 'miss post');
 		}
-		$post['content'] = preg_replace("/(<div([^>]*)>)|(<\/div>)/isU","",$post['content']);
-		$post['content'] = preg_replace("/class=['\"]*([^'\"]*)['\"]*/is","",$post['content']);
-		$this->_data['info'] = $post;
+		$post = $post->attributes;
+		$this->_data = $post;
 		$current_category = array(
 			'category' => $post['category'],
 			'name'    => getCategoryName($post['category'])
 		);
-		if(!empty($post)) {
-			$this->title = $post['title'];
-		}
 		$this->_data['current_category'] = $current_category;
 		ajax_response('200', '',$this->_data);
 	}
