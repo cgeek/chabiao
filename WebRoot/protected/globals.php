@@ -237,3 +237,14 @@ function _st($st)  //处理日期区间
 	}
 	return $e;
 }
+
+function ajax_response($code = 200, $message="",$data = array())
+{
+	header('Content-Type: application/json; charset=utf-8');
+	$result['code'] = $code;
+	//$result['success'] = $success;
+	$result['message'] = $message;
+	$result['data'] = $data;
+	echo json_encode($result);
+	exit();
+}

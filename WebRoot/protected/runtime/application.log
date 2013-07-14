@@ -183,3 +183,431 @@ Stack trace:
 REQUEST_URI=/images/ads/201202221518042001M95H9.gif
 HTTP_REFERER=http://www.chabiao.com/
 ---
+2013/04/27 22:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/05/15 20:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/
+---
+2013/05/15 20:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/default".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/default')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/default
+---
+2013/05/15 20:15:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/default/index".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/default/ind...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/default/index
+---
+2013/05/15 20:15:44 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/DefaultController.php(7): CController->render('index')
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('index')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/default/ind...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/default/index
+---
+2013/05/15 20:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/api/info/index
+---
+2013/05/15 20:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/api/info/index
+---
+2013/05/17 13:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/05/17 13:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/06/27 09:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/06/27 09:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/02 12:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 09:42:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 09:42:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 09:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 09:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 12:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/03 12:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/07 22:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/07 22:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 11:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 11:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/post/detail".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/post/detail')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/post/detail?keyword=%E6%B5%99%E6%B1%9F
+---
+2013/07/14 20:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/InfoController.php:64
+Stack trace:
+#0 [internal function]: InfoController->actionView(NULL)
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(InfoController), Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(InfoController), Object(ReflectionMethod), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('view')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/info/view')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/info/view?keyword=%E6%B5%99%E6%B1%9F
+---
+2013/07/14 20:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 20:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/InfoController.php:64
+Stack trace:
+#0 [internal function]: InfoController->actionView(NULL)
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(InfoController), Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(InfoController), Object(ReflectionMethod), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('view')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/info/view/1')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/info/view/1
+---
+2013/07/14 21:27:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 21:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 21:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/07/14 21:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
