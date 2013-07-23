@@ -629,3 +629,81 @@ Stack trace:
 REQUEST_URI=/images/ads/201202221518042001M95H9.gif
 HTTP_REFERER=http://www.chabiao.com/
 ---
+2013/07/24 00:45:17 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/DefaultController.php(7): CController->render('index')
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api
+---
+2013/07/24 00:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/api/f3/index?id=1
+---
+2013/07/24 00:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/api/f3/index?id=1
+---
+2013/07/24 01:25:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:337
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('list')
+#4 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/info/list')
+#5 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/info/list
+---
+2013/07/24 01:25:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:337
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('list')
+#4 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/info/list/z...')
+#5 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/info/list/zhaobiao
+---
+2013/07/24 01:26:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:337
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('list')
+#4 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/info/list/z...')
+#5 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/info/list/zhaobiao
+---
+2013/07/24 01:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_m_b.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/bg_m_b.g...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg_m_b.gif
+HTTP_REFERER=http://www.chabiao.com/api/f3/getInfoListByPage
+---

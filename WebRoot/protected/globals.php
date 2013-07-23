@@ -10,6 +10,10 @@ function user()
 {
 	return Yii::app()->user;
 }
+function request() 
+{
+	return Yii::app()->request;
+}
 function search()
 {
 	return Yii::app()->search;
