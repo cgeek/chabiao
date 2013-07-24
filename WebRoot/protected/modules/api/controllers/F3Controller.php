@@ -16,7 +16,9 @@ class F3Controller extends Controller
 
 	public function actionGetCategory()
 	{
-		$mtype = request()->getParam('mtype');
+		$post = file_get_contents("php://input");
+		$post = json_decode($post, TRUE);
+		$mtype = $post['mtype'];
 		
 		$categorys = array(
 			array(
@@ -61,12 +63,16 @@ class F3Controller extends Controller
 
 	public function actionGetInfoListByPage()
 	{
-		$category_id = request()->getParam('categoryid');
-		$size = request()->getParam('size');
-		$p = request()->getParam('pageindex');
-		
-		$filter = request()->getParam('filter');
+		$post = file_get_contents("php://input");
+		$post = json_decode($post, TRUE);
 
+		$category_id = $post['categoryid'];
+		$size = $post['size'];
+		$p = $post['pageindex'];
+		$filter = $post['filter'];
+		if(!empty($filter)) {
+			search()->setQuery($filter);
+		}
 		$category_id = empty($category_id) ? 0 : $category_id;
 		if(!empty($category_id)) {
 			search()->addRange('category', $category_id, $category_id);
@@ -114,7 +120,10 @@ class F3Controller extends Controller
 
 	public function actionGetInfoContent()
 	{
-		$id = request()->getParam('msgid');
+		$post = file_get_contents("php://input");
+		$post = json_decode($post, TRUE);
+		$id = $post['msgid'];
+
 		if(empty($id) || $id <= 0) {
 			$this->_f3_error('miss param');
 		}
