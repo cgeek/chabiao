@@ -11,54 +11,73 @@ class F3Controller extends Controller
 			'notice' => $notice,
 			'info'=>array()
 		);
-		echo json_encode($result);die();
+		$this->_f3_response($result);
+	}
+
+	private function _f3_response($result) {
+		if(empty($result)) {
+			die('err');
+		}
+		header("Content-type: text/html; charset=utf-8"); 
+		echo urldecode(json_encode($this->_url_encode($result)));
+		die();
+	}
+
+	public function actionIndex()
+	{
+		error_reporting(E_ALL);
+		var_dump($r);
 	}
 
 	public function actionGetCategory()
 	{
 		$post = file_get_contents("php://input");
+		file_put_contents('/data/htdocs/cgeek/chabiao/WebRoot/protected/runtime/aaa.txt', $post);
 		$post = json_decode($post, TRUE);
+
 		$mtype = $post['mtype'];
-		
 		$categorys = array(
-			array(
+			'12654' => array(
 				'categoryid' => 1,
 				'categoryname' => '招标信息',
 				'iconurl' => ''
 			),
-			array(
+			'12655' =>array(
 				'categoryid' => 2,
 				'categoryname' => '拟在建项目',
 				'iconurl' => ''
 			),
-			array(
+			'12655' =>array(
 				'categoryid' => 3,
 				'categoryname' => '中标公告',
 				'iconurl' => ''
 			),
-			array(
+			'10478' =>array(
 				'categoryid' => 4,
 				'categoryname' => '供应信息',
 				'iconurl' => ''
 			),
-			array(
+			'10483' =>array(
 				'categoryid' => 5,
 				'categoryname' => '求购信息',
 				'iconurl' => ''
 			),
-			array(
+			'12056' =>array(
 				'categoryid' => 999,
 				'categoryname' => '关于我们',
 				'iconurl' => ''
 			)
 		);
 
+		if(!empty($mtype)) {
+			$categorys = array($categorys[$mtype]);
+		}
 		$result = array(
 			'result' => true,
 			"notice" => "操作成功",
 			"info" => $categorys
 		);
-		echo json_encode($result);die();
+		$this->_f3_response($result);
 	}
 
 	public function actionGetInfoListByPage()
@@ -72,6 +91,8 @@ class F3Controller extends Controller
 		$filter = $post['filter'];
 		if(!empty($filter)) {
 			search()->setQuery($filter);
+		} else {
+			search()->setQuery('');
 		}
 		$category_id = empty($category_id) ? 0 : $category_id;
 		if(!empty($category_id)) {
@@ -86,6 +107,7 @@ class F3Controller extends Controller
 		$docs = search()->setLimit($pageSize, $offset)->search(); 
 		$count = search()->getLastCount();
 		$dbTotal = search()->getDbTotal();
+		$post_list = array();
 		foreach($docs as $doc)
 		{
 			$post = Post::model()->findByPk($doc->id);
@@ -99,6 +121,7 @@ class F3Controller extends Controller
 				'msgid' => $doc->id,
 				'categoryid' => $post['category'],
 				'title' => cut_str($doc->title, 40),
+				'linkurl' => 'http://www.unionbidding.com/api/f3/infoHtml?id=' . $doc->id,
 				'iconurl' => '',
 				'addtime' => date('Y-m-d h:i:s', strtotime($doc->ctime))
 			);
@@ -115,7 +138,22 @@ class F3Controller extends Controller
 			'hasmore' => $hasMore,
 			'info' => $post_list
 		);
-		echo json_encode($result);
+		$this->_f3_response($result);
+	}
+
+	private function _url_encode($str)
+	{
+		if(is_array($str)) {  
+			foreach($str as $key=>$value) { 
+				if($key == 'result' || $key == 'hasmore') {
+					continue;
+				}
+				$str[urlencode($key)] = $this->_url_encode($value);  
+			}  
+		} else {  
+			$str = urlencode($str);  
+		}  
+		return $str; 
 	}
 
 	public function actionGetInfoContent()
@@ -145,14 +183,18 @@ class F3Controller extends Controller
 			'title' => empty($post['title']) ? '' : $post['title'],
 			'addtime' => date('Y-m-d h:i:s' ,$post['ctime']),
 			'wapurl' => 'http://www.unionbidding.com/api/f3/infoHtml?id=' . $post['id'],
+			'linkurl' => 'http://www.unionbidding.com/api/f3/infoHtml?id=' . $post['id'],
 			'shareurl' => '',
 			'content' => array(
-				'letter' => cut_str(strip_tags($post['content']), 120),
-				'imageurl' => '',
-				'imagedesc' => ''
+				array(
+					'letter' => urlencode(cut_str(trim(strip_tags($post['content'])), 10020)),
+					//'letter' => urlencode($post['content']),
+					'imageurl' => '',
+					'imagedesc' => ''
+				)
 			)
 		);
-		echo json_encode($result);die();
+		$this->_f3_response($result);
 	}
 
 	public function actionInfoHtml()
@@ -165,6 +207,7 @@ class F3Controller extends Controller
 		if(empty($post)) {
 			$this->_f3_error('miss post');
 		}
+		header("Content-type: text/html; charset=utf-8");
 		echo $post['content'];
 	}
 }

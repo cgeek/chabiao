@@ -47,7 +47,7 @@
 		<DIV id="head" class="g-cf g-mb-10  g-p-r">
 			<div style="width:200px;height:80px;float:left;">
 				<A  title="<?=$this->site_info['name'];?>" href="/">
-					<IMG width=200px height="75px" id="topLogo" src="http://www.unionbidding.com<?=$this->site_info['logo']; ?>">
+					<IMG width=200px height="75px" id="topLogo" src="<?=$this->site_info['logo']; ?>">
 				</A>
 			</div>
 			<DIV class=g-search>

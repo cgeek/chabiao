@@ -1,6 +1,31 @@
 (function(){
 
 	var alias = {
+
+		'_' : 'underscore/underscore-min',
+		'jquery':'jquery/jquery/1.10.1/jquery.js',
+		'json': 'json/json3',
+		'cookie': 'jquery/cookie/jquery.cookie',
+		'jquery-placeholder': 'jquery/placeholder/jquery.placeholder',
+		'jquery-form':'jquery/form/jquery.form.min',
+		'jquery-easing':'jquery/easing/1.3.0/easing',
+		'jquery-validate':'jquery/validate/jquery.validate.min',
+		'jquery-cycle':'jquery/cycle/cycle.js',
+		'jquery-ui-core':'jquery/jquery-ui/ui/jquery.ui.core',
+		'jquery-ui-datepicker':'jquery/jquery-ui/ui/jquery.ui.datepicker',
+		'jquery-ui-widget':'jquery/jquery-ui/ui/jquery.ui.widget',
+		'jquery-rte' : 'jquery/rte/1.2/jquery.rte.js',
+		'jquery-rte-tb' : 'jquery/rte/1.2/jquery.rte.tb.js',
+		'jquery-rte-css' : 'jquery/rte/1.2/jquery.rte.css',
+		'mustache':'mustache/0.7.2/mustache',
+		'lightBox' : 'jquery/lightBox/0.1/lightBox',
+		'uploadify' : 'jquery/uploadify/jquery.uploadify',
+		'fileupload' : 'jquery/fileupload/9.0.1/jquery.fileupload',
+
+		'bootstrap' : 'bootstrap/3.0.0/bootstrap.min',
+		'bootstrap-datepicker' : 'bootstrap/datepicker/bootstrap-datetimepicker.min',
+
+
 		'jquery':'libs/jquery/1.7.1/jquery',
 		'$':'libs/jquery/1.7.1/jquery',
 		'underscore': 'libs/underscore/1.2.1/underscore',

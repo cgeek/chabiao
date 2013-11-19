@@ -4,7 +4,7 @@ $this->breadcrumbs=array(
 	'用户列表',
 );?>
 	<ul class="breadcrumb">
-		<li><a href="/admin">首页</a> <span class="divider">/</span></li>
+		<li><a href="/admin">首页</a> <span class="divider"></span></li>
 		<li class="active">用户管理</li>
 	</ul>
 	<p>
@@ -37,7 +37,7 @@ $this->breadcrumbs=array(
 	<?php if(!isset($_GET['status']) || $_GET['status'] ==0):?>
 			<div class="reason_filter">
 				<span class="label label-warning">入网原因筛选:</span>
-				<ul>
+				<ul class="list-inline">
 					<li <?php if(isset($_GET['reg_reason']) && $_GET['reg_reason'] == 1):?>class="active"<?php endif;?>>
 						<a href="/admin/user?reg_reason=1">咨询入网</a>
 					</li>
@@ -88,20 +88,9 @@ $this->breadcrumbs=array(
 			<?php endforeach;?>
               </tbody>
 		</table>
-		<div class="pagination pagination-small">  
-<?php
-$this->widget('CLinkPager',array(  
-	'header'=>'', 
-	'cssFile' => false,
-	'firstPageLabel' => '首页',  
-	'lastPageLabel' => '末页',  
-	'prevPageLabel' => '上一页',  
-	'nextPageLabel' => '下一页',  
-	'pages' => $pages,  
-	'maxButtonCount'=>10 
-));  
-?>  
-		</div>  
+		<?php 
+			$this->widget('LinkPager', array('pages' => $pages, 'prevPageLabel'=>'«','nextPageLabel'=>'»','cssFile'=>false, 'header'=>false)); 
+		?>
 <?php endif; ?> <!--用户列表结束-->
 		</div>
 	</div>

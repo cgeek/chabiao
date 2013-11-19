@@ -4,7 +4,16 @@ class PostController extends Controller
 {
 	private $_data;
 
-	public $layout = '/layouts/column1';
+	public $layout = '/layouts/column2';
+
+	public function filterAdminAccess($filterChain)
+	{
+		if ($filterChain->action->id==='login' || !Yii::app()->adminUser->isGuest)
+			$filterChain->run();
+		else
+			Yii::app()->adminUser->loginRequired();
+	}
+
 
 	public function actionIndex()
 	{

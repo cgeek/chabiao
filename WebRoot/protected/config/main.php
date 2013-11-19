@@ -38,6 +38,13 @@ return array(
 			'class'=>'WebUser',
 			'loginUrl'=>array('user/login'),
 		),
+		'adminUser'=>array(
+			// enable cookie-based authentication
+			'allowAutoLogin'=>true,
+			'class'=>'WebUser',
+			'stateKeyPrefix'=>'admin_',
+			'loginUrl'=>array('/admin/user/login'),
+		),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',

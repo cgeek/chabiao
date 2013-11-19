@@ -4,7 +4,7 @@ $this->breadcrumbs=array(
 	'文章列表',
 );?>
 	<ul class="breadcrumb">
-		<li><a href="/admin">首页</a> <span class="divider">/</span></li>
+		<li><a href="/admin">首页</a> <span class="divider"></span></li>
 		<li class="active">文章列表</li>
 	</ul>
 	<p>
@@ -77,18 +77,8 @@ $this->breadcrumbs=array(
 	<?php endforeach;?>
 		</tbody>
 	</table>
-	<div class="pagination pagination-small">  
-<?php
-$this->widget('CLinkPager',array(  
-	'header'=>'', 
-	'cssFile' => false,
-	'firstPageLabel' => '首页',  
-	'lastPageLabel' => '末页',  
-	'prevPageLabel' => '上一页',  
-	'nextPageLabel' => '下一页',  
-	'pages' => $pages,  
-	'maxButtonCount'=>10 
-));  
-?>  
-	</div>  
+
+		<?php 
+			$this->widget('LinkPager', array('pages' => $pages, 'prevPageLabel'=>'«','nextPageLabel'=>'»','cssFile'=>false, 'header'=>false)); 
+		?>
 </div>

@@ -7,13 +7,8 @@
  	<meta name="description" content="">
 	<meta name="author" content="">
   <!-- Le styles -->
-  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/admin.css" rel="stylesheet">
-  <style>
-    body { padding-top: 60px; /* 60px to make the container go all the way
-    to the bottom of the topbar */ }
-  </style>
-  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -30,7 +25,45 @@
 </head>
 
 <body>
-  <div class="navbar navbar-fixed-top navbar-inverse">
+	<div id="topbar" class="navbar navbar-inverse navbar-fixed-top">
+		<div class="">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/admin">联合招标网管理后台</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="<?=($this->id == 'default') ? 'active' : '';?>"><a href="/admin">首页</a></li>
+					<li class="<?=($this->id == 'user' || $this->id == 'traveler') ? 'active' : '';?>"><a href="/admin/user">客户</a></li>
+					<li class="<?=($this->id == 'post') ? 'active' : '';?>"><a href="/admin/post">信息</a></li>
+					<li class="<?=($this->id == 'sites') ? 'active' : '';?>"><a href="/admin/sites">站群</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/" target="_blank">前台</a></li>
+<?php if(Yii::app()->adminUser->isGuest):?>
+					<li><a href="/admin/admin/login">登录</a></li>
+<?php else:?>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">账号设置 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/admin/admin/changePassword">修改密码</a></li>
+							<li><a href="/admin/admin/logout">退出登录</a></li>
+						</ul>
+					</li>
+<?php endif;?>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	<div id="content" class="clearfix">
+			<?php echo $content; ?>
+	</div>
+
+  <!--div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
       <div class="container-fluid">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -62,7 +95,6 @@
     </div>
   </div>
   <div class="content">
-<?php echo $content; ?>
-  </div>
+  </div-->
 </body>
 </html>

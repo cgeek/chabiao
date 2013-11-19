@@ -707,3 +707,1084 @@ Stack trace:
 REQUEST_URI=/images/bg_m_b.gif
 HTTP_REFERER=http://www.chabiao.com/api/f3/getInfoListByPage
 ---
+2013/11/05 01:45:17 [error] [exception.XSException] [XSException] ../../../../../xunsearch/sdk/php/lib/XS.php(2204): Operation timed out(C#60)
+REQUEST_URI=/
+---
+2013/11/05 01:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/05 01:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/05 01:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/05 01:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/05 01:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/admin/
+---
+2013/11/05 01:50:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.adminUser" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(106): CComponent->__get('adminUser')
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(45): CModule->__get('adminUser')
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 01:50:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.adminUser" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/base/CModule.php(106): CComponent->__get('adminUser')
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(45): CModule->__get('adminUser')
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:28:09 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:28:45 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:31:11 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:31:35 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:33:56 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:39:32 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:45:20 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:49:14 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 02:49:30 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:01:47 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:03:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:35:25 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:35:37 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:41:38 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:42:32 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:43:47 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:44:03 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 03:45:39 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 04:55:18 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 05:11:28 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 05:20:33 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 05:29:09 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/05 05:38:10 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/19 01:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('index')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.html
+---
+2013/11/19 01:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 01:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 01:27:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 01:29:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 01:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin
+---
+2013/11/19 01:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/login".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/19 01:33:32 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/AdminController.php(76): CController->renderPartial('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/log...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/11/19 01:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:36:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 01:36:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 01:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/customer".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/customer')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/customer
+HTTP_REFERER=http://www.chabiao.com/admin/user?reg_reason=2
+---
+2013/11/19 01:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/info".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/info')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/info
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 01:46:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 01:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 01:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 01:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/19 01:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2013/11/19 01:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 01:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/seajs/dist/sea.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/seajs/di...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/seajs/dist/sea.js
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/admin/login.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/admin...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/admin/login.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/admin/login.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/admin...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/admin/login.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/json/json3.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/json/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/json/json3.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/bootstrap/3.0.0/bootstrap.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/boots...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/bootstrap/3.0.0/bootstrap.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/jquery/1.10.1/jquery.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/jquery/1.10.1/jquery.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/cookie/jquery.cookie.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/cookie/jquery.cookie.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/json/json3.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/json/...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/json/json3.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/bootstrap/3.0.0/bootstrap.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/boots...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/bootstrap/3.0.0/bootstrap.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/jquery/1.10.1/jquery.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/jquery/1.10.1/jquery.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/cookie/jquery.cookie.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/cookie/jquery.cookie.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 02:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 02:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 02:25:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 02:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 02:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 02:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
