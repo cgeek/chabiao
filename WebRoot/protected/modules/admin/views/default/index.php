@@ -2,8 +2,8 @@
 	<div class="alert alert-info">
 		<h3>欢迎来到联合招标网站群管理系统</h3>
 	 </div>
-	<div class="row-fluid">
-		<div class="span4">
+	<div class="row">
+		<div class="col-lg-4 col-md-4">
 			<div>
 				<h3>信息统计</h3>
 				<p>今日采集信息:<span class="badge badge-warning"><?=$post_spider_count;?></span>条</p>
@@ -12,7 +12,7 @@
 			</div>
 	        <a class="btn  btn-success" href="/admin/post">查看列表»</a>
 		</div>
-		<div class="span4">
+		<div class="col-lg-4 col-md-4">
 			<div>
 				<h3>用户统计</h3>
 				<p>
@@ -24,7 +24,7 @@
 			</div>
 	        <a class="btn btn-warning" href="/admin/user">查看列表»</a>
 		</div>
-		<div class="span4">
+		<div class="col-lg-4 col-md-4">
 			<div>
 				<h3>流量统计</h3>
 			</div>

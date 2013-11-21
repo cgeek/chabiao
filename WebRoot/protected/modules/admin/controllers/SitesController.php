@@ -2,49 +2,25 @@
 
 class SitesController extends Controller
 {
-	/**
-	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
-	 * using two-column layout. See 'protected/views/layouts/column2.php'.
-	 */
 	private $_data = null;
 
 	public $layout = '/layouts/column2';
-	/**
-	 * @return array action filters
-	 */
+	
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			'adminAccess',
 		);
 	}
 
-	/**
-	 * Specifies the access control rules.
-	 * This method is used by the 'accessControl' filter.
-	 * @return array access control rules
-	 */
-	public function accessRules()
+	public function filterAdminAccess($filterChain)
 	{
-		return array(
-			array('allow',  // allow all domains to perform 'index' and 'view' actions
-				'actions'=>array(),
-				'users'=>array('*'),
-			),
-			array('allow', // allow authenticated domain to perform 'create' and 'update' actions
-				'actions'=>array('list', 'save'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow admin domain to perform 'admin' and 'delete' actions
-				'actions'=>array('create','admin','delete'),
-				'users'=>array('admin'),
-			),
-			array('deny',  // deny all domains
-				'users'=>array('*'),
-			),
-		);
+		if ($filterChain->action->id==='login' || !Yii::app()->adminUser->isGuest)
+			$filterChain->run();
+		else
+			Yii::app()->adminUser->loginRequired();
 	}
-	
+
 	public function actionIndex()
 	{
 		$this->actionList();

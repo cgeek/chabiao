@@ -20,17 +20,19 @@ define(function(require, exports, module) {
 				debug:true,
 				submitHandler: function() {
 					$.ajax({
-						url: '/admin/user/login',
+						url: '/admin/admin/login',
 						data: $form.serialize(),
 						type: 'POST',
 						dataType: 'JSON',
 						success : function(result){
 							if(result.code == 200) {
 								location.href = '/admin'
+							} else {
+								alert(result.message);
 							}	
 						},
 						error: function(){
-						
+							alert('暂时无法登录,请稍后再试');
 						}
 					});
 				},

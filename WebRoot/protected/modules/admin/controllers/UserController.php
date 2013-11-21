@@ -6,6 +6,13 @@ class UserController extends Controller
 
 	public $layout = '/layouts/column2';
 
+	public function filters()
+	{
+		return array(
+			'adminAccess',
+		);
+	}
+
 	public function filterAdminAccess($filterChain)
 	{
 		if ($filterChain->action->id==='login' || !Yii::app()->adminUser->isGuest)

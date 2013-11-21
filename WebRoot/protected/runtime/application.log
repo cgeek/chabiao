@@ -1788,3 +1788,1524 @@ Stack trace:
 REQUEST_URI=/images/ads/201202221518042001M95H9.gif
 HTTP_REFERER=http://www.chabiao.com/
 ---
+2013/11/19 02:45:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 16:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 16:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login.html
+---
+2013/11/19 16:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login.html
+---
+2013/11/19 16:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login.html
+---
+2013/11/19 16:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login.html
+---
+2013/11/19 16:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login.html
+---
+2013/11/19 16:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login.html
+---
+2013/11/19 16:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery/validate/jquery.validate.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery/validate/jquery.validate.min.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/jquery-validate.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/js/jquer...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/js/jquery-validate.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login
+---
+2013/11/19 16:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+---
+2013/11/19 16:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+---
+2013/11/19 16:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login.html
+---
+2013/11/19 16:45:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login.html
+---
+2013/11/19 16:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/user/logi...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/login
+HTTP_REFERER=http://www.chabiao.com/admin/admin/login.html
+---
+2013/11/19 16:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 16:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 16:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 16:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 16:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/19 16:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:53:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+---
+2013/11/19 16:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+---
+2013/11/19 16:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+---
+2013/11/19 16:55:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/19 16:55:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:55:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 16:55:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 16:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:57:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/11/19 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=0
+---
+2013/11/19 16:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=0
+---
+2013/11/19 16:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=-1
+---
+2013/11/19 16:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=-1
+---
+2013/11/19 16:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:59:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:59:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/19 16:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 16:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?keyword=cgeek
+---
+2013/11/19 17:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?keyword=cgeek
+---
+2013/11/19 17:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 17:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/sites
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/19 17:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/19 17:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/19 17:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/20 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/20 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/20 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/20 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/20 14:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/20 14:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/20 14:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/20 14:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/20 14:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/20 14:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/ueditor-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/ueditor-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/20 14:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/21 01:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/modules/plugins.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modules/plugins.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('js/modules/plug...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/modules/plugins.js?t=20130106
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/datepicker-css.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/datepicker-css.js
+HTTP_REFERER=http://www.chabiao.com/admin/post/edit?id=23
+---
+2013/11/21 01:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/21 01:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/21 01:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=1
+---
+2013/11/21 01:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user?status=0
+---
+2013/11/21 01:45:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/21 01:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/21 01:52:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/21 01:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/21 02:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---

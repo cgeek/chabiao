@@ -12,32 +12,40 @@ $this->breadcrumbs=array(
 		<a href="/admin/post/list?status=-1" class="btn">回收站列表</a>
 		<a href="/admin/post/add" class="btn btn-primary" >添加文章</a>
 	</p>
-<div class="filter_box">
-	<form action="/admin/post/list" method="GET">
-		<div class="controls controls-row">
-			<select class="span2" name="category">
+<div class="filter_box" style="margin-bottom:10px;">
+	<form action="/admin/post/list" class="form-inline" method="GET">
+		<div class="form-group controls-row">
+			<select class="span2 form-control" name="category">
 				<option value="">全部类目</option>
 				<?php foreach(getCategorys() as $key=>$category):?>
 				<option value="<?=$key;?>" <?=isset($_GET['category']) && ($key == $_GET['category']) ? 'selected' :'';?>><?=$category;?></option>
 				<?php endforeach;?>
 			</select>
-			<select  class="span2" class="" name="access">
+		</div>
+		<div class="form-group controls-row">
+			<select  class="col-sm-2 form-control" class="" name="access">
 				<option value="">选择权限</option>
 				<?php foreach(getAccess() as $key=>$access):?>
 				<option value="<?=$key;?>" <?=isset($_GET['access']) && ($key == $_GET['access']) ? 'selected' :'';?>><?=$access;?></option>
 				<?php endforeach;?>
 			</select>
-			<select  class="span2" name="area">
+		</div>
+		<div class="form-group controls-row">
+			<select  class="col-sm-2 form-control" name="area">
 				<option value="">全部区域</option>
 				<?php foreach(getProvinces() as $province):?>
 				<option value="<?=$province;?>" <?=isset($_GET['area']) && ($province ==  $_GET['area']) ? 'selected' :'';?>><?=$province;?></option>
 				<?php endforeach;?>
 			</select>
-			<select  class="span2" name="status">
+		</div>
+		<div class="form-group controls-row">
+			<select  class="col-sm-2 form-control" name="status">
 				<option value="">选择状态</option>
 				<option value="0" <?=isset($_GET['status']) && ('0' == $_GET['status']) ? 'selected':'';?>>未审核</option>
 				<option value="1" <?=isset($_GET['status']) && ('1' == $_GET['status']) ? 'selected':'';?>>审核通过</option>
 			</select>
+		</div>
+		<div class="form-group controls-row">
 			<button class="btn btn-success" type="submit">筛选</button>
 			<a class="btn " href="/admin/post/list">清除筛选条件</a>
 		</div>

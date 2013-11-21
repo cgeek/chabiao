@@ -6,6 +6,13 @@ class PostController extends Controller
 
 	public $layout = '/layouts/column2';
 
+	public function filters()
+	{
+		return array(
+			'adminAccess',
+		);
+	}
+
 	public function filterAdminAccess($filterChain)
 	{
 		if ($filterChain->action->id==='login' || !Yii::app()->adminUser->isGuest)
@@ -108,7 +115,7 @@ class PostController extends Controller
 		$title_md5 = md5($data['title']);
 		$post_db = Post::model()->find("source_md5=:source_md5", array(':source_md5' => $title_md5));
 		if(!empty($post_db)) {
-			$this->ajax_response(false, '已经添加过,不能重复添加');
+			$this->ajax_response(500, '已经添加过,不能重复添加');
 		}
 		$new_post = new Post;
 		$new_post->title = $data['title'];
@@ -132,10 +139,10 @@ class PostController extends Controller
 			if($data['status'] == 1) {
 				$this->_update_index($post_id, $data);
 			}
-			$this->ajax_response(true,'',$this->_data);
+			$this->ajax_response(200,'',$this->_data);
 		} else {
 			//var_dump($new_post->getErrors());
-			$this->ajax_response(false,'添加失败',$this->_data);
+			$this->ajax_response(500,'添加失败',$this->_data);
 		}
 	}
 
@@ -151,7 +158,7 @@ class PostController extends Controller
 		
 		$this->_update_index($post_id, $data);
 		
-		$this->ajax_response(true,'',$this->_data);
+		$this->ajax_response(200,'',$this->_data);
 	}
 
 	public function _update_index($post_id, $data) 

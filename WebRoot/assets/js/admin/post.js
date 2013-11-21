@@ -48,7 +48,7 @@ define(function(require, exports, module){
 					dataType:'json',
 					cache:false
 				}).success(function(result){
-					if(result.success == true) {
+					if(result.code == 200) {
 						alert('保存成功');
 						window.history.go(-1);
 					} else {

@@ -43,7 +43,7 @@ return array(
 			'allowAutoLogin'=>true,
 			'class'=>'WebUser',
 			'stateKeyPrefix'=>'admin_',
-			'loginUrl'=>array('/admin/user/login'),
+			'loginUrl'=>array('/admin/admin/login'),
 		),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(

@@ -22,9 +22,9 @@ class Controller extends CController
 
 	public $breadcrumbs=array();
 
-	public function ajax_response($success=true,$message="",$data = array())
+	public function ajax_response($code=200,$message="",$data = array())
 	{
-		$result['success'] = $success;
+		$result['code'] = $code;
 		$result['message'] = $message;
 		$result['data'] = $data;
 		echo json_encode($result);
