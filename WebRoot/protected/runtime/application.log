@@ -3309,3 +3309,113 @@ Stack trace:
 REQUEST_URI=/assets/sea-modules/filedrop.js
 HTTP_REFERER=http://www.chabiao.com/admin/user
 ---
+2013/11/21 02:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/22 14:16:48 [info] [application] login success
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/DefaultController.php (18)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (25)
+2013/11/22 14:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/26 01:38:44 [info] [application] login success
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/DefaultController.php (18)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (25)
+2013/11/26 01:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/11/26 01:38:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2013/11/26 01:38:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+HTTP_REFERER=http://www.chabiao.com/admin/user
+---
+2013/11/26 01:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+---
+2013/11/26 01:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sea-modules/filedrop/filedrop.min.js".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/sea-modu...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/sea-modules/filedrop/filedrop.min.js
+---

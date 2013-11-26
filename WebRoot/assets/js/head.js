@@ -1,7 +1,7 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
 	//require('plugins')($);
-	require('bootstrap')($);
+	require('bootstrap');
 	//IE678 placeholder
 	//$('input[placeholder], textarea[placeholder]').placeholder();
 

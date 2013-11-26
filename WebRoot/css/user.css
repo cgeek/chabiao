@@ -90,7 +90,7 @@ strong {
 }
 .less {color:#8C7E7E;}
 
-.main {width:988px;margin:0 auto;text-align:left;position:relative;}
+.main {width:960px;margin:0 auto;text-align:left;position:relative;}
 #footer{margin-top:20px;border-top:1px solid #E6E6E6;padding-top:6px;color:#999;text-align:center;}
 
 /*======= header =======*/
@@ -219,7 +219,7 @@ color: #41545F;
 
 .user_page {background:url('../images/sidebar_bg.gif') repeat-y 0 0 #fff; border:1px solid #ccc;}
 .user_page .side{width:200px; float:left;}
-.user_page .main_body {padding:20px; float:left;width:748px;}
+.user_page .main_body {padding:20px; float:left;width:720px;}
 .user_page .title { font-size: 20px; font-family: "Microsoft Yahei"; font-weight: 300; color: black; border-bottom: 1px solid #E5E5E5; margin-bottom: 15px; background: none;
 }
 /*============= nav bar =======*/

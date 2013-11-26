@@ -25,6 +25,8 @@
 		'ueditor-css':'ueditor/1.2.2/themes/default/ueditor.css',
 		'plugins': '/assets/js/modules/plugins',
 
+		'filedrop' : 'filedrop/jquery.filedrop.js',
+
 		'bootstrap' : 'bootstrap/3.0.0/bootstrap.min',
 		'bootstrap-datepicker' : 'bootstrap/datepicker/bootstrap-datetimepicker.min',
 		'datepicker': 'datepicker/1.3.0/glDatePicker',
