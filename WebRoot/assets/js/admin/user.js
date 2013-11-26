@@ -18,7 +18,7 @@ define(function(require, exports, module){
 				data:$form.serialize(),
 				dataType:'json',
 				success:function(data){
-					if (data.success == true) {
+					if (data.code == 200) {
 						alert('修改成功');
 						window.location.href="/admin/sites";
 					} else {
@@ -104,7 +104,7 @@ define(function(require, exports, module){
 					data: {'user_id':user_id},
 					dataType:'json',
 					success:function(data){
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('#user_more_info_modal').html(Mustache.to_html($('#user_more_info_tpl').html(), data.data));
 							$('#user_more_info_modal').modal({});
 
@@ -126,7 +126,7 @@ define(function(require, exports, module){
 					data: $form.serialize(),
 					dataType:'json',
 					success:function(data){
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('.ajax_response_info').html('恭喜你，保存成功！').show().fadeOut(5000);
 						} else {
 							$('.ajax_response_info').html('保存失败，请联系管理员！').show().fadeOut(5000);
@@ -149,7 +149,7 @@ define(function(require, exports, module){
 					data: {'user_id':user_id},
 					dataType:'json',
 					success:function(data){
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('.user_id_' + user_id).fadeOut();
 						} else {
 							//_self.loadingElement.hideLoading();
@@ -173,7 +173,7 @@ define(function(require, exports, module){
 					data: {'user_id':user_id},
 					dataType:'json',
 					success:function(data){
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('.user_id_' + user_id).fadeOut();
 							return false;
 						} else {
@@ -204,7 +204,7 @@ define(function(require, exports, module){
 					data: {'user_id':user_id},
 					dataType:'json',
 					success:function(data) {
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('#payment_btn').attr("disabled", "true").html('已经是付费会员');
 						} else {
 							//_self.loadingElement.hideLoading();

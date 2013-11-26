@@ -90,11 +90,11 @@ class UserController extends Controller
 			$email = $_POST['email'];
 			$password = $_POST['password'];
 			if(empty($email) || empty($password) || empty($username)) {
-				$this->ajax_response(false, "邮箱或者密码不能为空");
+				$this->ajax_response(404, "邮箱或者密码不能为空");
 			}
 			$user = User::model()->find("user_name=:username",array(":username"=>$username));
 			if(!empty($user)) {
-				$this->ajax_response(false, "该邮箱已经使用，请换其他邮箱");
+				$this->ajax_response(404, "该邮箱已经使用，请换其他邮箱");
 			}
 			$user_model=new User;
 			$user_model->user_name = $username;
@@ -107,9 +107,9 @@ class UserController extends Controller
 				$this->_identity=new UserIdentity($email,$password);
 				$this->_identity->authenticate();
 				Yii::app()->user->login($this->_identity,3600*24*30);
-				$this->ajax_response(true, "恭喜你注册成功!");
+				$this->ajax_response(200, "恭喜你注册成功!");
 			} else {
-				$this->ajax_response(false, "注册失败，请重新注册");
+				$this->ajax_response(500, "注册失败，请重新注册");
 			}
 		} else {
 			$this->render('register');
@@ -122,7 +122,7 @@ class UserController extends Controller
 		if(Yii::app()->request->isAjaxRequest) {
 			$user = User::model()->findByPk($user_id)->attributes;
 			if(empty($user)) {
-				$this->ajax_response(false, "用户不存在，无法删除");
+				$this->ajax_response(404, "用户不存在，无法删除");
 			}
 			$userMeta = UserMeta::model()->find("user_id=:user_id",array(":user_id"=>"$user_id"))->attributes;
 			if(!empty($userMeta)) {
@@ -142,7 +142,7 @@ class UserController extends Controller
 			if ($user['status'] == 1) {
 				$user['payment_user'] = true;
 			}
-			$this->ajax_response(true, "", $user);
+			$this->ajax_response(200, "", $user);
 		} else {
 
 		}
@@ -154,13 +154,13 @@ class UserController extends Controller
 			$user_id = $_POST['user_id'];
 			$user_db = User::model()->findByPk($user_id);
 			if(empty($user_db)) {
-				$this->ajax_response(false, "用户不存在，无法删除");
+				$this->ajax_response(404, "用户不存在，无法删除");
 			}
 			$user_db->status = "-1";
 			if($user_db->update()) {
-				$this->ajax_response(true, "删除成功!");
+				$this->ajax_response(200, "删除成功!");
 			} else {
-				$this->ajax_response(false , "删除失败!");
+				$this->ajax_response(500, "删除失败!");
 			}
 		} else {
 			die('删除用户页面');
@@ -171,15 +171,15 @@ class UserController extends Controller
 	{
 		if(Yii::app()->request->isAjaxRequest) {
 			if(!isset($_POST['user_id'])) {
-				$this->ajax_response(false ,'保存失败，用户id不存在');
+				$this->ajax_response(404,'保存失败，用户id不存在');
 			}
 			$user_id = $_POST['user_id'];
 			$user_meta = isset($_POST['userMeta']) ? $_POST['userMeta'] : array();
 			$r = UserMeta::model()->updateAll($user_meta, "user_id=$user_id");
 			$this->_data['user_meta'] = $user_meta;
-			$this->ajax_response(true,'',$this->_data);
+			$this->ajax_response(200,'',$this->_data);
 		} else {
-			$this->ajax_response(false,'保存失败 403');
+			$this->ajax_response(403,'保存失败 403');
 		}
 	}
 
@@ -189,13 +189,13 @@ class UserController extends Controller
 			$user_id = $_POST['user_id'];
 			$user_db = User::model()->findByPk($user_id);
 			if(empty($user_db)) {
-				$this->ajax_response(false, "用户不存在");
+				$this->ajax_response(404, "用户不存在");
 			}
 			$user_db->status = "1";
 			if($user_db->update()) {
-				$this->ajax_response(true, "操作成功!");
+				$this->ajax_response(200, "操作成功!");
 			} else {
-				$this->ajax_response(false , "操作失败!");
+				$this->ajax_response(500, "操作失败!");
 			}
 		} else {
 			die('删除用户页面');
@@ -207,13 +207,13 @@ class UserController extends Controller
 			$user_id = $_POST['user_id'];
 			$user_db = User::model()->findByPk($user_id);
 			if(empty($user_db)) {
-				$this->ajax_response(false, "用户不存在，无法删除");
+				$this->ajax_response(404, "用户不存在，无法删除");
 			}
 			$user_db->status = "0";
 			if($user_db->update()) {
-				$this->ajax_response(true, "取消成功!");
+				$this->ajax_response(200, "取消成功!");
 			} else {
-				$this->ajax_response(false , "取消失败!");
+				$this->ajax_response(500, "取消失败!");
 			}
 		} else {
 			die('删除用户页面');

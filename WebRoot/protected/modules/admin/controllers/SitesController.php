@@ -88,7 +88,7 @@ class SitesController extends Controller
 		$required_fields = array('name' => '网站名称不能空', 'domain' => '域名不能为空', 'title'=> '标题不能为空', 'keywords' => '关键词不能为空', 'logo'=>'网站Logo不能为空');
 		foreach($required_fields as $key=>$msg) {
 			if(!isset($_POST[$key]) || empty($_POST[$key])) {
-				$this->ajax_response(false, $msg);
+				$this->ajax_response(404, $msg);
 				die();
 			}
 		}
@@ -128,10 +128,10 @@ class SitesController extends Controller
 		
 		if($new_site->save()) {
 			$site_id = Yii::app()->db->getLastInsertId();
-			$this->ajax_response(true, '保存成功', array('site_id' => $site_id));
+			$this->ajax_response(200, '保存成功', array('site_id' => $site_id));
 		} else {
 			$error = $new_site->getErrors();
-			$this->ajax_response(false, '添加失败', $error);
+			$this->ajax_response(500, '添加失败', $error);
 		}
 	}
 
@@ -148,9 +148,9 @@ class SitesController extends Controller
 		}
 		$site_db->mtime = time();
 		if($site_db->update()) {
-			$this->ajax_response(true, '保存成功', array('site_id' => $site_id));
+			$this->ajax_response(200, '保存成功', array('site_id' => $site_id));
 		} else {
-			$this->ajax_response(false, '保存失败');
+			$this->ajax_response(500, '保存失败');
 		}
 	}
 
@@ -161,9 +161,9 @@ class SitesController extends Controller
 		$site_db->status = -1;
 		$site_db->mtime = time();
 		if($site_db->update()) {
-			$this->ajax_response(true, '保存成功', array('site_id' => $site_id));
+			$this->ajax_response(200, '保存成功', array('site_id' => $site_id));
 		} else {
-			$this->ajax_response(false, '保存失败');
+			$this->ajax_response(500, '保存失败');
 		}
 	}
 

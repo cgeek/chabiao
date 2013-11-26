@@ -24,7 +24,7 @@ class ImageController extends Controller
 		}
 
 		$this->_data['image'] = array('image_id'=>$file_name, 'image_path' => '/uploads/' . $file_name .".$file_type");
-		$this->ajax_response(true, '', $this->_data);
+		$this->ajax_response(200, '', $this->_data);
 	}
 
 	public function actionUpload()
@@ -32,7 +32,7 @@ class ImageController extends Controller
 		$image = file_get_contents('php://input');
 		if(empty($image))
 		{
-			$this->ajax_response(false,'图片为空');
+			$this->ajax_response(404,'图片为空');
 		}
 		$image_id = md5($image);
 		$imgObj = imagecreatefromstring($image);
@@ -41,7 +41,7 @@ class ImageController extends Controller
 		$image_info = array('image_id' => $image_id, 'image_url_s' => upimage($image_id,'small'),'image_url_b' => upimage($image_id,'big'),'width' => $width, 'height' => $height);
 		$this->_save2upyun($image_id,$image);
 		$this->_data['image'] = $image_info;
-		$this->ajax_response(true,'',$this->_data);
+		$this->ajax_response(200,'',$this->_data);
 	}
 
 	private function _save2upyun($image_id,$image_string)

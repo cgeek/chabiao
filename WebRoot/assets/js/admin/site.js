@@ -18,7 +18,7 @@ define(function(require, exports, module){
 				data:$form.serialize(),
 				dataType:'json',
 				success:function(data){
-					if (data.success == true) {
+					if (data.code == 200) {
 						alert('修改成功');
 						window.location.href="/admin/sites";
 					} else {
@@ -110,7 +110,7 @@ define(function(require, exports, module){
 					data: {'site_id':site_id},
 					dataType:'json',
 					success:function(data){
-						if (data.success == true) {
+						if (data.code == 200) {
 							$('.site_id_' + site_id).remove();
 						} else {
 							//_self.loadingElement.hideLoading();
@@ -164,7 +164,7 @@ define(function(require, exports, module){
 					$('#dropzone .dropzone-tips').html('已上传' + progress+"%");
 				},
 				uploadFinished: function(i, file, response, time) {
-					if(response && response.success == true) {
+					if(response && response.code == 200) {
 						var image_url = response.data.image.image_path;
 						console.log(response);
 						console.log(image_url);
@@ -223,7 +223,7 @@ define(function(require, exports, module){
 					select_dom.find('.dropzone-tips').html('已上传' + progress+"%");
 				},
 				uploadFinished: function(i, file, response, time) {
-					if(response && response.success == true) {
+					if(response && response.code == ) {
 						var image_url = response.data.image.image_path;
 						select_dom.find('input').val(image_url);
 						select_dom.find('.preview').html('<img src=\"'+ image_url + '\" >');
