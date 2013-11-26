@@ -94,7 +94,11 @@ $this->breadcrumbs=array(
 <?php endif; ?> <!--用户列表结束-->
 		</div>
 	</div>
-<div class="modal hide fade" id="user_more_info_modal">
+<div class="modal fade" id="user_more_info_modal">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		</div>
+	</div>
 </div>
 <script type="text/templete" id="user_more_info_tpl">
 	<div class="modal-header">
@@ -112,153 +116,153 @@ $this->breadcrumbs=array(
 		</ul>
 		<div class="tab-content">
 			<div class="tab-pane active" id="metaInfo">
-				<div class="control-group">
-					<label class="control-label" for="reg_reason">来源网站：</label>
-					<div class="controls">
-						<input type="text" id="" name="" value="{{source_cn}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="reg_reason">来源网站：</label>
+					<div class="col-lg-4">
+						<input type="text" id="" class="form-control" name="" value="{{source_cn}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="content_name">客户姓名：</label>
-					<div class="controls">
-						<input type="text" id="content_name" name="userMeta[contact_name]" value="{{contact_name}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="content_name">客户姓名：</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control" id="content_name" name="userMeta[contact_name]" value="{{contact_name}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="mobile">手机号码：</label>
-					<div class="controls">
-						<input type="text" id="mobile" name="userMeta[mobile]" value="{{mobile}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="mobile">手机号码：</label>
+					<div class="col-lg-4">
+						<input class="form-control" type="text" id="mobile" name="userMeta[mobile]" value="{{mobile}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="position">职位：</label>
-					<div class="controls">
-						<input type="text" id="position" name="userMeta[position]" value="{{position}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="position">职位：</label>
+					<div class="controls col-lg-4">
+						<input  class="form-control" type="text" id="position" name="userMeta[position]" value="{{position}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="company_name">公司名称：</label>
-					<div class="controls">
-						<input type="text" id="company_name" name="userMeta[company_name]" value="{{company_name}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="company_name">公司名称：</label>
+					<div class="controls col-lg-6">
+						<input class="form-control" type="text" id="company_name" name="userMeta[company_name]" value="{{company_name}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="products">主要产品：</label>
-					<div class="controls">
-						<textarea name="userMeta[products]">{{products}}</textarea>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="products">主要产品：</label>
+					<div class="controls col-lg-6">
+						<textarea class="form-control" name="userMeta[products]">{{products}}</textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="company_desc">公司简介：</label>
-					<div class="controls">
-						<textarea name="userMeta[company_desc]">{{company_desc}}</textarea>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="company_desc">公司简介：</label>
+					<div class="controls col-lg-6">
+						<textarea class="form-control" row=4 name="userMeta[company_desc]">{{company_desc}}</textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="fax">传真：</label>
-					<div class="controls">
-						<input type="text" id="fax" name="userMeta[fax]" value="{{fax}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="fax">传真：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="fax" name="userMeta[fax]" value="{{fax}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="qq">qq：</label>
-					<div class="controls">
-						<input type="text" id="qq" name="userMeta[qq]" value="{{qq}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="qq">qq：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="qq" name="userMeta[qq]" value="{{qq}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="address">公司地址：</label>
-					<div class="controls">
-						<input type="text" id="address" name="userMeta[address]" value="{{address}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="address">公司地址：</label>
+					<div class="controls col-lg-6">
+						<input class="form-control" type="text" id="address" name="userMeta[address]" value="{{address}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="website">公司网站：</label>
-					<div class="controls">
-						<input type="text" id="website" name="userMeta[website]" value="{{website}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="website">公司网站：</label>
+					<div class="controls col-lg-6">
+						<input class="form-control" type="text" id="website" name="userMeta[website]" value="{{website}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 			</div>
 			<div class="tab-pane" id="baseInfo">
-				<div class="control-group">
-					<label class="control-label" for="user_id">用户id：</label>
-					<div class="controls">
-						<input type="text" id="user_id" name="user[user_id]" value="{{user_id}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="user_id">用户id：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="user_id" name="user[user_id]" value="{{user_id}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="user_name">用户名：</label>
-					<div class="controls">
-						<input type="text" id="user_name" name="user[user_name]" value="{{user_name}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="user_name">用户名：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="user_name" name="user[user_name]" value="{{user_name}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="email">Email：</label>
-					<div class="controls">
-						<input type="text" id="email" name="user[email]" value="{{email}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="email">Email：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="email" name="user[email]" value="{{email}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="reg_reason">注册原因：</label>
-					<div class="controls">
-						<input type="text" id="" value="{{reg_reason}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="reg_reason">注册原因：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="" value="{{reg_reason}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="">最后登录时间：</label>
-					<div class="controls">
-						<input type="text" id="" value="{{last_login_time}}" disabled>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="">最后登录时间：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="" value="{{last_login_time}}" disabled>
 						<span class="help-inline"></span>
 					</div>
 				</div>
 			</div>
 			<div class="tab-pane" id="payInfo">
-				<div class="control-group">
-					<label class="control-label" for="payment_type">付费类型：</label>
-					<div class="controls">
-						<select name="userMeta[payment_type]">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="payment_type">付费类型：</label>
+					<div class="controls col-lg-4">
+						<select class="form-control" name="userMeta[payment_type]">
 							<option value="0">免费浏览</option>
 							<option value="1" {{#payment}} selected {{/payment}} >一年付费</option>
 						</select>
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="payment_amount">金额：</label>
-					<div class="controls">
-						<input type="text" id="payment_amount" name="userMeta[payment_amount]" value="{{payment_amount}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="payment_amount">金额：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="payment_amount" name="userMeta[payment_amount]" value="{{payment_amount}}">
 						<span class="help-inline"></span>
 					</div>
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="payment_date">付费日期：</label>
-					<div class="controls">
-						<input type="text" id="" name="userMeta[payment_date]" value="{{payment_date}}">
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="payment_date">付费日期：</label>
+					<div class="controls col-lg-4">
+						<input class="form-control" type="text" id="" name="userMeta[payment_date]" value="{{payment_date}}">
 						<span class="help-inline">2013-02-14</span>
 					</div>
 				</div>
 
 			</div>
 			<div class="tab-pane" id="callInfo">
-				<div class="control-group">
-					<label class="control-label" for="company_desc">反馈备注：</label>
-					<div class="controls">
-						<textarea name="userMeta[remark]" style="width:300px;height:200px;">{{remark}}</textarea>
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="company_desc">反馈备注：</label>
+					<div class="controls col-lg-4">
+						<textarea class="form-control" name="userMeta[remark]" style="width:300px;height:200px;">{{remark}}</textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>

@@ -105,8 +105,8 @@ define(function(require, exports, module){
 					dataType:'json',
 					success:function(data){
 						if (data.code == 200) {
-							$('#user_more_info_modal').html(Mustache.to_html($('#user_more_info_tpl').html(), data.data));
-							$('#user_more_info_modal').modal({});
+							$('#user_more_info_modal .modal-content').html(Mustache.to_html($('#user_more_info_tpl').html(), data.data));
+							$('#user_more_info_modal').modal('show');
 
 							$('#user_info_tab a:first').tab('show');
 						} else {
