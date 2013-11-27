@@ -3443,3 +3443,55 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/admin/assets/ico/favicon.ico
 ---
+2013/11/27 03:45:36 [info] [application] login success
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/PostController.php (18)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (25)
+2013/11/27 03:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Not found' in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/PostController.php:83
+Stack trace:
+#0 [internal function]: PostController->actionEdit('1521856')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/PostController.php(19): CFilterChain->run()
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): PostController->filterAdminAccess(Object(CFilterChain))
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#9 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('edit')
+#11 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/edit')
+#12 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/post/edit?id=1521856
+---
+2013/11/27 03:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2013/11/27 03:46:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Not found' in /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/PostController.php:83
+Stack trace:
+#0 [internal function]: PostController->actionEdit('1521856')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/admin/controllers/PostController.php(19): CFilterChain->run()
+#6 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): PostController->filterAdminAccess(Object(CFilterChain))
+#7 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#9 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('edit')
+#11 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/edit')
+#12 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/post/edit?id=1521856
+---

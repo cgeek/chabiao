@@ -78,12 +78,16 @@ $this->breadcrumbs=array(
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="name">文章状态：</label>
 				<div class="col-sm-4">
-					<label class="radio">
-						<input type="radio" <?=(isset($post_db['status']) && $post_db['status'] == 1) ? 'checked=true' :'';?> value="1" name="status"><label> 审核通过</input>
-					</label>
-					<label class="radio">
-						<input type="radio" <?=(isset($post_db['status']) && $post_db['status'] == 0) ? 'checked=true' :'';?>  name="status" value="0"><label> 未审核</input>
-					</label>
+					<div class="radio-inline">
+						<label class="radio">
+							<input type="radio" <?=(isset($post_db['status']) && $post_db['status'] == 1) ? 'checked=true' :'';?> value="1" name="status"> 审核通过
+						</label>
+					</div>
+					<div class="radio-inline">
+						<label class="radio">
+							<input type="radio" <?=(isset($post_db['status']) && $post_db['status'] == 0) ? 'checked=true' :'';?>  name="status" value="0">未审核
+						</label>
+					</div>
 					<span class="help-inline"></span>
 				</div>
 			</div>
