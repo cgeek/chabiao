@@ -240,7 +240,7 @@ class UserController extends Controller
 				if($this->_identity->errorCode === UserIdentity::ERROR_PASSWORD_INVALID) {
 					$this->ajax_response(false, "密码不正确，请重新输入");
 				} else if($this->_identity->errorCode === UserIdentity::ERROR_USERNAME_INVALID) { 
-					$this->ajax_response(false, "你输入的用户名，请重新输入");
+					$this->ajax_response(false, "你输入的用户名不存在，请重新输入");
 				}
 			}
 		} else {

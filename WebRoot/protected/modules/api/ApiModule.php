@@ -12,6 +12,7 @@ class ApiModule extends CWebModule
 			'api.models.*',
 			'api.components.*',
 		));
+		$this->layout = 'main';
 	}
 
 	public function beforeControllerAction($controller, $action)

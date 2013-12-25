@@ -197,7 +197,7 @@ class F3Controller extends Controller
 		$this->_f3_response($result);
 	}
 
-	public function actionInfoHtml2()
+	public function actionInfoHtml()
 	{
 		$id = request()->getParam('id');
 		if(empty($id) || $id <= 0) {
@@ -211,7 +211,7 @@ class F3Controller extends Controller
 		echo $post['content'];
 	}
 
-	public function actionInfoHtml()
+	public function actionInfoHtml2()
 	{
 		$id = request()->getParam('id');
 		if(empty($id) || $id <= 0) {
@@ -221,10 +221,10 @@ class F3Controller extends Controller
 		if(empty($post)) {
 			$this->_f3_error('miss post');
 		}
-		$post = $post->attributes;
-		header("Content-type: text/html; charset=utf-8");
-		//echo $post['content'];die();
-		$this->renderPartial('info', $post);
+		//header("Content-type: text/html; charset=utf-8");
+		//echo $post['content'];
+		//$this->render('info', $post);
+		$this->renderPartial('info');
 	}
 
 

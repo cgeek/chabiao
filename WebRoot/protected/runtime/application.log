@@ -3495,3 +3495,543 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/admin/post/edit?id=1521856
 ---
+2013/12/25 16:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:42:43 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/DefaultController.php(7): CController->render('index')
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): DefaultController->actionIndex()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/
+---
+2013/12/25 16:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:44:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:44:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 16:50:58 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:50:59 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:52:38 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:53:05 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:53:06 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:54:24 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:54:26 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:02 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "f3/info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('f3/info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('f3/info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:07 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "/f3/info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/f3/info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('/f3/info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:08 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "/f3/info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('/f3/info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('/f3/info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:25 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:26 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:55:58 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:56:16 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(783): CController->renderPartial('info', Object(Post), true)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CController->render('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:18 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:19 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:57 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:57 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:58 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:58 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 16:57:59 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "info".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('info')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/f3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/f3/infoHtml2?id=1
+---
+2013/12/25 17:00:23 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "infoHtml".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('infoHtml')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/F3/infoHtml2?id=1
+---
+2013/12/25 17:00:24 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "infoHtml".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('infoHtml')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/F3/infoHtml2?id=1
+---
+2013/12/25 17:00:25 [error] [exception.CException] exception 'CException' with message 'F3Controller cannot find the requested view "infoHtml".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(227): CController->renderPartial('infoHtml')
+#1 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#2 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/infoHtml...')
+#7 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#9 {main}
+REQUEST_URI=/api/F3/infoHtml2?id=1
+---
+2013/12/25 17:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/assets/i...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/F3/assets/ico/favicon.ico
+---
+2013/12/25 17:04:08 [error] [exception.CException] exception 'CException' with message 'F3Controller and its behaviors do not have a method or closure named "renderPartail".' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): CComponent->__call('renderPartail', Array)
+#1 /Users/cgeek/Sites/chabiao/WebRoot/protected/modules/api/controllers/F3Controller.php(226): F3Controller->renderPartail('info', Object(Post))
+#2 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): F3Controller->actionInfoHtml2()
+#3 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cgeek/Sites/chabiao/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('infoHtml2')
+#7 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/infoHtml...')
+#8 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/F3/infoHtml2?id=1
+---
+2013/12/25 17:06:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2013/12/25 17:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('register')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('register')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('api/F3/register')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/F3/register?id=1
+---
+2013/12/25 17:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:34:04 [error] [exception.XSException] [XSException] ../../../../../xunsearch/sdk/php/lib/XS.php(2204): Operation timed out(C#60)
+REQUEST_URI=/
+---
+2013/12/25 17:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:38:55 [error] [exception.XSException] [XSException] ../../../../../xunsearch/sdk/php/lib/XS.php(2167): Failed to recv the data from server completely (SIZE:0/8, REASON:closed)
+REQUEST_URI=/
+---
