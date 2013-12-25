@@ -36,11 +36,11 @@
 		<div class="container">
 			<div class="alert alert-warning" style=" margin-top:10px;">你好，只有付费用户才能查看完整的信息！如果你已经拥有账号，请先登录</div>
 			<form class="form-login" action="/user/login" method="POST" name="userlogin">
-				<input name="username" type="text" class="form-control" placeholder="用户名" autofocus>
+				<input name="username" type="text" class="form-control" placeholder="用户名" >
 				<input name="password" type="password" class="form-control" placeholder="密码">
 					<input type="hidden" checked=true name="remember" value="1" >
 				<button class="btn btn-primary " type="submit">登录</button>
-				<a class="btn btn-info" href="/user/register">注册</a>
+				<a class="btn btn-info" href="/api/f3/register">注册</a>
 			</form>
 			<div class="alert alert-info"><strong>内容摘要：</strong><?=cut_str(strip_tags($content), 220);?> </div>
 		</div>

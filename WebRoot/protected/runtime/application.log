@@ -4035,3 +4035,77 @@ HTTP_REFERER=http://www.chabiao.com/
 2013/12/25 17:38:55 [error] [exception.XSException] [XSException] ../../../../../xunsearch/sdk/php/lib/XS.php(2167): Failed to recv the data from server completely (SIZE:0/8, REASON:closed)
 REQUEST_URI=/
 ---
+2013/12/25 17:55:37 [error] [exception.XSException] [XSException] ../../../../../xunsearch/sdk/php/lib/XS.php(2167): Failed to recv the data from server completely (SIZE:0/8, REASON:closed)
+REQUEST_URI=/
+---
+2013/12/25 17:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 17:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ads/201202221518042001M95H9.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('images/ads/2012...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/ads/201202221518042001M95H9.gif
+HTTP_REFERER=http://www.chabiao.com/
+---
+2013/12/25 18:25:01 [error] [exception.CException] exception 'CException' with message 'Property "User.msg_count" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(144): CComponent->__get('msg_count')
+#1 /Users/cgeek/Sites/chabiao/framework/validators/CNumberValidator.php(79): CActiveRecord->__get('msg_count')
+#2 /Users/cgeek/Sites/chabiao/framework/validators/CValidator.php(214): CNumberValidator->validateAttribute(Object(User), 'msg_count')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CModel.php(158): CValidator->validate(Object(User), NULL)
+#4 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(790): CModel->validate(NULL)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(291): CActiveRecord->save()
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionRegister()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('register')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/register')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://www.chabiao.com/api/f3/register
+---
+2013/12/25 18:27:01 [error] [exception.CException] exception 'CException' with message 'Property "User.msg_count" is not defined.' in /Users/cgeek/Sites/chabiao/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(144): CComponent->__get('msg_count')
+#1 /Users/cgeek/Sites/chabiao/framework/validators/CNumberValidator.php(79): CActiveRecord->__get('msg_count')
+#2 /Users/cgeek/Sites/chabiao/framework/validators/CValidator.php(214): CNumberValidator->validateAttribute(Object(User), 'msg_count')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CModel.php(158): CValidator->validate(Object(User), NULL)
+#4 /Users/cgeek/Sites/chabiao/framework/db/ar/CActiveRecord.php(790): CModel->validate(NULL)
+#5 /Users/cgeek/Sites/chabiao/WebRoot/protected/controllers/UserController.php(291): CActiveRecord->save()
+#6 /Users/cgeek/Sites/chabiao/framework/web/actions/CInlineAction.php(50): UserController->actionRegister()
+#7 /Users/cgeek/Sites/chabiao/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/cgeek/Sites/chabiao/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /Users/cgeek/Sites/chabiao/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/cgeek/Sites/chabiao/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/cgeek/Sites/chabiao/framework/web/CController.php(292): CFilterChain->run()
+#14 /Users/cgeek/Sites/chabiao/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('register')
+#16 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('user/register')
+#17 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#19 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://www.chabiao.com/api/f3/register
+---
+2013/12/25 18:29:14 [info] [application] login success
+in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
+in /Users/cgeek/Sites/chabiao/WebRoot/index.php (25)

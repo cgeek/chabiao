@@ -211,6 +211,13 @@ class F3Controller extends Controller
 		echo $post['content'];
 	}
 
+	public function actionRegister()
+	{
+
+		header("Content-type: text/html; charset=utf-8");
+		$this->renderPartial('register', $post);
+	}
+
 	public function actionInfoHtml()
 	{
 		$id = request()->getParam('id');
