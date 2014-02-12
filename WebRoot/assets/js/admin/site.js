@@ -223,7 +223,7 @@ define(function(require, exports, module){
 					select_dom.find('.dropzone-tips').html('已上传' + progress+"%");
 				},
 				uploadFinished: function(i, file, response, time) {
-					if(response && response.code == ) {
+					if(response && response.code == 200) {
 						var image_url = response.data.image.image_path;
 						select_dom.find('input').val(image_url);
 						select_dom.find('.preview').html('<img src=\"'+ image_url + '\" >');

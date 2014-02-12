@@ -4109,3 +4109,525 @@ HTTP_REFERER=http://www.chabiao.com/api/f3/register
 2013/12/25 18:29:14 [info] [application] login success
 in /Users/cgeek/Sites/chabiao/WebRoot/protected/components/WebUser.php (34)
 in /Users/cgeek/Sites/chabiao/WebRoot/index.php (25)
+2014/02/12 05:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('assets/ico/favi...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.ico
+---
+2014/02/12 05:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/assets/ico/favicon.ico".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/assets/ic...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/ico/favicon.ico
+---
+2014/02/12 05:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/sites/ass...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/sites/assets/ico/favicon.ico
+---
+2014/02/12 05:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in /Users/cgeek/Sites/chabiao/framework/web/CController.php:484
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CController.php(271): CController->missingAction('assets')
+#1 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(276): CController->run('assets')
+#2 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/post/asse...')
+#3 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/post/assets/ico/favicon.ico
+---
+2014/02/12 05:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/6005c8efbfbd2374aa95e24d14410f07.gif".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/6005c8e...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6005c8efbfbd2374aa95e24d14410f07.gif
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
+2014/02/12 05:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/7225123f41ec668a2f598e00f99ae8a3.jpg".' in /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/cgeek/Sites/chabiao/framework/web/CWebApplication.php(135): CWebApplication->runController('uploads/7225123...')
+#1 /Users/cgeek/Sites/chabiao/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cgeek/Sites/chabiao/WebRoot/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/7225123f41ec668a2f598e00f99ae8a3.jpg
+HTTP_REFERER=http://www.chabiao.com/admin/sites/edit?id=1
+---
